@@ -1,0 +1,39 @@
+<div class="grid-x">
+  <div class="cell small-8 medium-6 large-4">
+    <div class="cell auto">
+      <h6>Feel free to contact me for any kind of collaboration, talk or just say Hi!</h6>
+    </div>
+    <div class="cell auto form">
+      <!-- Error message -->
+      <div class="error" ng-show="error">
+        <p>I'm really sorry, looks like there was an issue.</p>
+      </div>
+      <!-- Success message -->
+      <div class="success" ng-show="success">
+        <p>Appretiate your email! Please give me some time to reply back.</p>
+      </div>
+      <form role="form" name="contactform" method="post" ng-submit="contactform.$valid && submitForm(contact)" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" ng-controller="ContactCtrl" ng-hide="success">
+        <div class="row">
+          <div class="medium-6 columns">
+            <label>Name
+              <input id="name" type="text" name="name" ng-model="contact.name" placeholder="" maxlength="255" required>
+            </label>
+          </div>
+          <div class="medium-6 columns">
+            <label>Email address
+              <input id="email" type="email" name="email" ng-model="contact.email" placeholder="" required>
+            </label>
+          </div>
+          <div class="medium-6 columns">
+            <label>Message
+              <textarea id="message" name="message" rows="4" ng-model="contact.message" placeholder="" required></textarea>
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" class="button tip-top" value="Send" ng-disable="contactform.$invalid" tooltips tooltip-template="Ready to send it my way?">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
