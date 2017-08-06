@@ -33,21 +33,6 @@ module.exports = function (grunt) {
     // Project settings
     yeoman: appConfig,
 
-    buildcontrol: {
-      options: {
-        dir: 'dist',
-        commit: true,
-        push: true,
-        message: 'Built from %sourceCommit% on branch %sourceBranch%'
-      },
-      pages: {
-        options: {
-          remote: 'git@github.com:AnkurAgrawal/portfolio.ankuragrawal.xyz.git',
-          branch: 'gh-pages'
-        }
-      }
-    },
-
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -130,11 +115,9 @@ module.exports = function (grunt) {
       livereload: {
         options: {
           open: true,
-          middleware: function (connect, options) {
-            var optBase = (typeof options.base === 'string') ? [options.base] : options.base;
+          middleware: function (connect) {
             return [
-              require[('connect-modrewrite')(['!(\\..+)$ / [L]'])].concat(
-                optBase.map(function(path){ return connect.static(path); })),
+              require('connect-modrewrite')(['!(\\..+)$ / [L]']),
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',
@@ -470,19 +453,6 @@ module.exports = function (grunt) {
       }
     },
 
-    'ftp-deploy': {
-      build: {
-        auth: {
-          host: 'ftp.diamondesigners.com',
-          port: 21,
-          authKey: ''
-        },
-        src: '<%= yeoman.dist %>',
-        dest: 'myworks/',
-        exclusions: ['<%= yeoman.dist %>/.git', '<%= yeoman.dist %>/resources', '<%= yeoman.dist %>/**/.DS_Store', '<%= yeoman.dist %>/**/Thumbs.db', '<%= yeoman.dist %>/tmp']
-      }
-    },
-
     // Copies remaining files to places other tasks can use
     copy: {
       dist: {
@@ -541,7 +511,36 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.coffee',
         singleRun: true
       }
+    },
+
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built from %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:AnkurAgrawal/ankuragrawal.xyz.git',
+          branch: 'gh-pages'
+        }
+      }
+    },
+
+    'ftp-deploy': {
+      build: {
+        auth: {
+          host: 'ftp.diamondesigners.com',
+          port: 21,
+          authKey: ''
+        },
+        src: '<%= yeoman.dist %>',
+        dest: 'myworks/',
+        exclusions: ['<%= yeoman.dist %>/.git', '<%= yeoman.dist %>/resources', '<%= yeoman.dist %>/**/.DS_Store', '<%= yeoman.dist %>/**/Thumbs.db', '<%= yeoman.dist %>/tmp']
+      }
     }
+
   });
 
   grunt.registerTask( 'icons', [ 'webfont' ] );
@@ -599,6 +598,16 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-  grunt.registerTask('deploy', 'Deploy to Github Pages', ['build', 'buildcontrol', 'ftp-deploy']);
-  grunt.registerTask('upload', 'Upload to server', ['ftp-deploy']);
+  grunt.registerTask('deploy', 'Deploy to Github Pages and upload to server', function (target) {
+    if (target === 'ftp') {
+      return grunt.task.run(['build', 'ftp-deploy']);
+    } else if (target === 'git') {
+      return grunt.task.run(['build', 'buildcontrol']);
+    }
+    grunt.task.run([
+      'build',
+      'buildcontrol',
+      'ftp-deploy'
+    ]);
+  });
 };
