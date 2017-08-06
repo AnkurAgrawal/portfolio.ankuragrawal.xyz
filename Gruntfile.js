@@ -602,11 +602,11 @@ module.exports = function (grunt) {
     if (target === 'ftp') {
       return grunt.task.run(['build', 'ftp-deploy']);
     } else if (target === 'git') {
-      return grunt.task.run(['build', 'buildcontrol']);
+      return grunt.task.run(['build', 'buildcontrol:pages']);
     }
     grunt.task.run([
       'build',
-      'buildcontrol',
+      'buildcontrol:pages',
       'ftp-deploy'
     ]);
   });
