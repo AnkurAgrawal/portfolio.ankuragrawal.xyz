@@ -522,7 +522,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:AnkurAgrawal/ankuragrawal.xyz.git',
+          remote: 'https://github.com/AnkurAgrawal/ankuragrawal.xyz.git',
           branch: 'gh-pages'
         }
       }
