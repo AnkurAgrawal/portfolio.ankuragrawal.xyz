@@ -1,0 +1,25 @@
+
+@mixin filter-gradient($c1, $c2, $d) {
+  background: $c1;
+  background: -webkit-linear-gradient($d, $c1, $c2);
+  background: linear-gradient($d, $c1, $c2);
+}
+
+@import "bower_components/foundation-sites/scss/foundation";
+
+@include foundation-everything;
+
+@import "template/variables";
+@import "template/utils";
+@import "template/icons";
+@import "template/animate";
+@import "template/header";
+@import "template/footer";
+@import "template/sidebar";
+
+@import "pages/landing";
+@import "pages/portfolio";
+@import "pages/project";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/404";

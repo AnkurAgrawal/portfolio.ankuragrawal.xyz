@@ -1,0 +1,29 @@
+{
+  "name": "ankuragrawal",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-animate": "^1.6.0",
+    "angular-aria": "^1.6.0",
+    "angular-resource": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "angular-sanitize": "^1.6.0",
+    "angular-touch": "^1.6.0",
+    "angulartics-google-analytics": "*",
+    "foundation-sites": "^6.4.1",
+    "ngprogress": "^1.1.3",
+    "a11y_kit": "^0.0.4",
+    "angular-hotkeys": "chieffancypants/angular-hotkeys#^1.7.0",
+    "angular-tooltips": "^1.2.2",
+    "motion-ui": "^1.2.3",
+    "angularfire": "^2.3.0",
+    "ngSticky": "^1.8.13",
+    "angular-scroll": "^1.0.2",
+    "angular-flickr": "https://github.com/AnkurAgrawal/angular-flickr.git#^1.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "ankuragrawalApp"
+}

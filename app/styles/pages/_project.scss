@@ -1,0 +1,277 @@
+
+@-webkit-keyframes ChangingBackground {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-moz-keyframes ChangingBackground {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@-o-keyframes ChangingBackground {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+@keyframes ChangingBackground {
+    0%{background-position:22% 0%}
+    50%{background-position:79% 100%}
+    100%{background-position:22% 0%}
+}
+
+.project-page {
+  .large-align-top {
+    @media screen and #{breakpoint(large)} {
+      align-items: flex-start;
+    }
+  }
+  .project-page-heading {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+
+    -webkit-animation: ChangingBackground 5s ease infinite;
+    -moz-animation: ChangingBackground 5s ease infinite;
+    -o-animation: ChangingBackground 5s ease infinite;
+    animation: ChangingBackground 5s ease infinite;
+
+    &.is-sticky {
+      font-size: 2rem;
+      color: grey;
+      background: linear-gradient(7deg, #fff, #fff);
+      background-size: 400% 400%;
+    }
+  }
+
+  .intro {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.04rem;
+  }
+
+  aside {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    background: #43434A;
+
+    &.itinerant-probes {
+      background: rgba(100, 61, 187, 0.81);
+    }
+
+    &.about {
+      background: $primary-color;
+    }
+
+    &.teaching-and-leadership {
+      background: #80AB51;
+    }
+
+    &.web-development {
+      background: #597CCC;
+    }
+
+    &.synku {
+      background: #C45238;
+    }
+
+    &.orchestable {
+      background: #C84F5B;
+    }
+
+    &.flame {
+      background: #3F3F45;
+    }
+
+    &.hollywood-stars {
+      background: #7C488D;
+    }
+
+    &.work-happy {
+      background: #DA8540;
+    }
+
+    &.gg {
+      background: #B66393;
+    }
+
+    &.colorstore {
+      background: #364E61;
+    }
+
+    .metadata {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      dt {
+        color: #fff;
+        font-size: 0.93333em;
+        font-weight: 400;
+        font-family: $heading-font-family;
+        text-transform: uppercase;
+      }
+
+      dd {
+        font-weight: 200;
+        margin-bottom: 1px;
+        font-size: 15px;
+        color: #fff;
+      }
+    }
+  }
+
+  .project-details {
+    margin-right: 3rem;
+
+    .section-heading {
+      text-align: right;
+      color: #666;
+      display: inline-block;
+      font-weight: 500;
+      font-family: $heading-font-family;
+      text-transform: uppercase;
+    }
+
+    .section-body {
+      p {
+        color: #555;
+      }
+    }
+  }
+
+  .voteup {
+    --like-box-background-color: #43434A;
+    --like-box-shadow-color: var(--like-box-background-color);
+    background: var(--like-box-background-color);
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    line-height: 80px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    vertical-align: middle;
+    color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+
+    &.itinerant-probes {
+      --like-box-background-color: rgba(100, 61, 187, 0.81);
+    }
+
+    &.about {
+      --like-box-background-color: $primary-color;
+    }
+
+    &.teaching-and-leadership {
+      --like-box-background-color: #80AB51;
+    }
+
+    &.web-development {
+      --like-box-background-color: #597CCC;
+    }
+
+    &.synku {
+      --like-box-background-color: #C45238;
+    }
+
+    &.orchestable {
+      --like-box-background-color: #C84F5B;
+    }
+
+    &.flame {
+      --like-box-background-color: #3F3F45;
+    }
+
+    &.hollywood-stars {
+      --like-box-background-color: #7C488D;
+    }
+
+    &.work-happy {
+      --like-box-background-color: #DA8540;
+    }
+
+    &.gg {
+      --like-box-background-color: #B66393;
+    }
+
+    &.colorstore {
+      --like-box-background-color: #364E61;
+    }
+
+    em {
+      font-size: 40px;
+      padding-top: 0;
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 3px var(--like-box-shadow-color);
+      color: #fff;
+    }
+
+    &:focus, &:visited {
+      color: #fff;
+    }
+  }
+
+  .voteup-anim {
+    transition: all 0.3s ease-in-out;
+
+    span {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+      color: #666;
+      visibility: visible;
+      transition: all 0.3s ease-in-out;
+    }
+
+    em {
+      padding-top: 0;
+    }
+
+    b {
+      font-size: 0;
+      line-height: 32px;
+      vertical-align: middle;
+      transition: font-size 0.3s ease-in-out;
+      display: block;
+    }
+
+    &.voted {
+      span {
+        font-size: 0;
+        visibility: hidden;
+        line-height: 32px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      em {
+        display: block;
+        line-height: 1;
+        font-size: 25px;
+        padding-top: 14px;
+        transition: font-size 0.3s ease-in-out;
+      }
+
+      .voteup {
+        background-color: transparent;
+        box-shadow: 0 0 0 1px #B2BFCB;
+        color: rgba(132, 145, 158, 1);
+        transition: box-shadow 0.3s ease-in-out;
+        cursor: default;
+      }
+
+      b {
+        display: block;
+        line-height: 32px;
+        font-size: 25px;
+        transition: font-size 0.3s ease-in-out;
+      }
+    }
+  }
+
+}

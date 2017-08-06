@@ -1,0 +1,32 @@
+
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<a ng-click="gotoTop()" tabindex="0" class="sr-only sr-only-focusable skip-to-content">Skip to content</a>
+
+<nav class="top-bar topbar-sticky-shrink" data-topbar role="navigation" aria-label="Site Navigation" id="responsive-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+  <section class="top-bar-title brand anim">
+    <a ng-href="/" ng-click="closeNavbarInMobile('/')" title="wildcard design technologist" ng-include="'images/brand.svg'"></a>
+  </section>
+  <section class="top-bar-right">
+    <ul class="menu">
+      <li ng-class="getClass('/portfolio')">
+        <a ng-href='' ng-click="closeNavbarInMobile('/portfolio')">portfolio</a>
+      </li>
+      <li ng-class="getClass('/about')">
+        <a ng-href="" ng-click="closeNavbarInMobile('/about')">about</a>
+      </li>
+      <li>
+        <a ng-href="files/resume.ankur-agrawal.wildcard-design-technologist.pdf" target="_blank">résumé</a>
+      </li>
+      <li>
+        <a ng-href="http://blog.ankuragrawal.xyz" target="_blank">blog</a>
+      </li>
+      <li ng-class="getClass('/contact')">
+        <a ng-href="" ng-click="closeNavbarInMobile('/contact')">contact</a>
+      </li>
+    </ul>
+  </section>
+</nav>

@@ -1,0 +1,33 @@
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.top-bar-container {
+  height: 53px;
+}
+
+@import "nav";
+
+@mixin landing-top-nav {
+  .top-bar .top-bar-title {
+    display: none;
+  }
+}
+
+.main-page {
+  background-color: #fff;
+  position: relative;
+  padding: 0 35px;
+  min-height: 650px;
+  overflow: hidden;
+  >div {
+    position: relative;
+  }
+  .page {
+    min-height: 450px;
+  }
+}

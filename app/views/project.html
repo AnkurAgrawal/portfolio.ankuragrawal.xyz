@@ -1,0 +1,72 @@
+<div ng-if="project" class="project-page">
+  <article role="article">
+    <header class="project-banner">
+      <div class="banner-img animated fadeIn" ng-style="{{style}}">
+      </div>
+      <h2 sticky sticky-class="is-sticky" class="project-page-heading left animated" id="prj-title">
+        <span class="project-heading-seg-text">{{project.title}} </span>
+        <b class="project-page-heading-sec"></b>
+      </h2>
+    </header>
+    <div class="grid-y grid-padding-y">
+      <div class="cell small-12">
+        <blockquote class="intro">{{project.intro}}</blockquote>
+      </div>
+      <div class="cell small-12 flex-container flex-dir-column large-flex-dir-row large-align-top">
+        <aside class="project-metadata {{project.slug}} flex-child-grow small-order-1 medium-order-1 large-order-2">
+          <dl class="metadata">
+            <dt>Date</dt>
+            <dd>{{project.timeline}}</dd>
+          </dl>
+          <dl class="metadata">
+            <dt>My Role</dt>
+            <dd ng-repeat="role in project.role | split:','">
+              {{role}}
+            </dd>
+          </dl>
+          <dl class="metadata">
+            <dt>Tools Used</dt>
+            <dd ng-repeat="tool in project.tools | split:','">
+              {{tool}}
+            </dd>
+          </dl>
+          <dl class="metadata">
+            <dt>Team Members</dt>
+            <dd ng-repeat="member in project.team | split:','">
+              {{member}}
+            </dd>
+          </dl>
+        </aside>
+        <div class="project-details flex-child-shrink small-order-2 medium-order-2 large-order-1">
+          <section class="summary">
+            <h6 class="section-heading">Summary</h6>
+            <div class="section-body">{{project.summary}}</div>
+          </section>
+          <section class="project-description" ng-bind-html="project.description">
+          </section>
+          <div ng-if="project.screenshots" class="project-screenshots" ng-if="project.screenshots != ''">
+            <ul class="small-block-grid-2 mini-block-grid-1 large-block-grid-2 portfolio-grid">
+              <li ng-repeat="screenshot in project.screenshots | split:','">
+                <a href="{{screenshot}}" class="scrSht">
+                  <img ng-src="{{screenshot}}" alt="{{screenshot}}">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="center">
+            <div class="voteup-anim" ng-class="{voted: isVoted}">
+              <a href="" ng-click="voteUp()" class="voteup {{project.slug}}">
+                <em class="icon icon-thumbsup"></em>
+                <b>{{project.votes}}</b>
+              </a>
+              <span class="sr-only">{{project.votes}} appreciation for this project.</span>
+              <span>{{project.votes}} </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </article>
+</div>
+<ng-include ng-if="!project" src="'views/404.html'"></ng-include>

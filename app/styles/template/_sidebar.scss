@@ -1,0 +1,38 @@
+
+.side-bar {
+  .sidebar-logo {
+    position: relative;
+    display: block;
+    width: 75%;
+  }
+
+  .sidebar-tagline {
+    font-size: 1.2em;
+    a {
+      color: #7B0000;
+      font-family: 'HelveticaNeue';
+    }
+  }
+
+  hr {
+    margin: 2rem 0 2.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0.75), rgba(200, 200, 200, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  .subheader {
+    line-height: 1.6;
+    font-family: Montserrat;
+  }
+
+  p.subheader {
+    font-weight: 200;
+
+    strong {
+      font-weight: normal;
+    }
+  }
+}

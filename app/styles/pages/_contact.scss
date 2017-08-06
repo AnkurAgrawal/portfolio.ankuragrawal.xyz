@@ -1,0 +1,19 @@
+.contact {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-size: 0.9rem;
+  }
+  [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'] {
+    height: 1.8rem;
+  }
+
+  .form {
+    .success {
+      color: #6f499d;
+    }
+
+    .error {
+      color: #7b0000;
+    }
+  }
+}

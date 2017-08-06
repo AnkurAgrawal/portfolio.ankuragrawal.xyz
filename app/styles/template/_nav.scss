@@ -1,0 +1,175 @@
+
+.top-bar {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+nav.top-bar, .top-bar ul {
+  background: #fff;
+  .menu li {
+    >a {
+      color: #4a4a5b;
+      text-transform: uppercase;
+      font-size: .83333em;
+      font-weight: 200;
+    }
+    >a[target="_blank"]:after {
+      content: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIxNXB4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAxNSAxNSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTUgMTUiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxyZWN0IHg9IjIuNSIgeT0iNS41IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iNyIgaGVpZ2h0PSI3Ii8+Cgk8cGF0aCBmaWxsPSIjNjQ1RTVFIiBkPSJNOSw2djZIM1Y2SDkgTTEwLDVIMnY4aDhWNUwxMCw1eiIvPgo8L2c+CjxnPgoJPHJlY3QgeD0iNS41IiB5PSIyLjUiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSI3IiBoZWlnaHQ9IjciLz4KCTxnPgoJCTxwYXRoIGZpbGw9IiM2NDVFNUUiIGQ9Ik0xMiwzdjZINlYzSDEyIE0xMywySDV2OGg4VjJMMTMsMnoiLz4KCTwvZz4KPC9nPgo8bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiM2NDVFNUUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjciIHkxPSI0LjUiIHgyPSIxMSIgeTI9IjQuNSIvPgo8bGluZSBmaWxsPSJub25lIiBzdHJva2U9IiM2NDVFNUUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgeDE9IjEwLjUiIHkxPSI4IiB4Mj0iMTAuNSIgeTI9IjQiLz4KPGxpbmUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjQ1RTVFIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSI3IiB5MT0iOCIgeDI9IjEwLjUiIHkyPSI0LjUiLz4KPC9zdmc+Cg==);
+      margin-top: -4px;
+      display: inline-block;
+      margin-left: 3px;
+    }
+    &.active {
+      >a {
+        position: relative;
+        font-weight: 700;
+        background-color: transparent;
+        &:before {
+          content: '';
+          display: block;
+          background: rgba(0,0,0,.22);
+          position: absolute;
+          left: 10px;
+          right: 10px;
+          bottom: -2px;
+          border-radius: 5px;
+          border: 1px solid #555;
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
+
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+.brand {
+  margin: 0;
+  a {
+    display: inline-block;
+  }
+  img {
+    max-width: 45px;
+    max-height: 90px;
+    margin: 6px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+}
+
+.side-nav-bar {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.sidbar-wrapper {
+  position: fixed;
+  padding: 0 2% 0 3%;
+  box-shadow: 5px 0px 9px -8px #666;
+}
+
+.side-nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.side-nav li.nav-active {
+  a {
+    color: $c5;
+  }
+}
+
+hr {
+  margin: 10px 0;
+  color: #ddd;
+}
+
+.side-footer {
+  p.muted {
+    font-size: 13px;
+    font-weight: 200;
+  }
+}
+
+.builton {
+  a {
+    display: inline-block;
+    height: 18px;
+    padding: 6px 0 0 0;
+  }
+  img {
+    height: 18px;
+    margin: 0 5px 0 0;
+  }
+  font-size: 12px;
+  .love {
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    padding: 6px 0 0 0;
+    em {
+      font-size: 14px;
+      line-height: 14px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+}
+
+.side-footer {
+  float: right;
+}
+
+$g2-color1: #434A54;
+$g2-color2: #656D78;
+
+@media #{$small-max} {
+  .top-bar.expanded {
+    background-color: $header-background-c1;
+    @include filter-gradient($header-background-c1, $header-background-c1, horizontal);
+    .top-bar-section ul li > a {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .top-bar-section ul li:hover > a:before {
+      top: 5px;
+      bottom: 5px;
+    }
+    .top-bar-section ul li.active > a:before {
+      top: 5px;
+      bottom: 5px;
+    }
+    .top-bar-section ul {
+      li > a {}
+    }
+  }
+}
+
+@media #{$small-max} {
+  .side-footer {
+    // display: none;
+    text-align: center;
+    float: none;
+  }
+  .side-social {
+    text-align: center;
+    margin: 20px auto 50px auto;
+    &.long {
+      margin: 10px auto 0 auto;
+    }
+  }
+}

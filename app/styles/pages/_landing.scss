@@ -1,0 +1,31 @@
+html, body {
+  font-family: 'HelveticaNeue-Light';
+}
+
+a {
+  cursor: pointer;
+}
+
+.smaller {
+  font-size: 0.7em;
+}
+
+.logo {
+  margin-top: 12%;
+  margin-bottom: 30px;
+}
+.tagline {
+  font-size: 1.7em;
+  color: #575757;
+  text-align: center;
+
+  a {
+    color: #7B0000;
+    font-family: 'HelveticaNeue';
+  }
+}
+
+@include landing-top-nav;
+.landing {
+  @include landing-footer;
+}
