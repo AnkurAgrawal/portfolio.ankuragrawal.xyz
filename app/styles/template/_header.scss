@@ -23,11 +23,13 @@
   position: relative;
   padding: 0 35px;
   min-height: 650px;
+  height: 100%;
   overflow: hidden;
   >div {
     position: relative;
   }
   .page {
     min-height: 450px;
+    height: 100%;
   }
 }

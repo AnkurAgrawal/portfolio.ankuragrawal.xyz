@@ -61,8 +61,11 @@
     position: relative;
     z-index: 22;
   }
-  .top-bar, .top-bar ul {
+  .top-bar {
     background-color: #fff;
+    ul {
+      background-color: transparent;
+    }
   }
 }
 .slanding-footer {

@@ -14,7 +14,7 @@ ankuragrawalApp
 
     $scope.submitForm = (contact) ->
       console.log 'Message sent successfully'
-      $http.post 'https://formspree.io/ankuragrawal@ymail.com', contact
+      $http.post 'https://formspree.io/me@ankuragrawal.xyz', contact
       .then (response) ->
         if (response.data.success)
           $scope.contact = {};

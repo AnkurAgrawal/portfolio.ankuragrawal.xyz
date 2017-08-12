@@ -1,5 +1,108 @@
-<div class="grid-x">
-  <div class="cell small-8 medium-6 large-4">
-    <ng-include src="'images/coming-soon.svg'"></ng-include>
+<div class="about-page">
+  <div ng-if="!about" class="grid-x">
+    <div class="cell small-8 medium-6 large-4">
+      <ng-include src="'images/coming-soon.svg'"></ng-include>
+    </div>
   </div>
+  <article ng-if="about" role="article">
+
+    <section class="intro" ng-if="about.intro">
+      <h6><big><span>Hello,</span> I am a Wildcard design technologist.</big></h6>
+      <div class="section-body">
+        <p ng-bind-html="about.intro"></p>
+      </div>
+    </section>
+
+    <section class="summary" ng-if="about.summary">
+      <h6 class="section-heading">Summary</h6>
+      <div class="section-body" ng-bind-html="about.summary"></div>
+    </section>
+
+    <section class="description" ng-if="about.description">
+      <h6 class="section-heading">More about me</h6>
+      <div class="section-body" ng-bind-html="about.description"></div>
+    </section>
+
+    <section class="patents" ng-if="about.patents">
+      <h6 class="section-heading">Patents</h6>
+      <div class="section-body">
+        <a class="patent" href="{{patent.url}}" ng-repeat="patent in about.patents" target="_blank">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h5 class="title">{{patent.title}}</h5>
+              <span class=muted>{{patent['patent-number']}}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="publications" ng-if="about.publications">
+      <h6 class="section-heading">Publications</h6>
+      <div class="section-body">
+        <a class="publication" href="{{publication.url}}" ng-repeat="publication in about.publications" target="_blank">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h5 class="title">{{publication.title}}</h5>
+              <div class="muted citation" ng-bind-html="publication.citation"></div>
+              <span class="muted"><small>{{publication.publication}}</small></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="teaching" ng-if="about['teaching-leadership-experience']">
+      <h6 class="section-heading">Teaching & Leadership Experience</h6>
+      <div class="section-body">
+        <a class="teaching-leadership" href="{{slug}}" ng-repeat="(slug, teaching) in about['teaching-leadership-experience']" target="_blank">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h5 class="title">{{teaching.title}}</h5>
+              <div class="muted organization" ng-bind-html="teaching.organization"></div>
+              <span class="muted date"><small>{{teaching.date}}</small></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="awards" ng-if="about['awards-and-achievements']">
+      <h6 class="section-heading">Awards and Achievements</h6>
+      <div class="section-body">
+        <a class="awards-and-achievements" href="{{slug}}" ng-repeat="(slug, award) in about['awards-and-achievements']" target="_blank">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h5 class="title">{{award.title}}</h5>
+              <div class="muted organization" ng-bind-html="award.organization"></div>
+              <span class="muted date"><small>{{award.date}}</small></span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="scroll-magic">
+      <!-- Define scene in your template -->
+      <sm-scene scene-id="'pin1'" duration="'50%'" offset="'50%'" trigger-hook="0.25"></sm-scene>
+      <div class="dummy"></div>
+      <div class="pin" sm-pin="'pin1'"></div>
+      <div class="trigger" sm-scene="'mixed1'" duration="500" trigger-hook="0.75"></div>
+      <div class="tween1" sm-tween="'mixed1'" duration="1" vars="{scale: 1.2, yoyo: true, repeat: 2}">
+         <sm-class-toggle scene-id="'classToggleScene'" classes="'pink'" target-element="'parent'"></sm-class-toggle>
+      </div>
+      <div class="mixed" sm-tween="'mixed1'" duration="1" from-vars="{opacity: 0, delay: 2}">
+        <sm-pin scene-id="'mixed1'" target-element="'parent'"></sm-pin>
+      </div>
+      <span sm-scene="'tween2'" trigger-element="null" duration="'100%'" offset="200" trigger-hook="0.4"></span>
+      <div class="tween2" sm-tween="'tween2'" from-vars="{left: '100%'}" to-vars="toVars"></div>
+      <span sm-scene="'classToggleScene'" trigger-element="null" duration="'50%'" offset="500" trigger-hook="0.2"></span>
+      <div class="repeat-tweens" ng-repeat="i in [1, 2, 3, 4]">
+        <div sm-scene="'tween-' + $index" duration="'100%'" offset="0"> </div>
+        <div id="tween-{{$index}}" sm-tween="'tween-' + $index" from-vars="{x: '0%', y: '0px'}" to-vars="{x: (i * 10) + '%', y: (i * 200) + 'px'}">
+          <h3>Repeat tween {{$index}}</h3>
+        </div>
+      </div>
+    </section>
+  </article>
 </div>

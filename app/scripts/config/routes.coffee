@@ -1,6 +1,6 @@
 'use strict'
 
-ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider) ->
+ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollMagicProvider) ->
   $routeProvider
     .when '/',
       templateUrl: 'views/landing.html'
@@ -11,9 +11,12 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider) ->
     .when '/about',
       templateUrl: 'views/about.html'
       controller: 'AboutCtrl'
-      controllerAs: 'about'
+      controllerAs: 'about-me'
       title: 'about'
       bodyClass: 'about'
+      resolve:
+        about: (aboutService) ->
+          aboutService.getData()
     .when '/portfolio',
       templateUrl: 'views/portfolio.html'
       controller: 'PortfolioCtrl'
@@ -46,6 +49,8 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider) ->
     .hashPrefix '!'
 
   $sceProvider.enabled false
+
+  # scrollMagicProvider.addIndicators = true
   return
 
 

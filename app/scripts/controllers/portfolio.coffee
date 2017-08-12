@@ -16,4 +16,4 @@ ankuragrawalApp
     $scope.answer = sidebarQnA.answer
 
     $scope.projectThumb = (projectSlug) ->
-      "background-image": "url(#{constants.BASE_CDN_URL}#{constants.BASE_IMAGES_URL}projects/#{projectSlug}/thumb.svg)"
+      "background-image": "url(#{this.getImageAssetUrl()}projects/#{projectSlug}/thumb.svg)"

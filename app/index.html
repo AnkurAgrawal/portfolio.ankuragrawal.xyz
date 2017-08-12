@@ -49,11 +49,11 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <ng-include src="'views/partials/_header.html'"></ng-include>
+    <app-header src="views/partials/_header.html"></app-header>
     <div id="start-of-page"></div>
     <main class="main-page grid-x" role="main" id="main">
       <div class="cell large-12">
-        <div class="fade page">
+        <div class="page">
           <div class="grid-y medium-grid-frame">
             <div class="cell medium-auto medium-cell-block-container">
               <div class="grid-x grid-padding-x">
@@ -61,7 +61,10 @@
 
                 <sticky-scroll du-scroll-container class="cell auto medium-cell-block-y">
                   <div class="grid-x grid-padding-x grid-padding-y">
-                    <div class="cell auto" ng-view>
+                    <div class="cell auto" ng-view></div>
+                    <div class="page-scroll is-hidden">
+                      <span style="visibility: inherit; opacity: 1;">Scroll</span>
+                      <div class="bar" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
                     </div>
                   </div>
                 </sticky-scroll>
@@ -102,6 +105,11 @@
     <script src="bower_components/angular-scroll/angular-scroll.js"></script>
     <script src="bower_components/angular-recursion/angular-recursion.js"></script>
     <script src="bower_components/angular-flickr/dist/angular-flickr.min.js"></script>
+    <script src="bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+    <script src="bower_components/angular-scroll-magic/angular-scroll-magic.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -122,6 +130,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/config/routes.js"></script>
         <script src="scripts/config/constants.js"></script>
+        <script src="scripts/config/values.js"></script>
         <script src="scripts/filters/split.js"></script>
         <script src="scripts/services/dbservice.js"></script>
         <script src="scripts/services/sidebarservice.js"></script>
@@ -134,6 +143,8 @@
         <script src="scripts/controllers/contact.js"></script>
         <script src="scripts/controllers/404.js"></script>
         <script src="scripts/ws.js"></script>
+        <script src="scripts/services/aboutservice.js"></script>
+        <script src="scripts/directives/app-header.js"></script>
         <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

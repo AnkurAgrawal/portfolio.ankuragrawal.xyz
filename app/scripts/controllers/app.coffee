@@ -8,7 +8,7 @@
  # Controller of the ankuragrawalApp
 ###
 ankuragrawalApp
-  .controller 'AppCtrl', ($scope, $rootScope, $location, ngProgressFactory, $timeout, $anchorScroll) ->
+  .controller 'AppCtrl', ($scope, $rootScope, $location, ngProgressFactory, $timeout, $anchorScroll, constants) ->
     $rootScope.landing = false
 
     $rootScope.colors = [
@@ -45,6 +45,9 @@ ankuragrawalApp
         border: '#773D99'
       }
     ]
+
+    $scope.getImageAssetUrl = ->
+      "#{constants.BASE_CDN_URL}#{constants.BASE_IMAGES_URL}"
 
     $scope.closeNavbarInMobile = (path) ->
       $location.path(path)

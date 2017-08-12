@@ -119,7 +119,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal, Chen Ye, Linshuang Chen, Allie Deford",
       "description": "",
       "votes": 0,
       "views": 0
@@ -132,7 +132,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "Wooden table, Webcam (Converted into IR), Short-Throw Projector, Acrylic sheet, Butter Paper, MT4J, CCV, JOGL, MinimLibs",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal",
       "description": "",
       "votes": 0,
       "views": 0
@@ -145,7 +145,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal, Alysse Gallo, Meredith Anderson",
       "description": "",
       "votes": 0,
       "views": 0
@@ -158,7 +158,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Daniela Rosner, Ankur Agrawal, Ariel Duncan, Mei Chen, Kathi Kitner, Margaret Morris, Sarah Fox",
       "description": "",
       "votes": 0,
       "views": 0
@@ -171,7 +171,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal, Aravind Ravi, Wenvi Hidayat, Mark Stamnes, Daniela Rosner, Mei Shen",
       "description": "",
       "votes": 0,
       "views": 0
@@ -184,7 +184,6 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
       "description": "",
       "votes": 0,
       "views": 0
@@ -197,7 +196,6 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
       "description": "",
       "votes": 0,
       "views": 0
@@ -210,7 +208,6 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
       "description": "",
       "votes": 0,
       "views": 0
@@ -223,7 +220,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal, Wenqi Li, Monica Caraway, Matt Yukubousky",
       "description": "",
       "votes": 0,
       "views": 0
@@ -236,7 +233,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Sidhartha Gudipati, Sangeun Lee, Ankur Agrawal, Yana Levitskaia",
       "description": "",
       "votes": 0,
       "views": 0
@@ -249,7 +246,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
+      "team": "Ankur Agrawal",
       "description": "",
       "votes": 0,
       "views": 0
@@ -262,7 +259,6 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
       "description": "",
       "votes": 0,
       "views": 0
@@ -275,10 +271,117 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
-      "team": "Jane Doe, John Doe",
       "description": "",
       "votes": 0,
       "views": 0
     }
+  },
+  "about": {
+    "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, research designer, interface designer and many other designers, but what the heck is wildcard design technologist?</p><p>It's someone, <b>none of the above, Or, all of the above!</b> Someone who does curiosity driven exploration with an agile mind in design and technology, who is not afraid of the unexpected but embraces it and thrive on it. Someone who knows their stuff inside and out, but still keep an open mind and always keen to learn. Someone who is facinated by different perspectives. Someone who is creative and have passion, who posses a big bag of tricks in variety of areas realted to design and technology.</p><p>So, yes I am a Wildcard design technologist. I design technology and then try to build it. Sometime I succeed, sometimes I face failure. But <i>what doesn't kill you makes you stronger</i>. Everytime I fail, I learn more than when I succeed.</p>",
+    "summary": "",
+    "description": "",
+    "patents": [
+      {
+        "title": "Position determination and control with radio frequency identification tags",
+        "patent-number": "US 9704003 B1",
+        "url": "https://encrypted.google.com/patents/US9704003"
+      }
+    ],
+    "publications": [
+      {
+        "title": "SynKu: Exploring the Production of Sensory Objects",
+        "citation": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
+        "publication": "Proceedings, CHI EA '15",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51THqIG%2BwwL._SX384_BO1,204,203,200_.jpg",
+        "url": "https://dl.acm.org/citation.cfm?id=2732813&CFID=792024528&CFTOKEN=85070216"
+      },
+      {
+        "title": "Designing for Movement in Public Life with Itinerant Probes",
+        "citation": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
+        "publication": "Proceedings, DIS '15",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/4191woqwrsL._SX384_BO1,204,203,200_.jpg",
+        "url": "https://dl.acm.org/citation.cfm?id=2901913"
+      }
+    ],
+    "teaching-leadership-experience": {
+      "graduate-teaching-assistant": {
+        "title": "Graduate Teaching Assistant",
+        "organization": "MHCI+d, University of Washington, Seattle",
+        "date": "March 16, 2015 - June 15, 2015"
+      },
+      "teaching-assistant": {
+        "title": "Teaching Assistant",
+        "organization": "Dept. of Computer Science & Engineering, JIIT, India",
+        "date": ""
+      },
+      "guest-lecture": {
+        "title": "Guest Lecturer",
+        "organization": "HCDE, University of Washington, Seattle",
+        "date": ""
+      },
+      "high-school-teaching": {
+        "title": "High School Teaching",
+        "organization": "Department of Education, University of Washington, Seattle",
+        "date": "October 1, 2015 - December 15, 2015"
+      },
+      "middle-school-teaching": {
+        "title": "Middle School Teaching",
+        "organization": "Department of Education, University of Washington, Seattle",
+        "date": "January 2, 2016 - March 15, 2016"
+      },
+      "judge-taf-academy": {
+        "title": "Judge",
+        "organization": "Technology Access Foundation Academy (TAF)",
+        "date": ""
+      },
+      "icmi-conference-chair": {
+        "title": "Volunteer Chair",
+        "organization": "ACM International Conference on Multimodal Interaction (ICMI)",
+        "date": ""
+      },
+      "ic3-conference-organizer": {
+        "title": "Organizing Committee",
+        "organization": "IEEE International Conference on Contemporary Computing - JIIT (IC3)",
+        "date": ""
+      }
+    },
+    "awards-and-achievements": {
+      "cheetah-intel-labs": {
+        "title": "Cheetah @ Intel Labs",
+        "organization": "Intel Labs, Intel Corporation",
+        "date": ""
+      },
+      "graduate-innovation": {
+        "title": "Graduate Innovation",
+        "organization": "HCDE, University of Washington, Seattle",
+        "date": ""
+      },
+      "best-intern-project-intel-labs": {
+        "title": "Best-intern Project @ Intel Labs",
+        "organization": "Intel Labs, Intel Corporation",
+        "date": ""
+      },
+      "jed-i-project-challenge": {
+        "title": "Top 2, Jed-i Project Challenge",
+        "organization": "Joy of Engineering, Design and Innovation (Jed-i), India",
+        "date": ""
+      },
+      "mhrd-scholarship": {
+        "title": "MHRD Scholarship",
+        "organization": "Ministry of Human Resource Development (MHRD), Government of India",
+        "date": ""
+      }
+    }
+  },
+  "hobbies": {
+    "photography": "",
+    "archery": "",
+    "sketching": "",
+    "violin": "",
+    "boxing": "",
+    "cooking": "",
+    "hiking": "",
+    "bouldering": "",
+    "bōjutsu": ""
   }
 }

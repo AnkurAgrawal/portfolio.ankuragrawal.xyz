@@ -19,11 +19,21 @@
     "angularfire": "^2.3.0",
     "ngSticky": "^1.8.13",
     "angular-scroll": "^1.0.2",
-    "angular-flickr": "https://github.com/AnkurAgrawal/angular-flickr.git#^1.0.0"
+    "angular-flickr": "https://github.com/AnkurAgrawal/angular-flickr.git#^1.0.0",
+    "angular-scroll-magic": "^0.1.8"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "ankuragrawalApp"
+  "moduleName": "ankuragrawalApp",
+  "overrides": {
+  "scrollmagic": {
+    "main": [
+      "scrollmagic/uncompressed/ScrollMagic.js",
+      "scrollmagic/uncompressed/plugins/animation.gsap.js",
+      "scrollmagic/uncompressed/plugins/debug.addIndicators.js"
+    ]
+  }
+}
 }

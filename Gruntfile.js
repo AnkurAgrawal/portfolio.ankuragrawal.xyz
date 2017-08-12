@@ -407,7 +407,6 @@ module.exports = function (grunt) {
           keepClosingSlash:true,
           removeAttributeQuotes: true,
           removeEmptyAttributes: true,
-          removeRedundantAttributes: true,
           removeScriptTypeAttributes: true,
           removeStyleLinkTypeAttributes: true
         },

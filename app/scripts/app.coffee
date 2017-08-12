@@ -24,4 +24,5 @@
     'sticky'
     'duScroll'
     'flickr'
+    'hj.scrollMagic'
   ]

@@ -10,3 +10,4 @@
 ankuragrawalApp
   .controller 'LandingCtrl', ($rootScope) ->
     $rootScope.landing = true
+    return

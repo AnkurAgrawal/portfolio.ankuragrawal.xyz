@@ -18,19 +18,19 @@
             <dt>Date</dt>
             <dd>{{project.timeline}}</dd>
           </dl>
-          <dl class="metadata">
+          <dl ng-if="project.role" class="metadata">
             <dt>My Role</dt>
             <dd ng-repeat="role in project.role | split:','">
               {{role}}
             </dd>
           </dl>
-          <dl class="metadata">
+          <dl ng-if="project.tools" class="metadata">
             <dt>Tools Used</dt>
             <dd ng-repeat="tool in project.tools | split:','">
               {{tool}}
             </dd>
           </dl>
-          <dl class="metadata">
+          <dl ng-if="project.team" class="metadata">
             <dt>Team Members</dt>
             <dd ng-repeat="member in project.team | split:','">
               {{member}}
