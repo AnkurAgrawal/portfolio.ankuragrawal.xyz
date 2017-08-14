@@ -14,8 +14,6 @@ window.ws = do ->
   _initDelight = ->
     $document.on 'mouseenter mouseleave', 'span.delight', delightBounce
 
-
-
     # kkeys = []
     # konami = '38,38,40,40,37,39,37,39,65,65'
     # $(document).keydown (e) ->

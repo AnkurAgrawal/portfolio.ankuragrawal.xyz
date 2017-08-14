@@ -27,6 +27,8 @@
     <link rel='stylesheet' href='bower_components/angular-tooltips/dist/angular-tooltips.min.css' />
     <link rel='stylesheet' href='bower_components/motion-ui/dist/motion-ui.css' />
     <link rel='stylesheet' href='bower_components/angular-flickr/dist/angular-flickr.min.css' />
+    <link rel='stylesheet' href='bower_components/photoswipe/dist/photoswipe.css' />
+    <link rel='stylesheet' href='bower_components/photoswipe/dist/default-skin/default-skin.css' />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -35,9 +37,10 @@
     <!-- <link href='//fonts.googleapis.com/css?family=Alegreya:400' rel='stylesheet' type='text/css'> -->
     <!-- <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'> -->
     <!-- <link href='//fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'> -->
-    <link href='//fonts.googleapis.com/css?family=Montserrat:200,400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:200,400,600,700' rel='stylesheet' type='text/css'>
     <!-- <link href='//fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'> -->
-    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
   </head>
   <body ng-app="ankuragrawalApp" ng-controller="AppCtrl" ng-class="bodyClass">
     <!--[if lte IE 8]>
@@ -57,11 +60,11 @@
           <div class="grid-y medium-grid-frame">
             <div class="cell medium-auto medium-cell-block-container">
               <div class="grid-x grid-padding-x">
-                <div ng-if="!landing" ng-include="'views/partials/_sidebar.html'" class="cell medium-3 side-bar"></div>
+                <div ng-if="!landing" ng-include="'views/partials/_sidebar.html'" class="cell medium-3 side-bar animated fadeIn"></div>
 
                 <sticky-scroll du-scroll-container class="cell auto medium-cell-block-y">
                   <div class="grid-x grid-padding-x grid-padding-y">
-                    <div class="cell auto" ng-view></div>
+                    <div class="cell auto view-container" ng-view></div>
                     <div class="page-scroll is-hidden">
                       <span style="visibility: inherit; opacity: 1;">Scroll</span>
                       <div class="bar" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
@@ -110,6 +113,9 @@
     <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
     <script src="bower_components/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
     <script src="bower_components/angular-scroll-magic/angular-scroll-magic.js"></script>
+    <script src="bower_components/angular-bind-html-compile/angular-bind-html-compile.js"></script>
+    <script src="bower_components/photoswipe/dist/photoswipe.js"></script>
+    <script src="bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -132,19 +138,26 @@
         <script src="scripts/config/constants.js"></script>
         <script src="scripts/config/values.js"></script>
         <script src="scripts/filters/split.js"></script>
+        <script src="scripts/directives/app-header.js"></script>
         <script src="scripts/services/dbservice.js"></script>
         <script src="scripts/services/sidebarservice.js"></script>
         <script src="scripts/services/projectservice.js"></script>
+        <script src="scripts/services/aboutservice.js"></script>
         <script src="scripts/controllers/app.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/publication.js"></script>
         <script src="scripts/controllers/landing.js"></script>
         <script src="scripts/controllers/portfolio.js"></script>
         <script src="scripts/controllers/project.js"></script>
         <script src="scripts/controllers/contact.js"></script>
         <script src="scripts/controllers/404.js"></script>
         <script src="scripts/ws.js"></script>
-        <script src="scripts/services/aboutservice.js"></script>
-        <script src="scripts/directives/app-header.js"></script>
+        <script src="scripts/services/publicationservice.js"></script>
+        <script src="scripts/services/awardservice.js"></script>
+        <script src="scripts/controllers/award.js"></script>
+        <script src="scripts/controllers/wildcard.js"></script>
+        <script src="scripts/services/wildcardservice.js"></script>
+        <script src="scripts/directives/project-image-container.js"></script>
         <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

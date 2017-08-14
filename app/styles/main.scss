@@ -13,13 +13,16 @@
 @import "template/utils";
 @import "template/icons";
 @import "template/animate";
+@import "template/tooltip";
 @import "template/header";
 @import "template/footer";
 @import "template/sidebar";
+@import "template/page";
 
 @import "pages/landing";
 @import "pages/portfolio";
 @import "pages/project";
 @import "pages/about";
+@import "pages/publication";
 @import "pages/contact";
 @import "pages/404";
