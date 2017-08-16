@@ -8,6 +8,8 @@
  # Controller of the ankuragrawalApp
 ###
 ankuragrawalApp
-  .controller '404Ctrl', ($rootScope) ->
+  .controller '404Ctrl', ($rootScope, $scope) ->
     $rootScope.landing = false
-    return
+
+    $scope.get404Svg = ->
+      "#{this.getImageAssetUrl()}404.svg"

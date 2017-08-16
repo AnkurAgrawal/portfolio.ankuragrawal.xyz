@@ -1,13 +1,10 @@
-    <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="error-404-page grid-x grid-padding-x grid-padding-y align-center">
       <div class="cell small-8 medium-7 large-6 text-center">
-        <ng-include src="'images/404.svg'" alt="404"></ng-include>
+        <img ng-src="{{get404Svg()}}" alt="404" class="animated fadeIn">
         <br>
-        <br>
-        <h2 class="muted">Lost?</h2>
-        <h4 class="muted">let's try again from previous page</h4>
-        <br>
-        <a href="javascript:history.back();" class="button">
-          <i class="arrow left"></i>
-        </a>
+        <div class="animated fadeInUp">
+          <h4 class="muted">uh oh! looks like something broke.</h4>
+          <h6 class="muted">let's try again from <a href="javascript:history.back();">previous page</a></h6>
+        </div>
       </div>
     </div>

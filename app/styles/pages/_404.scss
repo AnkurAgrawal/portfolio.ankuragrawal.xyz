@@ -1,28 +1,19 @@
-i {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.arrow {
-  &.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+.error-404-page {
+  img, svg {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #434a54;
   }
-
-  &.left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+  a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px #555 dotted;
+    &:hover {
+      color: #7B0000;
+      border-color: #7B0000;
+    }
   }
-
-  &.up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-  }
-
-  &.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  .muted {
+    color: #6c7787;
   }
 }
