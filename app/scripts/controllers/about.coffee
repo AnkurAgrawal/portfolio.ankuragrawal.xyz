@@ -8,7 +8,7 @@
  # Controller of the ankuragrawalApp
 ###
 ankuragrawalApp
-  .controller 'AboutCtrl', ($scope, $rootScope, about, constants) ->
+  .controller 'AboutCtrl', ($scope, $rootScope, about) ->
     $rootScope.landing = false
 
     $scope.toVars =
@@ -17,4 +17,4 @@ ankuragrawalApp
     $scope.about = about
 
     $scope.profileThumb = ->
-      "background-image": "url(#{this.getImageAssetUrl()}about/profile.jpg)"
+      "#{this.getImageAssetUrl()}about/profile1.jpg"

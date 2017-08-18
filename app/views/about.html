@@ -1,4 +1,4 @@
-<div class="about-page">
+<div class="about-page fadeIn animated">
   <div ng-if="!about" class="grid-x">
     <div class="cell small-8 medium-6 large-4">
       <ng-include src="'images/coming-soon.svg'"></ng-include>
@@ -7,9 +7,21 @@
   <article ng-if="about" role="article">
 
     <section class="intro" ng-if="about.intro">
-      <h6><big><span>Hello,</span> I am a Wildcard design technologist.</big></h6>
-      <div class="section-body">
-        <p ng-bind-html="about.intro"></p>
+      <div class="grid-x grid-padding-x">
+        <div class="cell small-12 medium-9 large-9 small-order-2 medium-order-1 large-order-1">
+          <div class="section-head">
+            <h6 class="page-heading">Hello,</h6>
+            <span class="sub-heading">I'm a Wildcard
+              <small>
+                <span href="#" class="wildcard-tooltip-link" tooltip-side="bottom" tooltip-close-button="true" tooltip-smart="true" tooltip-class="wildcard-tip" tooltips tooltip-template-url="views/partials/_wildcard_tooltip.html">(?)</span>
+              </small>
+            .</span>
+          </div>
+          <div class="section-body hide" ng-bind-html="about.intro"></div>
+        </div>
+        <div class="cell small-0 medium-3 large-3 small-order-1 medium-order-2 large-order-2">
+          <img ng-src="{{profileThumb1()}}" alt="" class="profile-picture">
+        </div>
       </div>
     </section>
 
@@ -40,7 +52,7 @@
     <section class="publications" ng-if="about.publications">
       <h6 class="section-heading">Publications</h6>
       <div class="section-body">
-        <a class="publication" href="{{publication.url}}" ng-repeat="publication in about.publications" target="_blank">
+        <a class="publication" href="about/publications/{{slug}}" ng-repeat="(slug, publication) in about.publications">
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="cell auto">
               <h5 class="title">{{publication.title}}</h5>
@@ -55,7 +67,7 @@
     <section class="teaching" ng-if="about['teaching-leadership-experience']">
       <h6 class="section-heading">Teaching & Leadership Experience</h6>
       <div class="section-body">
-        <a class="teaching-leadership" href="{{slug}}" ng-repeat="(slug, teaching) in about['teaching-leadership-experience']" target="_blank">
+        <a class="teaching-leadership" href="about/teachings-and-leaderships/{{slug}}" ng-repeat="(slug, teaching) in about['teaching-leadership-experience']" target="_blank">
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="cell auto">
               <h5 class="title">{{teaching.title}}</h5>
@@ -66,10 +78,11 @@
         </a>
       </div>
     </section>
-    <section class="awards" ng-if="about['awards-and-achievements']">
-      <h6 class="section-heading">Awards and Achievements</h6>
+
+    <section class="awards" ng-if="about['honors-&-awards']">
+      <h6 class="section-heading">Honors & Awards</h6>
       <div class="section-body">
-        <a class="awards-and-achievements" href="{{slug}}" ng-repeat="(slug, award) in about['awards-and-achievements']" target="_blank">
+        <a class="honors-and-awards" href="about/honors-and-awards/{{slug}}" ng-repeat="(slug, award) in about['honors-&-awards']">
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="cell auto">
               <h5 class="title">{{award.title}}</h5>

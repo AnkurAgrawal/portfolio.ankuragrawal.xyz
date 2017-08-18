@@ -1,45 +1,60 @@
+
 .about-page {
-  .coming-soon {
-    display: block;
-    text-align: center;
-    font-size: 2rem;
-    color: #42210b;
-    margin: 1.5rem auto;
-  }
+
 
   article {
 
     section {
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
+      margin-top: 1rem;
 
       &:first-child {
-        padding: 0;
+        margin-top: 0;
       }
 
       &.intro {
         letter-spacing: 0.04rem;
 
-        h6 span {
-          font-size: 2.5rem;
-        }
-      }
+        .sub-heading {
+          font-size: 1.5rem;
+          color: #444;
+          font-weight: bold;
+          font-family: "Open sans";
 
-      .section-heading {
-        text-align: right;
-        color: #6F499D;
-        display: inline-block;
-        font-weight: 500;
-        font-family: $heading-font-family;
-        text-transform: uppercase;
+          .wildcard-tooltip-link {
+            font-weight: normal;
+            cursor: pointer;
+          }
+          .wildcard-tip {
+            .close-button {
+              display: none !important;
+            }
+            .wildcard-tooltip {
+              font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+              font-weight: normal;
+              width: 380px;
+              font-size: 15px;
+              line-height: 1.43;
+              text-align: left;
+              color: #FFF;
+              padding: 10px;
+            }
+          }
+        }
+        img {
+          -moz-transform: scale(-1, 1);
+          -webkit-transform: scale(-1, 1);
+          -o-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+          filter: FlipH;
+        }
+        .section-body {
+          padding-top: 1.5rem;
+        }
       }
 
       .section-body {
         color: #555;
 
-        p {
-          color: #555;
-        }
         a {
           &>div {
             margin-top: 0;
@@ -62,7 +77,6 @@
           .title {
             color: #000000;
             letter-spacing: 0.04rem;
-            font-weight: bold;
           }
           .citation {
 

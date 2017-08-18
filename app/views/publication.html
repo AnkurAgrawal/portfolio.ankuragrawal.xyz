@@ -1,0 +1,24 @@
+<div ng-if="publication" class="publication-page fadeIn animated">
+  <article role="article">
+    <header class="publication-banner">
+      <small class="muted">Publication</small>
+      <h3 sticky sticky-class="is-sticky" class="publication-page-heading left animated" id="pub-title">
+        <span class="publication-heading-seg-text">{{publication.title}} </span>
+        <b class="publication-page-heading-sec"></b>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y publication-details">
+      <section class="cell small-10">
+        <p class="muted citation section-body" ng-bind-html="publication.citation"></p>
+      </section>
+      <section class="cell small-10">
+        <h5 class="section-heading">Abstract</h5>
+        <p class="section-body">{{publication.abstract}}</p>
+      </section>
+      <section class="cell small-10">
+        <a class="section-body link" ng-href="{{publication.url}}" title="Checkout this paper on ACM" target="_blank" aria-haspopup="true"><em class="icon icon-eye"></em> <b>on ACM</b></a>
+      </section>
+    </div>
+  </article>
+</div>
+<ng-include ng-if="!publication" src="'views/404.html'"></ng-include>

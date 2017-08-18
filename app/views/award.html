@@ -1,0 +1,22 @@
+<div ng-if="award" class="award-page fadeIn animated">
+  <article role="article">
+    <header class="award-banner">
+      <small class="muted">Award</small>
+      <h3 sticky sticky-class="is-sticky" class="award-page-heading left animated" id="award-title">
+        <span class="award-heading-seg-text">{{award.title}} </span>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y award-details">
+      <section class="cell small-10">
+        <span class="muted organization section-body" ng-bind-html="award.organization"></span>
+      </section>
+      <section class="cell small-10">
+        <p class="section-body">{{award.description}}</p>
+      </section>
+      <section class="cell small-10">
+
+      </section>
+    </div>
+  </article>
+</div>
+<ng-include ng-if="!award" src="'views/404.html'"></ng-include>

@@ -1,0 +1,42 @@
+.publication-page {
+  p {
+    letter-spacing: 0.03rem;
+  }
+  .large-align-top {
+    @media screen and #{breakpoint(large)} {
+      align-items: flex-start;
+    }
+  }
+  .publication-page-heading {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+
+    &.is-sticky {
+      font-size: 2rem;
+      color: grey;
+      background-size: 400% 400%;
+    }
+  }
+
+  .publication-details {
+    margin-right: 3rem;
+
+    .citation {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+    .section-heading {
+      text-align: right;
+      color: #666;
+      display: inline-block;
+      font-weight: 500;
+      font-family: $heading-font-family;
+      text-transform: uppercase;
+    }
+    p.section-body, .section-body p {
+      color: #555;
+    }
+  }
+}

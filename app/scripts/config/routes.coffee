@@ -17,6 +17,31 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         about: (aboutService) ->
           aboutService.getData()
+    .when '/about/wildcard',
+      templateUrl: 'views/wildcard.html'
+      controller: 'WildcardCtrl'
+      controllerAs: 'wildcard'
+      title: 'wildcard'
+      bodyClass: 'wildcard'
+      resolve:
+        wildcardDefinition: (wildcardService) ->
+          wildcardService.getData()
+    .when '/about/publications/:publicationSlug',
+      templateUrl: 'views/publication.html'
+      controller: 'PublicationCtrl'
+      controllerAs: 'publication-details'
+      title: 'publication'
+      resolve:
+        publication: (publicationService, $route) ->
+          publicationService.getPublication($route.current.params.publicationSlug)
+    .when '/about/honors-and-awards/:awardSlug',
+      templateUrl: 'views/award.html'
+      controller: 'AwardCtrl'
+      controllerAs: 'award-details'
+      title: 'award'
+      resolve:
+        award: (awardService, $route) ->
+          awardService.getAward($route.current.params.awardSlug)
     .when '/portfolio',
       templateUrl: 'views/portfolio.html'
       controller: 'PortfolioCtrl'
