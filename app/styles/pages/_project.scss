@@ -1,114 +1,116 @@
 
-@-webkit-keyframes ChangingBackground {
-    0%{background-position:22% 0%}
-    50%{background-position:79% 100%}
-    100%{background-position:22% 0%}
-}
-@-moz-keyframes ChangingBackground {
-    0%{background-position:22% 0%}
-    50%{background-position:79% 100%}
-    100%{background-position:22% 0%}
-}
-@-o-keyframes ChangingBackground {
-    0%{background-position:22% 0%}
-    50%{background-position:79% 100%}
-    100%{background-position:22% 0%}
-}
-@keyframes ChangingBackground {
-    0%{background-position:22% 0%}
-    50%{background-position:79% 100%}
-    100%{background-position:22% 0%}
-}
-
 .project-page {
+
+  @-webkit-keyframes moveUp {
+    0% { }
+    100% { -webkit-transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes moveUp {
+    0% { }
+    100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+  }
+
+  --project-color: #43434A;
+
+  $itinerant-probes: rgba(100, 61, 187, 0.81);
+  $about: $primary-color;
+  $teaching-and-leadership: #80AB51;
+  $web-development: #597CCC;
+  $synku: #C45238;
+  $orchestable: #C84F5B;
+  $flame: #3F3F45;
+  $hollywood-stars: #7C488D;
+  $work-happy: #DA8540;
+  $image-processing: rgba(236, 129, 147, 0.741);
+  $sweet-treat: #efb45c;
+
+  --project-name: 'about';
+
+  &.itinerant-probes {
+    --project-name:  'itinerant-probes';
+    --project-color: $itinerant-probes;
+  }
+  &.about {
+    --project-name:  'about';
+    --project-color: $about;
+  }
+  &.teaching-and-leadership {
+    --project-name:  'teaching-and-leadership';
+    --project-color: $teaching-and-leadership;
+  }
+  &.web-development {
+    --project-name:  'web-development';
+    --project-color: $web-development;
+  }
+  &.synku {
+    --project-name:  'synku';
+    --project-color: $synku;
+  }
+  &.orchestable {
+    --project-name:  'orchestable';
+    --project-color: $orchestable;
+  }
+  &.flame {
+    --project-name:  'flame';
+    --project-color: $flame;
+  }
+  &.hollywood-stars {
+    --project-name:  'hollywood-stars';
+    --project-color: $hollywood-stars;
+  }
+  &.work-happy {
+    --project-name:  'work-happy';
+    --project-color: $work-happy;
+  }
+  &.image-processing {
+    --project-name:  'image-processing';
+    --project-color: $image-processing;
+  }
+  &.sweet-treat {
+    --project-name:  'sweet-treat';
+    --project-color: $sweet-treat;
+  }
+
   .large-align-top {
     @media screen and #{breakpoint(large)} {
       align-items: flex-start;
     }
   }
-  .project-page-heading {
+  .page-heading {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
 
-    -webkit-animation: ChangingBackground 5s ease infinite;
-    -moz-animation: ChangingBackground 5s ease infinite;
-    -o-animation: ChangingBackground 5s ease infinite;
-    animation: ChangingBackground 5s ease infinite;
-
     &.is-sticky {
-      font-size: 2rem;
-      color: grey;
-      background: linear-gradient(7deg, #fff, #fff);
-      background-size: 400% 400%;
+      font-size: 1.3rem;
     }
   }
 
   .intro {
-    font-size: 1.2rem;
+    font-family: "Open Sans";
+    font-size: 1.4rem;
     margin-top: 1rem;
     letter-spacing: 0.04rem;
+    border: 0;
+    // color: var(--project-color);
   }
 
   aside {
     padding: 20px;
     border-radius: 4px;
     margin-bottom: 25px;
-    background: #43434A;
-
-    &.itinerant-probes {
-      background: rgba(100, 61, 187, 0.81);
-    }
-
-    &.about {
-      background: $primary-color;
-    }
-
-    &.teaching-and-leadership {
-      background: #80AB51;
-    }
-
-    &.web-development {
-      background: #597CCC;
-    }
-
-    &.synku {
-      background: #C45238;
-    }
-
-    &.orchestable {
-      background: #C84F5B;
-    }
-
-    &.flame {
-      background: #3F3F45;
-    }
-
-    &.hollywood-stars {
-      background: #7C488D;
-    }
-
-    &.work-happy {
-      background: #DA8540;
-    }
-
-    &.gg {
-      background: #B66393;
-    }
-
-    &.colorstore {
-      background: #364E61;
-    }
+    background: var(--project-color);
 
     .metadata {
       margin-bottom: 20px;
+      color: #fff;
 
       &:last-child {
         margin-bottom: 0;
       }
       dt {
-        color: #fff;
         font-size: 0.93333em;
         font-weight: 400;
         font-family: $heading-font-family;
@@ -119,34 +121,93 @@
         font-weight: 200;
         margin-bottom: 1px;
         font-size: 15px;
-        color: #fff;
       }
     }
   }
 
   .project-details {
-    margin-right: 3rem;
-
-    .section-heading {
-      text-align: right;
-      color: #666;
-      display: inline-block;
-      font-weight: 500;
-      font-family: $heading-font-family;
-      text-transform: uppercase;
+    @include breakpoint(large) {
+      margin-right: 3rem;
     }
+    section {
+      .section-body {
+        letter-spacing: 0.05rem;
 
-    .section-body {
-      p {
-        color: #555;
+        .list, ul {
+          margin: 1rem;
+          color: #444;
+          font-size: 1rem;
+          font-family: "Open Sans";
+
+          span, li {
+            margin: 2rem 1rem 2rem 0rem;
+            padding-left: 1rem;
+            display: block;
+            border-left: 1px solid var(--project-color);
+
+            &:first-child {
+              margin-top: 1rem;
+            }
+          }
+        }
+        .design-process {
+          background-image: url("../images/projects/var(--project-name)/design-process-horizontal.jpg");
+          @media screen and #{breakpoint(small only)} {
+            background-image: url("../images/projects/var(--project-name)/design-process-vertical.jpg");
+          }
+        }
+        .image-container {
+          border-radius: 2px;
+          margin-bottom: 0.5rem;
+          display: inline-block;
+
+          &.shadow {
+            box-shadow: 0 0 10px rgba(0,0,0,.16);
+          }
+
+          &.animate {
+            -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+            -webkit-animation: moveUp 0.65s ease forwards;
+            animation: moveUp 0.65s ease forwards;
+          }
+
+          figure.image-wrapper {
+            img {
+              cursor: pointer;
+            }
+            figcaption {
+              display: none;
+              font-size: 12px;
+              color: #888;
+              margin-top: -13px;
+            }
+          }
+        }
+        .image-grid-container {
+          margin-bottom: 0.5rem;
+
+          .image-container {
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 0;
+
+            figure.image-wrapper {
+              transition: transform 0.5s ease;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
       }
     }
   }
 
   .voteup {
-    --like-box-background-color: #43434A;
-    --like-box-shadow-color: var(--like-box-background-color);
-    background: var(--like-box-background-color);
+    background: var(--project-color);
     height: 80px;
     width: 80px;
     border-radius: 100%;
@@ -158,57 +219,13 @@
     color: #fff;
     transition: box-shadow 0.3s ease-in-out;
 
-    &.itinerant-probes {
-      --like-box-background-color: rgba(100, 61, 187, 0.81);
-    }
-
-    &.about {
-      --like-box-background-color: $primary-color;
-    }
-
-    &.teaching-and-leadership {
-      --like-box-background-color: #80AB51;
-    }
-
-    &.web-development {
-      --like-box-background-color: #597CCC;
-    }
-
-    &.synku {
-      --like-box-background-color: #C45238;
-    }
-
-    &.orchestable {
-      --like-box-background-color: #C84F5B;
-    }
-
-    &.flame {
-      --like-box-background-color: #3F3F45;
-    }
-
-    &.hollywood-stars {
-      --like-box-background-color: #7C488D;
-    }
-
-    &.work-happy {
-      --like-box-background-color: #DA8540;
-    }
-
-    &.gg {
-      --like-box-background-color: #B66393;
-    }
-
-    &.colorstore {
-      --like-box-background-color: #364E61;
-    }
-
     em {
       font-size: 40px;
       padding-top: 0;
     }
 
     &:hover {
-      box-shadow: 0 0 0 3px var(--like-box-shadow-color);
+      box-shadow: 0 0 0 3px var(--project-color);
       color: #fff;
     }
 
@@ -273,5 +290,15 @@
       }
     }
   }
-
+}
+.web-development {
+  figure {
+    align-items: flex-start;
+    overflow: hidden;
+    height: 150px;
+  }
+  figure img {
+    min-height: 100%;
+    max-width: 100%;
+  }
 }

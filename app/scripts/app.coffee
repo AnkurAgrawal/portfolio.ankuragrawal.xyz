@@ -25,4 +25,5 @@
     'duScroll'
     'flickr'
     'hj.scrollMagic'
+    'angular-bind-html-compile'
   ]
