@@ -1,41 +1,27 @@
-
-<!--
-<div class="grid-container">
-  <div class="grid-x grid-padding-x">
-    <a href="portfolio/{{project.id.oid}}" class="cell project-link animated fadeInUp project-item zoom flex-child-grow {{project.size}}-4" ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived">
-      <div class="card">
-        <img src="{{project.thumbnail}}">
-        <div class="card-section">
-          <h6>{{project.title}}</h6>
-          <p><small>{{project.shortDescription}}</small></p>
+<div class="portfolio-page fadeIn animated">
+  <ul role="region" aria-relevant="Project filtered" class="portfolio-grid">
+    <li ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived" class="project-item zoom {{project.size}}">
+      <a ng-href="portfolio/{{project.slug}}" class="project-link animated fadeInUp">
+        <div class="project" class="">
+          <div class="project-thumb" ng-style='projectThumb(project.slug)'></div>
+          <div class="project-title">
+            <h2><span class="sr-only">Project Name: </span>{{project.title}}</h2>
+            <small><span class="sr-only">Project Tags: </span>{{project['short-description']}}</small>
+          </div>
+          <div class="tick tip-top tip-center" ng-if='projectSeen("/portfolio/"+ project.slug)' title="You have seen this project!" data-tooltip data-options="disable_for_touch:true" aria-haspopup="true">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24.3 14.6" enable-background="new 0 0 24.3 14.6" xml:space="preserve" style='height: 11px;'>
+              <g>
+                <path fill="#fff" d="M0.1,7.7C0,7.9,0,8.1,0.1,8.3c0,0,6.1,6.1,6.3,6.1c0.1,0,0.5,0,0.5,0C7.2,14,15.5,2.5,15.5,2.5
+                          c0.1-0.1,0.6-0.8,0.9-1.3c0.3-0.7,0.4-1.1,0-1.2c-0.4-0.1-1,0.5-1.4,0.8c0,0-6.1,6.8-7.9,8.6C6.8,9.6,6.4,9.7,6.1,9.5L2.3,7.1
+                        C2.2,7,1.1,6.5,1.1,6.5C1,6.5,0.8,6.6,0.7,6.7L0.1,7.7z"></path>
+                <path fill="#fff" d="M10.6,11.1c0,0,2.5,2.7,3.5,3.4c0.2,0.1,0.4,0,0.5,0l0,0c0.2,0,8.6-11.9,8.6-11.9c0.1-0.1,0.6-0.8,0.9-1.3
+                          c0.3-0.7,0.4-1.1,0-1.2c-0.4-0.1-1,0.5-1.4,0.8c0,0-6.2,6.9-7.9,8.6c-0.1,0.1-0.3,0.3-0.4,0.4c-0.2,0-0.3-0.2-0.5-0.3l-1.4-0.9
+                        L10.6,11.1z"></path>
+              </g>
+            </svg>
+          </div>
         </div>
-      </div>
-    </a>
-  </div>
+      </a>
+    </li>
+  </ul>
 </div>
--->
-<ul role="region" aria-relevant="Project filtered" class="portfolio-grid">
-  <li ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived" class="project-item zoom {{project.size}}">
-    <a ng-href="portfolio/{{project.slug}}" class="project-link animated fadeInUp">
-      <div class="project" class="">
-        <div class="project-thumb" ng-style='projectThumb(project.slug)'></div>
-        <div class="project-title">
-          <h2><span class="sr-only">Project Name: </span>{{project.title}}</h2>
-          <small><span class="sr-only">Project Tags: </span>{{project['short-description']}}</small>
-        </div>
-        <div class="tick tip-top tip-center" ng-if='projectSeen("/portfolio/"+ project.slug)' title="You have seen this project!" data-tooltip data-options="disable_for_touch:true" aria-haspopup="true">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24.3 14.6" enable-background="new 0 0 24.3 14.6" xml:space="preserve" style='height: 11px;'>
-            <g>
-              <path fill="#fff" d="M0.1,7.7C0,7.9,0,8.1,0.1,8.3c0,0,6.1,6.1,6.3,6.1c0.1,0,0.5,0,0.5,0C7.2,14,15.5,2.5,15.5,2.5
-                        c0.1-0.1,0.6-0.8,0.9-1.3c0.3-0.7,0.4-1.1,0-1.2c-0.4-0.1-1,0.5-1.4,0.8c0,0-6.1,6.8-7.9,8.6C6.8,9.6,6.4,9.7,6.1,9.5L2.3,7.1
-                      C2.2,7,1.1,6.5,1.1,6.5C1,6.5,0.8,6.6,0.7,6.7L0.1,7.7z"></path>
-              <path fill="#fff" d="M10.6,11.1c0,0,2.5,2.7,3.5,3.4c0.2,0.1,0.4,0,0.5,0l0,0c0.2,0,8.6-11.9,8.6-11.9c0.1-0.1,0.6-0.8,0.9-1.3
-                        c0.3-0.7,0.4-1.1,0-1.2c-0.4-0.1-1,0.5-1.4,0.8c0,0-6.2,6.9-7.9,8.6c-0.1,0.1-0.3,0.3-0.4,0.4c-0.2,0-0.3-0.2-0.5-0.3l-1.4-0.9
-                      L10.6,11.1z"></path>
-            </g>
-          </svg>
-        </div>
-      </div>
-    </a>
-  </li>
-</ul>
