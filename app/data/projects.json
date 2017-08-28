@@ -272,7 +272,7 @@
       "title": "Web Development",
       "timeline" : "2012/02/01 - 2014/03/31",
       "intro": "During my career as a founder of Trionix Solutions, I worked on designing and developing websites and mobile applications.",
-      "description": ".",
+      "description": "<div class=\"grid-x grid-margin-x grid-margin-y container image-grid-contrainer\"> <div class=\"cell small-12 medium-6 large-4 item\" ng-repeat=\"image in [ {alt: 'Sugandh Tea', name:'sugandh-tea.jpg'}, {alt: 'ValueKojen - Business Registration Company', name:'value-kojen.jpg'}, {alt: 'Just Kiding', name:'just-kiding.jpg'}, {alt: 'Trionix Solutions', name:'trionix.jpg'}, {alt: 'SSTPL', name:'sstpl.jpg'}, {alt: 'OMyDocs', name:'omydocs.jpg'}, {alt: 'Akshayam, MDI', name:'mdi-akshayam.jpg'}, {alt: 'Natyasudha', name:'natyasudha.jpg'}, {alt: 'SociAlert.in', name:'socialert.jpg'}, {alt: 'TCHK', name:'thakral.jpg'}, {alt: 'Bachelor of Comedy', name:'bachelor-of-comedy.jpg'}, {alt: 'Cerule Consulting', name:'cerule-consulting.jpg'}, {alt: 'ASL HR Solutions', name:'aslhr.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" alt=\"{{image.alt}}\" data-width=\"{{image.width ? image.width : 1080}}\" data-height=\"{{image.height ? image.height : 720}}\"></project-image-container> </div></div>",
       "role": "Founder, Designer, Developer",
       "tools": "",
       "external-links": [],
