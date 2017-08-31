@@ -21,6 +21,7 @@ ankuragrawalApp
       iAttrs.templateUrl
     link: (scope, element, attrs) ->
       console.log attrs
+      scope.youtube = 'true' if attrs.youtube is ''
       scope.mp4 = 'true' if attrs.mp4 is ''
       scope.webm = 'true' if attrs.webm is ''
       scope.showDownload = 'true' if attrs.showDownload is ''
