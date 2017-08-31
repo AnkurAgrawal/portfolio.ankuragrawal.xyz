@@ -13,13 +13,24 @@
         ng-src="{{src}}.webm"
         type="video/webm">
     </video>
-    <iframe ng-if="youtube"
-      type="text/html"
-      width="{{width}}"
-      height="{{height}}"
-      ng-src="{{ src | youtubeEmbedUrl }}"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
+    <embed-video ng-if="youtube"
+      ng-href="{{ src | youtubeEmbedUrl}}"
+      force-protocol="https"
+      width="{{width}}px"
+      height="{{height}}px"
+      disablekb="true"
+      controls=0>
+      <a href="{{ src | youtubeEmbedUrl}}">Watch</a>
+    </embed-video>
+    <embed-video ng-if="vimeo"
+      api="1"
+      ng-href="{{ src | vimeoEmbedUrl}}"
+      force-protocol="https"
+      width="{{width}}px"
+      height="{{height}}px"
+      disablekb="true"
+      controls=0>
+      <a href="{{ src | vimeoEmbedUrl}}">Watch</a>
+    </embed-video>
   </div>
 </div>
