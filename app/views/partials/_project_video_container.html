@@ -1,0 +1,10 @@
+<div class="video-container shadow {{class}}">
+  <span class="video-caption">{{caption}}</span>
+  <div class="player only-progress">
+    <video controls poster="{{poster}}" width="{{width}}" height="{{height}}">
+      <source ng-if="mp4" src="{{src}}.mp4" type="video/mp4">
+      <source ng-if="webm" ng-src="{{src}}.webm" type="video/webm">
+      <a ng-if="showDownload" ng-href="{{src}}.mp4">Download</a>
+    </video>
+  </div>
+</div>
