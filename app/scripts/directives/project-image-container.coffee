@@ -19,5 +19,5 @@ ankuragrawalApp
         iAttrs.templateUrl = "views/partials/_project_image_container.html"
       iAttrs.templateUrl
     link: (scope, element, attrs) ->
-      scope.width = attrs.width ? attrs.width || '2160'
-      scope.height = attrs.height ? attrs.height || '1440'
+      scope.width = if attrs.width then attrs.width else '2160'
+      scope.height = if attrs.height then attrs.height else '1440'

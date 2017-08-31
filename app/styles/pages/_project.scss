@@ -163,6 +163,10 @@
 
           &.shadow {
             box-shadow: 0 0 10px rgba(0,0,0,.16);
+
+            &-purple {
+              box-shadow: 0 0 10px rgba(111, 73, 157, 1);
+            }
           }
 
           &.animate {
@@ -180,8 +184,12 @@
               display: none;
               font-size: 12px;
               color: #888;
-              margin-top: -13px;
+              text-align: center;
             }
+          }
+
+          &.show-caption figure figcaption {
+            display: block;
           }
         }
         .image-grid-container {
