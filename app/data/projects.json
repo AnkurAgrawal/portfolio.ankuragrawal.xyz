@@ -1,9 +1,4 @@
-
 {
-  "portfolio-sidebar" : {
-    "question": "Why I design technology, you ask...",
-    "answer": "<strong>started with a desire</strong> to explore science and technology, I begin to dive into making it. Soon after, I realize before making technology I have to learn designing technology considering people who will be using it. It changed my perspective about how I used to design atechnology driven experience, from a technology centric design to human centric design. <strong>Now it's a passion!</strong>"
-  },
   "projects":[
     {
       "archived": false,
@@ -129,7 +124,7 @@
     },
     "orchestable": {
       "title": "Orchestable",
-      "timeline" : "09/01/2011 - 05/15/2012",
+      "timeline" : "09/01/2011 - 01/15/2012",
       "intro": "a system that provides a digital multi-touch interface to a group of people for playing multiple musical instruments simultaneously through a natural user interface with broader accessibility and flexibility.",
       "description": ".",
       "tags": "UX Design, Prototyping",
@@ -144,14 +139,16 @@
     },
     "toothgloss": {
       "title": "Toothgloss",
-      "timeline" : "2017/01/01 - 2017/12/12",
+      "timeline" : "2014/10/01 - 2014/12/10",
       "intro": "an advanced interdental cleaning system, to be used as a replacement, or supplement to traditional flossing.",
-      "description": ".",
+      "description": "<project-image-container src=\"{{getCurrentProjectImageAssetUrl('hardware_1.jpg')}}\" alt=\"ToothGloss\" width=\"720\" height=\"405\"></project-image-container><p>The goal of this product is to make the activity of interdental cleaning fit better within people’s lives, allowing them to use the product regularly to improve their dental health. ToothGloss includes advanced technology gum-like Gloss sticks within a SmartBox, whose interactive digital screen empowers the users to set goals and schedules that work for their lives.</p><section> <h6 class=\"section-heading\">Problem Statement</h6> <div class=\"section-body\"> <p>The modern day medical system has learned what it takes to maintain healthy teeth throughout one’s lifetime, and created technology to enable users to act towards this endeavor. Yet, the rate of preventable oral disease remains high, even among highly educated populations with access to medical tools and expertise. What can be done to decrease these disease rates?</p> <p>To ansnwer this question, we started out with conducting user research.</p> <p><strong>Secondary Research:</strong> We focused on working-age adults for the purposes of this study. This was defined as ages 16 through 60, encompassing the time when the mouth has fully matured up to the health changes of later life. We categorized our findings by Cause & Fix, to help identify which problems were best to investigate. We found that 40% of the working-age adults are facing dental health issues with gum desease and tooth decay being the most common of them. Best fixes for the health issue are preventative: Fluoridated water, Brush twice daily, and Floss daily. Among these flossing was least popular and performed less frequently. That became the focus of our project.</p> <p><strong>Questionnaire:</strong> Armed with a narrowed focus on interdental cleaning, it was time to consult the users about their practices at home, so we created a <a class=\"link\" target=\"_blank\" href=\"http://www.surveygizmo.com/s3/1863812/Interdental-Cleaning\">Questionnaire</a> using SurveyGizmo. Some survey findings:</p> <ul> <li>51% do not/believe they do not have time or think flossing takes too long</li> <li>46% don’t feel the need to floss because they brush well</li> <li>43% forget</li> <li>12% feel lazy</li> </ul> <p><strong>Semi-Structured Interviews:</strong> These were performed by asking interviewees questions about their dental hygiene practices and motivations behind them. These conversations were open-ended and only prompted when needed, allowing the user to provide the most unbiased information.</p> <ul> <li>Confirmed lack of flossing because people feel they do not have time.</li> <li>Revealed issues w/ taste, difficulty w/ mouth hardware, effects of conversations with dental hygienists</li> </ul> </div></section><section> <h6 class=\"section-heading\">Design Question</h6> <div class=\"section-body\"> <p>From our findings, we derived the design question to guide us during the ideation phase.</p> <blockquote class=\"intro\">How can we improve the frequency and quality of user-performed interdental cleaning among working-age adults?</blockquote> <p>Our research showed that the design should:</p> <ul> <li>be portable</li> <li>be quick to use and/or hands-free to allow multitasking</li> <li>show before and after results or provide other immediate feedback</li> <li>inform the user of health risks</li> <li>remind the user to perform interdental cleaning</li> <li>have neutral taste and be pain free</li> </ul> </div></section><section> <h6 class=\"section-heading\">Ideation</h6> <p>For ideation all of the group members brought sketches of their concepts and shared with the entire group. We disected each concepts to extract the underlying features and put them up on the board. Later we sorted the features by categories, then ranking them within each category. The features ranking higher in each category were pulled together and re-organized into artifact combinations & re-sketched for a list of potential final design concepts.</p> <div class=\"section-body\"> <p></p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-12 large-12\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_1.jpg')}}\" data-width=\"1024\" data-height=\"239\"></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_2.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_3.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_4.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> </div> <p></p> <h6>Suction Wand</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_1.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_2.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> </div> <p>The SuctionWand is perhaps the most familiar dental product as a comparable suction device is currently used in dental offices and it looks similar to an electric toothbrush or Waterpik®. The user manually moves the wand around their mouth while it provides suction to remove the plaque around and in between the teeth. It uses an ultrasonic pulses to loosen plaque that may be too dried on for the vacuum to remove. Being a portable onehanded device it allows for a semimultitasking experience. The product is also reusable, making it more expensive up front, but longerlasting and less wasteful. The wand notifies the user via a series of beeps when this needs to be performed.</p> <h6>ToothGloss</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_1.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_2.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> </div> <p>ToothGloss is gum that flosses. Less viscous and more sticky than typical chewing gum, it flows between and around the teeth, grabbing the plaque. Upon spitting out the gum, the user can see the removed items stuck in the substance, giving immediate results. It is portable, handfree, cheap and disposable and also comes in different flavors. Its case has a slot for each day of the month, visually reminding the consumer to use the product. While gum is a familiar object, it is not made for every type of user. Those with temporomandibular joint disorder (TMJ), cannot chew gum frequently.</p> <h6>FlossBots</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_1.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_2.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_3.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> </div> <p>FlossBots are microscopic robots contained within a userfriendly liquid medium. Using mass spectrometertype technology, they seek out the plaque in between and around the users’ teeth, and then target those locations for scrubbingstyle cleaning. Delivery as a liquid enables the user flexibility of where to use the product; in their home or on the go. Unlike floss, FlossBots is painfree and handsfree, allowing the user to multitask. Results are confirmed when the user spits out the cleaner; removed plaque can be viewed as a different color in the liquid.</p> </div></section><section> <h6 class=\"section-heading\">Prototyping</h6> <div class=\"section-body\"> <p>Out of the three shortlisted design solutions we chose the ToothGloss as it allowed us to prototype five out of six of our design criteria. We created a low-tech box out of cardboard, and springs with a digital interface on the box using phone. The case has visual reminder slots for each day. In the short time flow of this project we were unable to obtain color changing gum to simulate plaque detection, however we were able to create a small and light portable box containing pain-free, taste optional (mint in this case), hands-free gum. The box’s screen interface allows the user to set goals and reminders and display informational health tips as seen in the snamshots below.</p> </div></section><section> <h6 class=\"section-heading\">Physical Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'hardware_2.jpg'}, {'name':'hardware_3.jpg'}, {'name':'hardware_4.jpg'}, {'name':'hardware_5.jpg'}, {'name':'hardware_1.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Digital Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'goal_1.jpg'}, {'name':'goal_2.jpg'}, {'name':'goal_3.jpg'}, {'name':'risk_1.jpg'}, {'name':'risk_2.jpg'}, {'name':'reminder_1.jpg'}, {'name':'reminder_2.jpg'}, {'name':'reminder_3.jpg'}, {'name':'reminder_4.jpg'}, {'name':'reminder_5.jpg'}, {'name':'reminder_6.jpg'}, {'name':'reminder_7.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Usability testing</h6> <div class=\"section-body\"> <p>The evaluations were performed in the “wild” or uncontrolled environment of the school campus. After a brief introduction to the purpose of our system, the testers went through a series of tasks while thinking aloud.</p> <p>The users found a variety of places for improvement. Some particularly notable findings:</p> <ul> <li>one user was unfamiliar with flossing (cultural difference) and such we were solving a problem he did not have and gave him a little extra introduction to the situation.</li> <li>Two of the users were unaware that the alarm sound was in-fact meant for them, an apparent hazard of Wizard-of-Oz features in an uncontrolled environment.</li> <li>Minor tweaks were made to the interface between users, so they had slightly different experiences.</li> <li>Between the first and second tests we changed the screen resolution (switched phones) for a better user experience, and between the second and third tests we made some changes to the box labelling, adding a title and moving the day-by-day tickmarks per user suggestion.</li> </ul> <div class=\"callout\"> <h6>Evaluation Tasks</h6> <p>Please read this paragraph out loud to become comfortable with narrating your thoughts for us:</p> <p>ToothGloss is an advanced flossing system. The futuristic gum can target and clean plaque between the teeth without the need for traditional flossing. This is an early prototype. Please complete the tasks below, talking aloud as you go. It is helpful to us if you narrate your thoughts, good, bad, weird etc during the evaluation.</p> <ol> <li>Add a goal to gloss weekdays at 7am</li> <li>Add a reminder for 7am on weekdays</li> <li>Add another goal to gloss on weekends</li> <li>Set a reminder for Saturday at 3pm</li> <li>Review the risks of not flossing</li> <li>When your weekend alarm goes off, take out a piece of advanced technology gloss gum</li> <li>Approximate which day’s gum you selected. Which day of which week was it?</li> <li>Find out more information about one of the risks</li> </ol> <h6>Post-Evaluation Questionnaire</h6> <ol> <li>When performing the ToothGloss tasks, was anything confusing?</li> <li>When working with the interface, did ToothGloss do what you expected?</li> <li>What features did you like?</li> <li>What features need improvement or were missing?</li> <li>Would such a product motivate you to floss more?</li> </ol> </div> </div></section>",
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
       "team": "Ankur Agrawal, Alysse Gallo, Meredith Anderson",
-      "external-links": [],
+      "external-links": [
+        "{\"file\":\"files/toothgloss-design-specification.pdf\",\"title\":\"design specification for Toothgloss\",\"caption\":\"design specification\"}"
+      ],
       "votes": 0,
       "views": 0
     },
@@ -213,6 +210,7 @@
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
+      "team": "Ankur Agrawal",
       "external-links": [],
       "votes": 0,
       "views": 0
@@ -220,7 +218,7 @@
     "hollywood-stars": {
       "title": "Hollywood Stars",
       "timeline" : "2017/01/01 - 2017/12/12",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
       "description": ".",
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
@@ -376,18 +374,28 @@
         "organization": "Ministry of Human Resource Development (MHRD), Government of India",
         "date": "June 2008- June 2012"
       }
-    }
+    },
+    "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"]
   },
   "hobbies": {
-    "photography": "",
-    "archery": "",
-    "sketching": "",
-    "violin": "",
-    "boxing": "",
-    "cooking": "",
-    "hiking": "",
-    "bouldering": "",
-    "bōjutsu": ""
+    "photography": {
+    },
+    "archery": {
+    },
+    "sketching": {
+    },
+    "violin": {
+    },
+    "boxing": {
+    },
+    "cooking": {
+    },
+    "hiking": {
+    },
+    "bouldering": {
+    },
+    "bōjutsu": {
+    }
   },
   "publications": {
     "synku-exploring-the-production-of-sensory-objects": {
