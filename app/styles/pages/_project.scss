@@ -13,63 +13,24 @@
 
   --project-color: #43434A;
 
-  $itinerant-probes: rgba(100, 61, 187, 0.81);
-  $about: $primary-color;
-  $teaching-and-leadership: #80AB51;
-  $web-development: #597CCC;
-  $synku: #C45238;
-  $orchestable: #C84F5B;
-  $flame: #3F3F45;
-  $hollywood-stars: #7C488D;
-  $work-happy: #DA8540;
-  $image-processing: rgba(236, 129, 147, 0.741);
-  $sweet-treat: #efb45c;
-
-  --project-name: 'about';
-
-  &.itinerant-probes {
-    --project-name:  'itinerant-probes';
-    --project-color: $itinerant-probes;
-  }
-  &.about {
-    --project-name:  'about';
-    --project-color: $about;
-  }
-  &.teaching-and-leadership {
-    --project-name:  'teaching-and-leadership';
-    --project-color: $teaching-and-leadership;
-  }
-  &.web-development {
-    --project-name:  'web-development';
-    --project-color: $web-development;
-  }
-  &.synku {
-    --project-name:  'synku';
-    --project-color: $synku;
-  }
-  &.orchestable {
-    --project-name:  'orchestable';
-    --project-color: $orchestable;
-  }
-  &.flame {
-    --project-name:  'flame';
-    --project-color: $flame;
-  }
-  &.hollywood-stars {
-    --project-name:  'hollywood-stars';
-    --project-color: $hollywood-stars;
-  }
-  &.work-happy {
-    --project-name:  'work-happy';
-    --project-color: $work-happy;
-  }
-  &.image-processing {
-    --project-name:  'image-processing';
-    --project-color: $image-processing;
-  }
-  &.sweet-treat {
-    --project-name:  'sweet-treat';
-    --project-color: $sweet-treat;
+  $project-colors: (
+    itinerant-probes: rgba(100, 61, 187, 0.81),
+    about: $primary-color,
+    toothgloss: #309591,
+    teaching-and-leadership: #80AB51,
+    web-development: #597CCC,
+    synku: #C45238,
+    orchestable: #C84F5B,
+    flame: #3F3F45,
+    hollywood-stars: #7C488D,
+    work-happy: #DA8540,
+    image-processing: rgba(236, 129, 147, 0.741),
+    sweet-treat: #efb45c
+  );
+  @each $project-slug, $project-color in $project-colors {
+    &.#{$project-slug} {
+      --project-color: $project-color;
+    }
   }
 
   .large-align-top {
@@ -94,7 +55,6 @@
     margin-top: 1rem;
     letter-spacing: 0.04rem;
     border: 0;
-    // color: var(--project-color);
   }
 
   aside {
@@ -150,13 +110,7 @@
             }
           }
         }
-        .design-process {
-          background-image: url("../images/projects/var(--project-name)/design-process-horizontal.jpg");
-          @media screen and #{breakpoint(small only)} {
-            background-image: url("../images/projects/var(--project-name)/design-process-vertical.jpg");
-          }
-        }
-        .image-container {
+        %media-container {
           border-radius: 2px;
           margin-bottom: 0.5rem;
           display: inline-block;
@@ -175,11 +129,32 @@
             -webkit-animation: moveUp 0.65s ease forwards;
             animation: moveUp 0.65s ease forwards;
           }
+        }
+
+        .video-container {
+          @extend %media-container;
+
+          box-sizing: border-box;
+        }
+
+        .image-container {
+          @extend %media-container;
+
+          overflow: hidden;
+          position: relative;
+          margin-bottom: 0;
 
           figure.image-wrapper {
+            transition: transform 0.5s ease;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+
             img {
               cursor: pointer;
             }
+
             figcaption {
               display: none;
               font-size: 12px;
@@ -194,21 +169,6 @@
         }
         .image-grid-container {
           margin-bottom: 0.5rem;
-
-          .image-container {
-            display: inline-block;
-            overflow: hidden;
-            position: relative;
-            margin-bottom: 0;
-
-            figure.image-wrapper {
-              transition: transform 0.5s ease;
-
-              &:hover {
-                transform: scale(1.1);
-              }
-            }
-          }
         }
       }
     }

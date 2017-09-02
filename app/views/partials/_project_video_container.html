@@ -1,36 +1,34 @@
 <div class="video-container shadow {{class}}">
   <span ng-if="caption" class="video-caption">{{caption}}</span>
-  <div class="player only-progress">
-    <video ng-if="mp4 || webm"
-      controls
-      poster="{{poster}}"
-      width="{{width}}"
-      height="{{height}}">
-      <source ng-if="mp4"
-        src="{{src}}.mp4"
-        type="video/mp4">
-      <source ng-if="webm"
-        ng-src="{{src}}.webm"
-        type="video/webm">
-    </video>
-    <embed-video ng-if="youtube"
-      ng-href="{{ src | youtubeEmbedUrl}}"
-      force-protocol="https"
-      width="{{width}}px"
-      height="{{height}}px"
-      disablekb="true"
-      controls=0>
-      <a href="{{ src | youtubeEmbedUrl}}">Watch</a>
-    </embed-video>
-    <embed-video ng-if="vimeo"
-      api="1"
-      ng-href="{{ src | vimeoEmbedUrl}}"
-      force-protocol="https"
-      width="{{width}}px"
-      height="{{height}}px"
-      disablekb="true"
-      controls=0>
-      <a href="{{ src | vimeoEmbedUrl}}">Watch</a>
-    </embed-video>
-  </div>
+  <video ng-if="mp4 || webm"
+    controls
+    poster="{{poster}}"
+    width="{{width}}"
+    height="{{height}}">
+    <source ng-if="mp4"
+      src="{{src}}.mp4"
+      type="video/mp4">
+    <source ng-if="webm"
+      ng-src="{{src}}.webm"
+      type="video/webm">
+  </video>
+  <embed-video ng-if="youtube"
+    ng-href="{{ src | youtubeEmbedUrl}}"
+    force-protocol="https"
+    width="{{width}}px"
+    height="{{height}}px"
+    disablekb="true"
+    controls=0>
+    <a href="{{ src | youtubeEmbedUrl}}">Watch</a>
+  </embed-video>
+  <embed-video ng-if="vimeo"
+    api="1"
+    ng-href="{{ src | vimeoEmbedUrl}}"
+    force-protocol="https"
+    width="{{width}}px"
+    height="{{height}}px"
+    disablekb="true"
+    controls=0>
+    <a href="{{ src | vimeoEmbedUrl}}">Watch</a>
+  </embed-video>
 </div>

@@ -22,17 +22,4 @@
     height: 1px;
     background-image: linear-gradient(to right, rgba(200, 200, 200, 0.75), rgba(200, 200, 200, 0.75), rgba(0, 0, 0, 0));
   }
-
-  .subheader {
-    line-height: 1.6;
-    font-family: Montserrat;
-  }
-
-  p.subheader {
-    font-weight: 200;
-
-    strong {
-      font-weight: normal;
-    }
-  }
 }

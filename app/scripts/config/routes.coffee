@@ -50,8 +50,6 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         projects: (projectService) ->
           projectService.getProjectsList()
-        sidebarQnA: (sidebarService) ->
-          sidebarService.getQnA()
     .when '/portfolio/:projectSlug',
       templateUrl: 'views/project.html'
       controller: 'ProjectCtrl'
