@@ -1,0 +1,18 @@
+<div class="grid-x grid-margin-x grid-margin-y container image-grid-contrainer">
+  <div class="cell small-12 medium-6 large-4 item" ng-repeat="image in [
+  {alt: 'Sugandh Tea', name:'sugandh-tea.jpg', height:'862', width:'1024'},
+  {alt: 'ValueKojen - Business Registration Company', name:'value-kojen.jpg', height:'768', width:'1024'},
+  {alt: 'Just Kiding', name:'just-kiding.jpg', height:'520', width:'720'},
+  {alt: 'Trionix Solutions', name:'trionix.jpg', height:'1203', width:'1067'},
+  {alt: 'SSTPL', name:'sstpl.jpg', height:'1280', width:'1372'},
+  {alt: 'OMyDocs', name:'omydocs.jpg', height:'1024', width:'1121'},
+  {alt: 'Akshayam, MDI', name:'mdi-akshayam.jpg', height:'690', width:'1287'},
+  {alt: 'Natyasudha', name:'natyasudha.jpg', height:'734', width:'1280'},
+  {alt: 'SociAlert.in', name:'socialert.jpg', height:'778', width:'1282'},
+  {alt: 'TCHK', name:'thakral.jpg', height:'908', width:'1024'},
+  {alt: 'Bachelor of Comedy', name:'bachelor-of-comedy.jpg', height:'768', width:'1077'},
+  {alt: 'Cerule Consulting', name:'cerule-consulting.jpg', height:'1518', width:'942'},
+  {alt: 'ASL HR Solutions', name:'aslhr.jpg', height:'1115', width:'720'}]">
+    <project-image-container src="{{getCurrentProjectImageAssetUrl(image.name)}}" alt="{{image.alt}}" data-width="{{image.width ? image.width : 1080}}" data-height="{{image.height ? image.height : 720}}"></project-image-container>
+  </div>
+</div>
