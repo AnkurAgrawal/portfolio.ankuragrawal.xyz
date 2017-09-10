@@ -25,7 +25,10 @@
     hollywood-stars: #7C488D,
     work-happy: #DA8540,
     image-processing: rgba(236, 129, 147, 0.741),
-    sweet-treat: #efb45c
+    sweet-treat: #efb45c,
+    goslometer: #efb45c,
+    intel-internship: #efb45c,
+    visual-design-and-3d-model-collection: #efb45c
   );
   @each $project-slug, $project-color in $project-colors {
     &.#{$project-slug} {
@@ -93,6 +96,10 @@
       .section-body {
         letter-spacing: 0.05rem;
 
+        .description a.link[target="_blank"]:after {
+          @include target-blank-icon;
+        }
+
         .list, ul {
           margin: 1rem;
           color: #444;
@@ -153,6 +160,8 @@
 
             img {
               cursor: pointer;
+              width: 100%;
+              color: #aaa;
             }
 
             figcaption {
@@ -258,15 +267,16 @@
       }
     }
   }
-}
-.web-development {
-  figure {
-    align-items: flex-start;
-    overflow: hidden;
-    height: 150px;
-  }
-  figure img {
-    min-height: 100%;
-    max-width: 100%;
+
+  &.web-development {
+    figure {
+      align-items: flex-start;
+      overflow: hidden;
+      height: 150px;
+    }
+    figure img {
+      min-height: 100%;
+      max-width: 100%;
+    }
   }
 }

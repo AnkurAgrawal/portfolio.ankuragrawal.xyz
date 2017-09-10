@@ -3,7 +3,7 @@
     <li ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived" class="project-item zoom {{project.size}}">
       <a ng-href="portfolio/{{project.slug}}" class="project-link animated fadeInUp">
         <div class="project" class="">
-          <div class="project-thumb" ng-style='projectThumb(project.slug)'></div>
+          <div class="project-thumb {{project.slug}}"></div>
           <div class="project-title">
             <h2><span class="sr-only">Project Name: </span>{{project.title}}</h2>
             <small><span class="sr-only">Project Tags: </span>{{project['short-description']}}</small>

@@ -11,5 +11,3 @@ ankuragrawalApp
   .controller '404Ctrl', ($rootScope, $scope) ->
     $rootScope.landing = false
 
-    $scope.get404Svg = ->
-      "#{this.getImageAssetUrl()}404.svg"

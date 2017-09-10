@@ -55,7 +55,7 @@
           text-transform: uppercase;
         }
 
-        &.project-external-links .section-body, .section-body {
+        &.project-external-links .section-body {
           &.link, a.link {
             border: 1px solid #7B0000;
             padding: 0.5rem;
@@ -79,9 +79,6 @@
           }
           &.link, a.link {
             color: #7B0000;
-          }
-          a.link[target="_blank"]:after {
-            @include target-blank-icon;
           }
           .callout {
             background-color: #FCFCFC;

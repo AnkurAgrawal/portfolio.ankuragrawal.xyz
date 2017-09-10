@@ -13,9 +13,14 @@
       &.intro {
         letter-spacing: 0.04rem;
 
+        .section-head {
+          display: inline-block;
+          text-align: initial;
+        }
+
         .sub-heading {
           font-size: 1.5rem;
-          color: #444;
+          color: #5d5d5d;
           font-weight: bold;
           font-family: "Open sans";
 
@@ -40,11 +45,6 @@
           }
         }
         img {
-          -moz-transform: scale(-1, 1);
-          -webkit-transform: scale(-1, 1);
-          -o-transform: scale(-1, 1);
-          transform: scale(-1, 1);
-          filter: FlipH;
         }
         .section-body {
           padding-top: 1.5rem;
@@ -248,7 +248,7 @@
       font-size: 50px;
       line-height: 200px;
 
-      svg {
+      svg, img {
         pointer-events: none;
         width: 50%;
         height: 50%;
@@ -257,7 +257,9 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
+        &.default path {
+          fill: transparentize($wet-asphalt, .8);
+        }
       }
     }
   }

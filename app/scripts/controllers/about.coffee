@@ -16,8 +16,8 @@ ankuragrawalApp
 
     $scope.about = about
 
-    $scope.profileThumb = ->
-      "#{this.getImageAssetUrl()}about/profile1.jpg"
+    $scope.getProfileImageUrl = ->
+      "#{this.getImageAssetUrl()}about/ankur.jpg"
 
     $scope.getHobbyImageUrl = (hobby) ->
       "#{this.getImageAssetUrl()}about/hobbies/#{hobby}.svg"
