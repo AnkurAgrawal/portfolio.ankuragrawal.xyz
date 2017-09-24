@@ -93,12 +93,13 @@
       margin-right: 3rem;
     }
     section {
+      &.description .section-body a.link[target="_blank"]:after {
+        @include target-blank-icon;
+      }
+
       .section-body {
         letter-spacing: 0.05rem;
 
-        .description a.link[target="_blank"]:after {
-          @include target-blank-icon;
-        }
 
         .list, ul {
           margin: 1rem;
