@@ -49,7 +49,7 @@
       "size": "medium"
     },
     {
-      "archived": false,
+      "archived": true,
       "id": "92ec77835d0373ee0e96da5d1c087f13",
       "title": "Teaching and Leadership",
       "slug": "teaching-and-leadership",
@@ -57,7 +57,7 @@
       "size": "medium"
     },
     {
-      "archived": false,
+      "archived": true,
       "id": "5d0ec23e49e3b86653bf9494dcd7fc93",
       "title": "Visual Design And 3d Model Collection",
       "slug": "visual-design-and-3d-model-collection",
@@ -70,7 +70,7 @@
       "title": "Hollywood Stars",
       "slug": "hollywood-stars",
       "short-description": "Visualization, User-centered Design",
-      "size": "medium"
+      "size": "small"
     },
     {
       "archived": false,
@@ -81,7 +81,7 @@
       "size": "small"
     },
     {
-      "archived": false,
+      "archived": true,
       "id": "62290b615650f5640e1da0e393de2b1d",
       "title": "Goslometer",
       "slug": "goslometer",
