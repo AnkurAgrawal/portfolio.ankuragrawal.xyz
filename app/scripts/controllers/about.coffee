@@ -16,11 +16,17 @@ ankuragrawalApp
 
     $scope.about = about
 
+    $scope.getImageUrl = (imagename, extension = 'svg', subdirectory = '') ->
+      "#{this.getImageAssetUrl()}about/#{subdirectory}/#{imagename}.#{extension}"
+
     $scope.getProfileImageUrl = ->
-      "#{this.getImageAssetUrl()}about/ankur.jpg"
+      this.getImageUrl 'ankur', 'jpg'
 
     $scope.getHobbyImageUrl = (hobby) ->
-      "#{this.getImageAssetUrl()}about/hobbies/#{hobby}.svg"
+      this.getImageUrl hobby, 'svg', 'hobbies'
+
+    $scope.getExperienceImageUrl = (experience) ->
+      this.getImageUrl experience, 'svg', 'experiences'
 
      # - Noel Delgado | @pixelia_me
     $scope.init = ->

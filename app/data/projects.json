@@ -288,99 +288,7 @@
     "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, interface designer and even design technologist, but what the heck is \"wildcard\"?</p><p>It's someone, <b>none of the above, Or, all of the above!</b> Someone who knows their stuff inside and out, but still keeps an open mind. Someone who posses a big bag of tricks in variety of areas, but always keen to learn. Someone who is curious and not afraid of the unexpected but embraces it and thrive on it. Someone who is facinated by different perspectives.</p>",
     "summary": "",
     "journey": "",
-    "patents": [
-      {
-        "title": "Position determination and control with radio frequency identification tags",
-        "patent-number": "US 9704003 B1",
-        "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003"
-      },
-      {
-        "title": "Transitioning augmented reality objects in physical and digital environments",
-        "patent-number": "US 20170178406 A1",
-        "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170178406"
-      }
-    ],
-    "publications": {
-      "synku-exploring-the-production-of-sensory-objects": {
-        "title": "SynKu: Exploring the Production of Sensory Objects",
-        "citation": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
-        "publication": "Proceedings, CHI EA '15"
-      },
-      "designing-for-movement-in-public-life-with-itinerant-probes": {
-        "title": "Designing for Movement in Public Life with Itinerant Probes",
-        "citation": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
-        "publication": "Proceedings, DIS '15"
-      }
-    },
-    "teaching-leadership-experience": {
-      "graduate-teaching-assistant": {
-        "title": "Graduate Teaching Assistant",
-        "organization": "MHCI+d, University of Washington, Seattle",
-        "date": "March 16, 2015 - June 15, 2015"
-      },
-      "teaching-assistant": {
-        "title": "Teaching Assistant",
-        "organization": "Dept. of Computer Science & Engineering, JIIT, India",
-        "date": ""
-      },
-      "guest-lecture": {
-        "title": "Guest Lecturer",
-        "organization": "HCDE, University of Washington, Seattle",
-        "date": ""
-      },
-      "high-school-teaching": {
-        "title": "High School Teaching",
-        "organization": "Department of Education, University of Washington, Seattle",
-        "date": "October 1, 2015 - December 15, 2015"
-      },
-      "middle-school-teaching": {
-        "title": "Lead Mentor for STEM education for middle and high school students",
-        "organization": "Department of Education, University of Washington, Seattle",
-        "date": "January 2, 2016 - March 15, 2016"
-      },
-      "judge-taf-academy": {
-        "title": "Judge",
-        "organization": "Technology Access Foundation Academy (TAF)",
-        "date": ""
-      },
-      "icmi-conference-chair": {
-        "title": "Volunteer Chair",
-        "organization": "ACM International Conference on Multimodal Interaction (ICMI)",
-        "date": ""
-      },
-      "ic3-conference-organizer": {
-        "title": "Organizing Committee",
-        "organization": "IEEE International Conference on Contemporary Computing - JIIT (IC3)",
-        "date": ""
-      }
-    },
-    "honors-&-awards": {
-      "graduate-innovation": {
-        "title": "Graduate Innovation",
-        "organization": "HCDE, University of Washington, Seattle",
-        "date": "June 2016"
-      },
-      "cheetah-intel-labs": {
-        "title": "Cheetah",
-        "organization": "Intel Labs, Intel Corporation",
-        "date": "August 2016"
-      },
-      "best-intern-project-intel-labs": {
-        "title": "Best intern project",
-        "organization": "Intel Labs, Intel Corporation",
-        "date": "September 2015"
-      },
-      "jed-i-project-challenge": {
-        "title": "Top 2, Jed-i Project Challenge",
-        "organization": "Joy of Engineering, Design and Innovation (Jed-i), India",
-        "date": "June 2012"
-      },
-      "central-sector-scholarship": {
-        "title": "Central Sector Scholarship",
-        "organization": "Ministry of Human Resource Development (MHRD), Government of India",
-        "date": "June 2008 - June 2012"
-      }
-    },
+    "experiences": ["publication-and-patent","work","teaching","leadership"],
     "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"]
   },
   "hobbies": {
@@ -408,22 +316,35 @@
       "title": "SynKu: Exploring the Production of Sensory Objects",
       "citation": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
       "abstract": "This paper describes SynKu, a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. We discuss how the SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.",
-      "url": "https://dl.acm.org/citation.cfm?id=2732813&CFID=792024528&CFTOKEN=85070216"
+      "url": "https://dl.acm.org/citation.cfm?id=2732813&CFID=792024528&CFTOKEN=85070216",
+      "publication": "Proceedings, CHI EA '15"
     },
     "designing-for-movement-in-public-life-with-itinerant-probes": {
       "title": "Designing for Movement in Public Life with Itinerant Probes",
       "citation": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
       "abstract": "This pictorial illustrates how objects can illuminate people's experience of public space, an approach we call itinerant probes. Itinerant probes are not individualized, mediated artifacts, but instead dynamic events that en- liven people's personal and collective memories. Building on the probes literature and recent ecological perspectives, we describe three probes related to lighting that we investigated at three public sites. Our explorations with these probes highlight the intimate histories associated with public spaces.",
-      "url": "https://dl.acm.org/citation.cfm?id=2901913"
+      "url": "https://dl.acm.org/citation.cfm?id=2901913",
+      "publication": "Proceedings, DIS '15"
     }
   },
+  "patents": [
+    {
+      "title": "Position determination and control with radio frequency identification tags",
+      "patent-number": "US 9704003 B1",
+      "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003"
+    },
+    {
+      "title": "Transitioning augmented reality objects in physical and digital environments",
+      "patent-number": "US 20170178406 A1",
+      "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170178406"
+    }
+  ],
   "honors-&-awards": {
     "cheetah-intel-labs": {
       "title": "Cheetah",
       "organization": "Intel Labs, Intel Corporation",
       "description": "During first 6 months of my employment at Intel Labs I was awarded Cheetah award for my effort to design and prototype an experience and help shape future direction for my organization inside Intel Labs.",
-      "date": ""
-
+      "date": "August 2016"
     },
     "graduate-innovation": {
       "title": "Graduate Innovation",
@@ -448,6 +369,48 @@
       "organization": "Ministry of Human Resource Development (MHRD), Government of India",
       "description": "Awarded for the meritorious performance in school's academics.",
       "date": "June 2008- June 2012"
+    }
+  },
+  "teaching-leadership-experience": {
+    "graduate-teaching-assistant": {
+      "title": "Graduate Teaching Assistant",
+      "organization": "MHCI+d, University of Washington, Seattle",
+      "date": "March 16, 2015 - June 15, 2015"
+    },
+    "teaching-assistant": {
+      "title": "Teaching Assistant",
+      "organization": "Dept. of Computer Science & Engineering, JIIT, India",
+      "date": ""
+    },
+    "guest-lecture": {
+      "title": "Guest Lecturer",
+      "organization": "HCDE, University of Washington, Seattle",
+      "date": ""
+    },
+    "high-school-teaching": {
+      "title": "High School Teaching",
+      "organization": "Department of Education, University of Washington, Seattle",
+      "date": "October 1, 2015 - December 15, 2015"
+    },
+    "middle-school-teaching": {
+      "title": "Lead Mentor for STEM education for middle and high school students",
+      "organization": "Department of Education, University of Washington, Seattle",
+      "date": "January 2, 2016 - March 15, 2016"
+    },
+    "judge-taf-academy": {
+      "title": "Judge",
+      "organization": "Technology Access Foundation Academy (TAF)",
+      "date": ""
+    },
+    "icmi-conference-chair": {
+      "title": "Volunteer Chair",
+      "organization": "ACM International Conference on Multimodal Interaction (ICMI)",
+      "date": ""
+    },
+    "ic3-conference-organizer": {
+      "title": "Organizing Committee",
+      "organization": "IEEE International Conference on Contemporary Computing - JIIT (IC3)",
+      "date": ""
     }
   }
 }
