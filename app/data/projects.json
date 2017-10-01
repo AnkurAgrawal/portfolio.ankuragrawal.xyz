@@ -132,7 +132,7 @@
       "tools": "Wooden table, Webcam (Converted into IR), Short-Throw Projector, Acrylic sheet, Butter Paper, MT4J, CCV, JOGL, MinimLibs",
       "team": "Ankur Agrawal",
       "external-links": [
-        "{\"file\":\"files/orchestable-project-report.pdf\",\"title\":\"Checkout the final project report\",\"caption\":\"project report\"}"
+        "{\"file\":\"files/orchestable-project-report.pdf\",\"title\":\"Checkout the project report\",\"caption\":\"project report\"}"
       ],
       "votes": 0,
       "views": 0
@@ -423,6 +423,7 @@
       "organization": "Intel Labs, Intel Corporation",
       "description": "During first 6 months of my employment at Intel Labs I was awarded Cheetah award for my effort to design and prototype an experience and help shape future direction for my organization inside Intel Labs.",
       "date": ""
+
     },
     "graduate-innovation": {
       "title": "Graduate Innovation",
