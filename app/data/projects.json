@@ -27,9 +27,9 @@
     {
       "archived": false,
       "id": "c9ce14056430af051a181fe343b62f4f",
-      "title": "Intel Internship",
-      "slug": "intel-internship",
-      "short-description": "Prototyping, Toys, STEM Education",
+      "title": "Tangible Play Surfaces",
+      "slug": "tangible-play-surfaces",
+      "short-description": "Intel Internship, Prototyping, Toys, STEM Education",
       "size": "small"
     },
     {
@@ -152,12 +152,12 @@
       "votes": 0,
       "views": 0
     },
-    "intel-internship": {
-      "title": "Intel Internship",
+    "tangible-play-surfaces": {
+      "title": "Tangible Play Surfaces",
       "timeline" : "2017/01/01 - 2017/12/12",
       "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "description": ".",
-      "tags": "UX Design, Prototyping",
+      "tags": "Tangible Interaction, Play, RFID, UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
       "external-links": [],
