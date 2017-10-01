@@ -289,7 +289,13 @@
     "summary": "",
     "journey": "",
     "experiences": ["publication-and-patent","work","teaching","leadership"],
-    "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"]
+    "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"],
+    "quotes": [
+      {"title": "The only way to discover the limits of the possible is to go beyond them into the impossible.", "author": "Arthur C. Clarke"},
+      {"title": "We keep moving forward, opening new doors, and doing new things, because we’re curious and curiosity keeps leading us down new paths.", "author": "Walt Disney"},
+      {"title": "The future continues. How do you want to be remembered? what will you leave for them?", "author": "Hiroshi Ishii"},
+      {"title": "The important thing is not to stop questioning. Curiosity has its own reason for existing.", "author": "Albert Einstein"}
+    ]
   },
   "hobbies": {
     "photography": {
