@@ -44,6 +44,10 @@
   <link href="https://fonts.googleapis.com/css?family=Puritan:400,700|Roboto+Mono:300,400,500|Mandali|Ubuntu+Mono" rel="stylesheet" type="text/css">
   </head>
   <body ng-app="ankuragrawalApp" ng-controller="AppCtrl" ng-class="bodyClass">
+  <div ng-if="false">
+    <h5>Loading the application, please hold on</h5>
+    <div class='aCssSpinner'></div>
+  </div>
   <!--[if lte IE 8]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -135,46 +139,45 @@
   </script>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="scripts/app.js"></script>
-    <script src="scripts/config/routes.js"></script>
-    <script src="scripts/config/constants.js"></script>
-    <script src="scripts/config/values.js"></script>
-    <script src="scripts/filters/split.js"></script>
-    <script src="scripts/filters/youtubeembedurl.js"></script>
-    <script src="scripts/filters/vimeoembedurl.js"></script>
-    <script src="scripts/directives/app-header.js"></script>
-    <script src="scripts/directives/project-image-container.js"></script>
-    <script src="scripts/directives/project-video-container.js"></script>
-    <script src="scripts/services/dbservice.js"></script>
-    <script src="scripts/services/projectservice.js"></script>
-    <script src="scripts/services/aboutservice.js"></script>
-    <script src="scripts/services/publicationservice.js"></script>
-    <script src="scripts/services/awardservice.js"></script>
-    <script src="scripts/services/wildcardservice.js"></script>
-    <script src="scripts/controllers/app.js"></script>
-    <script src="scripts/controllers/404.js"></script>
-    <script src="scripts/controllers/landing.js"></script>
-    <script src="scripts/controllers/portfolio.js"></script>
-    <script src="scripts/controllers/project.js"></script>
-    <script src="scripts/controllers/contact.js"></script>
-    <script src="scripts/controllers/about.js"></script>
-    <script src="scripts/controllers/publication.js"></script>
-    <script src="scripts/controllers/award.js"></script>
-    <script src="scripts/controllers/wildcard.js"></script>
-    <script src="scripts/ws.js"></script>
-    <script src="scripts/filters/replacecharacters.js"></script>
+    <script defer="defer" src="scripts/app.js"></script>
+    <script defer="defer" src="scripts/config/routes.js"></script>
+    <script defer="defer" src="scripts/config/constants.js"></script>
+    <script defer="defer" src="scripts/config/values.js"></script>
+    <script defer="defer" src="scripts/filters/split.js"></script>
+    <script defer="defer" src="scripts/filters/youtubeembedurl.js"></script>
+    <script defer="defer" src="scripts/filters/vimeoembedurl.js"></script>
+    <script defer="defer" src="scripts/filters/replacecharacters.js"></script>
+    <script defer="defer" src="scripts/directives/app-header.js"></script>
+    <script defer="defer" src="scripts/directives/project-image-container.js"></script>
+    <script defer="defer" src="scripts/directives/project-video-container.js"></script>
+    <script defer="defer" src="scripts/services/dbservice.js"></script>
+    <script defer="defer" src="scripts/services/patentandpublicationservice.js"></script>
+    <script defer="defer" src="scripts/services/projectservice.js"></script>
+    <script defer="defer" src="scripts/services/aboutservice.js"></script>
+    <script defer="defer" src="scripts/services/awardservice.js"></script>
+    <script defer="defer" src="scripts/services/wildcardservice.js"></script>
+    <script defer="defer" src="scripts/controllers/app.js"></script>
+    <script defer="defer" src="scripts/controllers/404.js"></script>
+    <script defer="defer" src="scripts/controllers/landing.js"></script>
+    <script defer="defer" src="scripts/controllers/portfolio.js"></script>
+    <script defer="defer" src="scripts/controllers/patentandpublication.js"></script>
+    <script defer="defer" src="scripts/controllers/project.js"></script>
+    <script defer="defer" src="scripts/controllers/contact.js"></script>
+    <script defer="defer" src="scripts/controllers/about.js"></script>
+    <script defer="defer" src="scripts/controllers/award.js"></script>
+    <script defer="defer" src="scripts/controllers/wildcard.js"></script>
+    <script defer="defer" src="scripts/ws.js"></script>
     <!-- endbuild -->
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+  <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+    ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+    ;c.parentNode.insertBefore(a,c)
+    })(window,document,"galite","script","https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js");
 
-    ga('create', 'UA-102358856-1', 'auto');
-    ga('send', 'pageview');
-
+    galite('create', 'UA-102358856-1', 'auto');
+    galite('send', 'pageview');
   </script>
 </body>
 </html>
