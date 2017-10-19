@@ -26,14 +26,6 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         wildcardDefinition: (wildcardService) ->
           wildcardService.getData()
-    .when '/about/publications/:publicationSlug',
-      templateUrl: 'views/publication.html'
-      controller: 'PublicationCtrl'
-      controllerAs: 'publication-details'
-      title: 'publication'
-      resolve:
-        publication: (publicationService, $route) ->
-          publicationService.getPublication($route.current.params.publicationSlug)
     .when '/about/honors-and-awards/:awardSlug',
       templateUrl: 'views/award.html'
       controller: 'AwardCtrl'
@@ -50,6 +42,22 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         projects: (projectService) ->
           projectService.getProjectsList()
+    .when '/portfolio/patents-and-publications',
+      templateUrl: 'views/patents-and-publications.html'
+      controller: 'PatentAndPublicationCtrl'
+      controllerAs: 'patents-and-publications'
+      title: 'patents and publications'
+      resolve:
+        patent_publication: (patentAndPublicationService, $route) ->
+          patentAndPublicationService.getPatentsPublicationsList()
+    .when '/portfolio/patents-and-publications/:slug',
+      templateUrl: 'views/patent-and-publication.html'
+      controller: 'PatentAndPublicationCtrl'
+      controllerAs: 'patent-and-publication-details'
+      title: 'patent and publication'
+      resolve:
+        patent_publication: (patentAndPublicationService, $route) ->
+          patentAndPublicationService.getPatentPublication($route.current.params.slug)
     .when '/portfolio/:projectSlug',
       templateUrl: 'views/project.html'
       controller: 'ProjectCtrl'
