@@ -1,0 +1,57 @@
+<div ng-if="patent" class="patent-page fadeIn animated">
+  <article role="article">
+    <header class="patent-banner">
+      <small class="muted">Patent</small>
+      <h3 sticky sticky-class="is-sticky" class="patent-page-heading left animated" id="pub-title">
+        <span class="patent-heading-seg-text">{{patent.title}} </span>
+        <b class="patent-page-heading-sec"></b>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y patent-details">
+      <section class="cell small-10">
+        <p class="muted citation section-body" ng-bind-html="patent.citation"></p>
+      </section>
+      <section class="cell small-10">
+        <h5 class="section-heading">Abstract</h5>
+        <p class="section-body">{{patent.abstract}}</p>
+        <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+          <div class="cell small-12 medium-6 large-4" ng-repeat="image in patent.pictures">
+            <project-image-container class="show-caption" src="{{getPatentImageAssetUrl(image)}}" alt="" data-width="1024" data-height="768"></project-image-container>
+          </div>
+        </div>
+      </section>
+      <section class="cell small-10">
+        <a class="section-body link" ng-href="{{patent.url}}" title="Checkout this patent on USPTO" target="_blank" aria-haspopup="true">Full patent on <b>USPTO</b></a>
+      </section>
+    </div>
+  </article>
+</div>
+<div ng-if="publication" class="publication-page fadeIn animated">
+  <article role="article">
+    <header class="publication-banner">
+      <small class="muted">Publication</small>
+      <h3 sticky sticky-class="is-sticky" class="publication-page-heading left animated" id="pub-title">
+        <span class="publication-heading-seg-text">{{publication.title}} </span>
+        <b class="publication-page-heading-sec"></b>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y publication-details">
+      <section class="cell small-10">
+        <p class="muted citation section-body" ng-bind-html="publication.citation"></p>
+      </section>
+      <section class="cell small-10">
+        <h5 class="section-heading">Abstract</h5>
+        <p class="section-body">{{publication.abstract}}</p>
+        <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+          <div class="cell small-12 medium-4 large-4" ng-repeat="image in publication.pictures">
+            <project-image-container class="show-caption" src="{{getPublicationImageAssetUrl(image)}}" alt="" data-width="1024" data-height="768"></project-image-container>
+          </div>
+        </div>
+      </section>
+      <section class="cell small-10">
+        <a class="section-body link" ng-href="{{publication.url}}" title="Checkout this paper on ACM" target="_blank" aria-haspopup="true">Full paper on <b>ACM</b></a>
+      </section>
+    </div>
+  </article>
+</div>
+<ng-include ng-if="!patent && !publication" src="'views/404.html'"></ng-include>

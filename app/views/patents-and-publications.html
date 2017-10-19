@@ -1,0 +1,40 @@
+<div ng-if="patents_publications_list" class="project-page fadeIn animated patents-and-publications">
+  <article role="article">
+    <header class="project-banner">
+      <h4 sticky sticky-class="is-sticky" class="page-heading left animated" id="prj-title">{{project.title}}</h4>
+    </header>
+    <div class="grid-y grid-padding-y">
+      <div class="cell small-12" ng-if="patents_publications_list">
+        <section class="Patents">
+          <h6 class="section-heading">Patents</h6>
+          <div class="section-body">
+            <a class="patent" href="portfolio/patents-and-publications/{{slug}}" ng-if="patent.type == 'patent'" ng-repeat="(slug, patent) in patents_publications_list">
+              <div class="grid-x grid-padding-x grid-padding-y">
+                <div class="cell auto">
+                  <h5 class="title">{{patent.title}}</h5>
+                  <span class=muted>{{patent['patent-number']}}</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="publications">
+          <h6 class="section-heading">Publications</h6>
+          <div class="section-body">
+            <a class="publication" href="portfolio/patents-and-publications/{{slug}}" ng-if="publication.type == 'publication'" ng-repeat="(slug, publication) in patents_publications_list">
+              <div class="grid-x grid-padding-x grid-padding-y">
+                <div class="cell auto">
+                  <h5 class="title">{{publication.title}}</h5>
+                  <span class=muted>{{publication.publication}}</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </article>
+</div>
+
+<ng-include ng-if="patents_publications_list" src="'views/partials/_photo_swipe.html'"></ng-include>
+<ng-include ng-if="!patents_publications_list" src="'views/404.html'"></ng-include>

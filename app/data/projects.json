@@ -2,6 +2,14 @@
   "projects":[
     {
       "archived": false,
+      "id": "92ec77835d0373ee0e96da5d1c087f13",
+      "title": "Patents and Publications",
+      "slug": "patents-and-publications",
+      "short-description": "Patents, Inventions, Publications, Conferences",
+      "size": "small"
+    },
+    {
+      "archived": false,
       "id": "ce25d816e48495e01a003fd8fdb491fd",
       "title": "Sweet Treat",
       "slug": "sweet-treat",
@@ -22,7 +30,7 @@
       "title": "ToothGloss",
       "slug": "toothgloss",
       "short-description": "UX Design, Prototyping, UI Design",
-      "size": "small"
+      "size": "medium"
     },
     {
       "archived": false,
@@ -288,7 +296,7 @@
     "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, interface designer and even design technologist, but what the heck is \"wildcard\"?</p><p>It's someone, <b>none of the above, Or, all of the above!</b> Someone who knows their stuff inside and out, but still keeps an open mind. Someone who posses a big bag of tricks in variety of areas, but always keen to learn. Someone who is curious and not afraid of the unexpected but embraces it and thrive on it. Someone who is facinated by different perspectives.</p>",
     "summary": "",
     "journey": "",
-    "experiences": ["publication-and-patent","work","teaching","leadership"],
+    "experiences": ["work","teaching","leadership"],
     "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"],
     "quotes": [
       {"title": "The only way to discover the limits of the possible is to go beyond them into the impossible.", "author": "Arthur C. Clarke"},
@@ -317,34 +325,77 @@
     "bōjutsu": {
     }
   },
-  "publications": {
+  "patents-and-publications": {
     "synku-exploring-the-production-of-sensory-objects": {
+      "type": "publication",
       "title": "SynKu: Exploring the Production of Sensory Objects",
-      "citation": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
+      "authors": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
       "abstract": "This paper describes SynKu, a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. We discuss how the SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.",
-      "url": "https://dl.acm.org/citation.cfm?id=2732813&CFID=792024528&CFTOKEN=85070216",
+      "pictures": [
+        "SynKu.jpg"
+      ],
+      "url": "https://dl.acm.org/citation.cfm?id=2732813",
       "publication": "Proceedings, CHI EA '15"
     },
     "designing-for-movement-in-public-life-with-itinerant-probes": {
+      "type": "publication",
       "title": "Designing for Movement in Public Life with Itinerant Probes",
-      "citation": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
+      "authors": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
       "abstract": "This pictorial illustrates how objects can illuminate people's experience of public space, an approach we call itinerant probes. Itinerant probes are not individualized, mediated artifacts, but instead dynamic events that en- liven people's personal and collective memories. Building on the probes literature and recent ecological perspectives, we describe three probes related to lighting that we investigated at three public sites. Our explorations with these probes highlight the intimate histories associated with public spaces.",
+      "pictures": [
+        "itinerant-probes-1.jpg",
+        "itinerant-probes-2.jpg",
+        "itinerant-probes-3.jpg",
+        "itinerant-probes-4.jpg",
+        "itinerant-probes-5.jpg",
+        "itinerant-probes-6.jpg",
+        "itinerant-probes-7.jpg",
+        "itinerant-probes-8.jpg",
+        "itinerant-probes-9.jpg"
+      ],
       "url": "https://dl.acm.org/citation.cfm?id=2901913",
       "publication": "Proceedings, DIS '15"
+    },
+    "position-determination-and-control-with-radio-frequency-identification-tags": {
+      "type": "patent",
+      "title": "Position determination and control with radio frequency identification tags",
+      "authors": "Glen J. Anderson, Anand S. Konanur, Kevin W. Bross, Gregory A. Peek, Rebecca A. Chierichetti, Ankur Agrawal ",
+      "abstract": "Control of an apparatus is provided according to determination of positioning of information pieces with radio frequency identification (RFID) tags. In embodiments, an apparatus may include one or more pieces, wherein each piece may be positionable in one or more piece positions of a region and may include a passive RFID tag that stores information relating to a characteristic of the piece. An arrangement of RFID antennas may be positioned proximal to the region, and a RFID reader may provide reads of the pieces near the RFID antennas. One or more processors may determine the piece positions of the one or more pieces from the reads and may provide control of the apparatus according to the one or more pieces and their piece positions.",
+      "pictures": [
+        "US9704003.1.jpg",
+        "US9704003.2.jpg",
+        "US9704003.3.jpg",
+        "US9704003.4.jpg",
+        "US9704003.5.jpg",
+        "US9704003.6.jpg",
+        "US9704003.7.jpg",
+        "US9704003.8.jpg"
+      ],
+      "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003",
+      "patent-number": "US 9704003 B1"
+    },
+    "transitioning-augmented-reality-objects-in-physical-and-digital-environments": {
+      "type": "patent",
+      "title": "Transitioning augmented reality objects in physical and digital environments",
+      "authors": "Glen J. Anderson, Reese Bowes, Ankur Agrawal",
+      "abstract": "Described are apparatuses, methods and storage media associated with transitioning an augmented reality object between physical and digital environments, wherein the augmented reality object is embodied in at least two information carrying objects, which information carrying objects comprise a sensor-enabled physical object and a digital object.",
+      "pictures": [
+        "US20170178406.1.jpg",
+        "US20170178406.2.jpg",
+        "US20170178406.3.jpg",
+        "US20170178406.4.jpg",
+        "US20170178406.5.jpg",
+        "US20170178406.6.jpg",
+        "US20170178406.7.jpg",
+        "US20170178406.8.jpg",
+        "US20170178406.9.jpg",
+        "US20170178406.10.jpg",
+        "US20170178406.11.jpg"
+      ],
+      "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170178406",
+      "patent-number": "US 20170178406 A1"
     }
   },
-  "patents": [
-    {
-      "title": "Position determination and control with radio frequency identification tags",
-      "patent-number": "US 9704003 B1",
-      "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003"
-    },
-    {
-      "title": "Transitioning augmented reality objects in physical and digital environments",
-      "patent-number": "US 20170178406 A1",
-      "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170178406"
-    }
-  ],
   "honors-&-awards": {
     "cheetah-intel-labs": {
       "title": "Cheetah",
