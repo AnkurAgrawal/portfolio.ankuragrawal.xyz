@@ -1,1 +1,27 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1379.3 1080.89"><title>photography</title><g id="_Group_" data-name="&lt;Group&gt;"><g id="_Group_2" data-name="&lt;Group&gt;"><path id="_Path_" data-name="&lt;Path&gt;" d="M1305.35,320.73H990.49L953.9,195.39c-9.81-33.6-35.83-56-65-56H511.1c-29.17,0-55.19,22.43-65,56L409.51,320.73H94.65A84.3,84.3,0,0,0,10.35,405v730.91a84.31,84.31,0,0,0,84.31,84.31H1305.35a84.31,84.31,0,0,0,84.31-84.31V405A84.3,84.3,0,0,0,1305.35,320.73Z" transform="translate(-10.35 -139.36)" style="fill:#e65643"/><circle id="_Path_2" data-name="&lt;Path&gt;" cx="689.65" cy="631.12" r="412.56" style="fill:#b2d2d2"/><circle id="_Path_3" data-name="&lt;Path&gt;" cx="689.65" cy="631.12" r="346.74" style="fill:#123a5c"/><circle id="_Path_4" data-name="&lt;Path&gt;" cx="689.65" cy="631.12" r="110.38" style="fill:#66a8b2"/><rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="73.85" y="247.75" width="149.31" height="80.4" style="fill:#212121"/><rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="520.98" y="162.36" width="337.34" height="12.32" style="fill:#123a5c"/><rect id="_Rectangle_3" data-name="&lt;Rectangle&gt;" x="596.9" y="45.87" width="185.5" height="71.67" style="fill:#b2d2d2"/><circle id="_Path_5" data-name="&lt;Path&gt;" cx="1210.16" cy="287.95" r="39.82" style="fill:#b2d2d2"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 216 216" style="enable-background:new 0 0 216 216;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E65643;}
+	.st1{fill:#B2D2D2;}
+	.st2{fill:#123A5C;}
+	.st3{fill:#66A8B2;}
+	.st4{fill:#212121;}
+</style>
+<title>photography</title>
+<g id="_Group_">
+	<g id="_Group_2">
+		<path id="_Path_" class="st0" d="M202.8,51.8h-49.3l-5.7-19.6c-1.5-5.3-5.6-8.8-10.2-8.8H78.4c-4.6,0-8.6,3.5-10.2,8.8l-5.7,19.6
+			H13.2C5.9,51.8,0,57.7,0,65v114.5c0,7.3,5.9,13.2,13.2,13.2c0,0,0,0,0,0h189.6c7.3,0,13.2-5.9,13.2-13.2V65
+			C216,57.7,210.1,51.8,202.8,51.8z"/>
+		<circle id="_Path_2" class="st1" cx="108" cy="122.2" r="64.6"/>
+		<circle id="_Path_3" class="st2" cx="108" cy="122.2" r="54.3"/>
+		<circle id="_Path_4" class="st3" cx="108" cy="122.2" r="17.3"/>
+		<rect id="_Rectangle_" x="11.6" y="62.2" class="st4" width="23.4" height="12.6"/>
+		<rect id="_Rectangle_2" x="81.6" y="48.8" class="st2" width="52.8" height="1.9"/>
+		<rect id="_Rectangle_3" x="93.5" y="30.5" class="st1" width="29" height="11.2"/>
+		<circle id="_Path_5" class="st1" cx="189.5" cy="68.5" r="6.2"/>
+	</g>
+</g>
+</svg>
