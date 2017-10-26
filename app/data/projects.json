@@ -41,6 +41,22 @@
       "size": "small"
     },
     {
+      "archived": true,
+      "id": "c9ce14056430af051a181fe343b62f4f",
+      "title": "Code Maker",
+      "slug": "code-maker",
+      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
+      "size": "medium"
+    },
+    {
+      "archived": true,
+      "id": "c9ce14056430af051a181fe343b62f4f",
+      "title": "Story Maker",
+      "slug": "story-maker",
+      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
+      "size": "medium"
+    },
+    {
       "archived": false,
       "id": "0afcddbef1671bb770a46fae3afc7f1e",
       "title": "Itinerant Probes",
