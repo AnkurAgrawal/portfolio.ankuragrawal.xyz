@@ -18,14 +18,6 @@
     },
     {
       "archived": false,
-      "id": "f4dc40d676074d5ab05bbcaab14d5a7f",
-      "title": "Orchestable",
-      "slug": "orchestable",
-      "short-description": "Prototyping, Experience Design, Music",
-      "size": "medium"
-    },
-    {
-      "archived": false,
       "id": "4f3f75760c115f6c680e8c9975ffb37b",
       "title": "ToothGloss",
       "slug": "toothgloss",
@@ -34,10 +26,18 @@
     },
     {
       "archived": false,
+      "id": "f4dc40d676074d5ab05bbcaab14d5a7f",
+      "title": "Orchestable",
+      "slug": "orchestable",
+      "short-description": "Prototyping, Experience Design, Music",
+      "size": "medium"
+    },
+    {
+      "archived": true,
       "id": "c9ce14056430af051a181fe343b62f4f",
       "title": "Tangible Play Surfaces",
       "slug": "tangible-play-surfaces",
-      "short-description": "Intel Internship, Prototyping, Toys, STEM Education",
+      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
       "size": "small"
     },
     {
@@ -46,7 +46,7 @@
       "title": "Itinerant Probes",
       "slug": "itinerant-probes",
       "short-description": "Research, Design as Probes, Prototyping, Social Inquiry",
-      "size": "medium"
+      "size": "small"
     },
     {
       "archived": false,
@@ -65,7 +65,7 @@
       "size": "medium"
     },
     {
-      "archived": true,
+      "archived": false,
       "id": "5d0ec23e49e3b86653bf9494dcd7fc93",
       "title": "Visual Design And 3d Model Collection",
       "slug": "visual-design-and-3d-model-collection",
@@ -81,7 +81,7 @@
       "size": "small"
     },
     {
-      "archived": false,
+      "archived": true,
       "id": "e6bed3d90de33faa2329a60bacb24dad",
       "title": "Work Happy",
       "slug": "work-happy",
