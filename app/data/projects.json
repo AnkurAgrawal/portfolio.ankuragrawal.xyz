@@ -260,9 +260,9 @@
     },
     "work-happy": {
       "title": "Work Happy",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "description": ".",
+      "timeline" : "2015/03/21 - 2015/03/21",
+      "intro": "a tool to track mood at work to figure out problems and help suggest measure to mitigate them.",
+      "description": "<section><div class=\"section-body\"><p>The tool was developed as a part of a 3 hour long hackathon, <a class=\"link\" href=\"https://protohack.com\" target=\"_blank\">Protohack</a>.</p></div></section>",
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
