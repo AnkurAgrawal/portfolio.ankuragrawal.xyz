@@ -8,7 +8,7 @@
  # Controller of the ankuragrawalApp
 ###
 angular.module 'ankuragrawalApp'
-  .controller 'PatentAndPublicationCtrl', ($scope, $rootScope, $routeParams, patent_publication) ->
+  .controller 'PatentAndPublicationCtrl', ($scope, $rootScope, $routeParams, patent_publication, imageService) ->
     $rootScope.landing = false
     if patent_publication.type is "publication"
       $scope.publication = patent_publication
@@ -20,7 +20,7 @@ angular.module 'ankuragrawalApp'
       $scope.patents_publications_list = patent_publication
 
     $scope.getPatentImageAssetUrl = (image) ->
-      "#{this.getImageAssetUrl()}projects/patents-and-publications/#{image}"
+      "#{imageService.getImageAssetUrl()}projects/patents-and-publications/#{image}"
 
     $scope.getPublicationImageAssetUrl = (image) ->
-      "#{this.getImageAssetUrl()}projects/patents-and-publications/#{image}"
+      "#{imageService.getImageAssetUrl()}projects/patents-and-publications/#{image}"
