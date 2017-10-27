@@ -47,5 +47,8 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js"
+  },
+  "dependencies": {
+    "angulargrid": "^0.6.5"
   }
 }

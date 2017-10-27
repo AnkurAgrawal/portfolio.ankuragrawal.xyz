@@ -27,4 +27,5 @@
     'hj.scrollMagic'
     'angular-bind-html-compile'
     'videosharing-embed'
+    'angularGrid'
   ]
