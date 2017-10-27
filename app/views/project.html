@@ -35,16 +35,12 @@
           <section class="description" ng-if="project.description">
             <div class="section-body" bind-html-compile="project.description"></div>
           </section>
-          <section class="project-external-links" ng-if="project['external-links']">
+          <section class="project-links" ng-if="project['links']">
             <div class="section-body">
-              <a class='link' ng-href='{{link.file}}' title='{{link.title}}' target='_blank' aria-haspopup='true' ng-repeat="link in project['external-links']">
+              <a ng-if="link.type == 'external'" class='link' ng-href='{{link.file}}' title='{{link.title}}' target='_blank' aria-haspopup='true' ng-repeat="link in project['links']">
                 <em class='icon icon-file'></em> <b>{{link.caption}}</b>
               </a>
-            </div>
-          </section>
-          <section class="project-internal-links" ng-if="project['internal-links']">
-            <div class="section-body">
-              <a class='link' ng-href='{{link.file}}' title='{{link.title}}' aria-haspopup='true' ng-repeat="link in project['internal-links']">
+              <a ng-if="link.type == 'internal'" class='link' ng-href='{{link.file}}' title='{{link.title}}' aria-haspopup='true' ng-repeat="link in project['links']">
                 <em class='icon icon-file'></em> <b>{{link.caption}}</b>
               </a>
             </div>

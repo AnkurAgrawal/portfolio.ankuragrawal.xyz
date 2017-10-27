@@ -218,6 +218,9 @@
       "role": "Design Technologist",
       "tools": "",
       "team": "Ankur Agrawal, Aravind Ravi, Wenvi Hidayat, Mark Stamnes, Daniela Rosner, Mei Shen",
+      "external-links": [
+        "{\"file\":\"files/SynKu_CHI15-poster.pdf\",\"title\":\"Poster from CHI 2016\",\"caption\":\"poster\"}"
+      ],
       "internal-links": [
         "{\"file\":\"/portfolio/patents-and-publications/synku-exploring-the-production-of-sensory-objects\",\"title\":\"Published in CHI 2016\",\"caption\":\"publication\"}"
       ],
