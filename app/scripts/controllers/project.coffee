@@ -79,5 +79,11 @@ ankuragrawalApp
         $links.push angular.fromJson link
         return
       $scope.project['external-links'] = $links
+
+      $links = []
+      angular.forEach project['internal-links'], (link) ->
+        $links.push angular.fromJson link
+        return
+      $scope.project['internal-links'] = $links
       $scope.init()
       return
