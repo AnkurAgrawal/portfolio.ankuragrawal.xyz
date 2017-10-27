@@ -7,16 +7,16 @@
   <article ng-if="about" role="article">
 
     <section class="intro" ng-if="about.intro">
-      <div class="grid-x grid-padding-x align-center-middle text-center">
-        <div class="cell small-12 medium-5 large-5 small-order-1 medium-order-1 large-order-1">
+      <div class="grid-x grid-padding-x align-middle">
+        <div class="cell small-12 medium-5 large-5 small-order-2 medium-order-2 large-order-2">
           <div class="section-head">
             <h6 class="page-heading1 muted">HELLO WORLD!</h6>
             <span class="sub-heading"><big>I'm a Wildcard.</big> <span href="#" class="wildcard-tooltip-link" tooltip-side="bottom" tooltip-close-button="true" tooltip-smart="true" tooltip-class="wildcard-tip" tooltips tooltip-template-url="views/partials/_wildcard_tooltip.html"><small>(?)</small></span></span>
             <br><br>
-            <p class="muted">A designer + technologist, fueling my exploration from the curiosity of understanding nature through the tool of observation.</p>
+            <p class="muted hide">A designer + technologist, fueling my exploration from the curiosity of understanding nature.</p>
           </div>
         </div>
-        <div class="cell small-12 medium-6 large-7 small-order-2 medium-order-2 large-order-2">
+        <div class="cell small-12 medium-4 large-4 small-order-1 medium-order-1 large-order-1">
           <img src="{{getProfileImageUrl()}}" alt="ankur-agrawal" class="profile-picture" width="80%">
         </div>
       </div>
@@ -38,7 +38,7 @@
         <div class="direction-aware-container">
           <ul>
             <li ng-repeat="experience in about['experiences']">
-              <a ng-href="about/{{experience}}" target="_blank" class="normal">
+              <a ng-href="about/{{experience}}" class="normal">
                 <img src="{{getExperienceImageUrl(experience)}}">
                 <svg viewBox="0 0 80 76" x="0px" y="0px" class="default hide">
                   <g>
@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <sectiob class="quotes" ng-if="about.quotes">
+    <section class="quotes" ng-if="about.quotes">
       <h6 class="section-heading">My inspirations</h6>
       <div class="section-body">
         <div class="quote" ng-repeat="quote in about.quotes">
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-    </sectiob>
+    </section>
 
   </article>
 </div>

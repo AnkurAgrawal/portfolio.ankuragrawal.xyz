@@ -8,7 +8,7 @@
  # Controller of the ankuragrawalApp
 ###
 ankuragrawalApp
-  .controller 'AboutCtrl', ($scope, $rootScope, about) ->
+  .controller 'AboutCtrl', ($scope, $rootScope, about, imageService) ->
     $rootScope.landing = false
 
     $scope.toVars =
@@ -17,7 +17,7 @@ ankuragrawalApp
     $scope.about = about
 
     $scope.getImageUrl = (imagename, extension = 'svg', subdirectory = '') ->
-      "#{this.getImageAssetUrl()}about/#{subdirectory}/#{imagename}.#{extension}"
+      "#{imageService.getImageAssetUrl()}about/#{subdirectory}/#{imagename}.#{extension}"
 
     $scope.getProfileImageUrl = ->
       this.getImageUrl 'ankur', 'jpg'
