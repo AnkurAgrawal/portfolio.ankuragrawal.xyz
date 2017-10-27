@@ -1,23 +1,22 @@
 .footer {
-  // padding: 25px 10px;
+  padding: 20px 50px;
   // background-color: $footer-background-c1;
   // @include filter-gradient($footer-background-c1, $footer-background-c2, horizontal);
   // background-image: linear-gradient(left, $footer-background-c1 0%, $footer-background-c2 100%);
   // -webkit-transition: all 0.3s ease-in;
   // -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-
-  .row {
-    background: #fff;
-    border-top: solid 1px #EFEFEF;
-  }
+  background: #fff;
 
   /* Social list */
   .social-list {
     margin: 0;
     margin: 0 auto;
     text-align: center;
-    /*display: inline-block;*/
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
     &.long {
       display: -webkit-box;
       display: -moz-box;
@@ -29,6 +28,9 @@
       list-style-type: none;
     }
     li {
+      list-style: none;
+      float: left;
+      display: block;
       &:first-child {
         margin-left: 0;
       }
@@ -60,12 +62,6 @@
   .social-list li a em {
     position: relative;
     z-index: 22;
-  }
-  .top-bar {
-    background-color: #fff;
-    ul {
-      background-color: transparent;
-    }
   }
 }
 .slanding-footer {

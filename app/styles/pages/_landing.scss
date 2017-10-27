@@ -26,9 +26,9 @@ a {
 }
 
 @include landing-top-nav;
-.landing {
+
   @include landing-footer;
-}
+
 
 .page-scroll {
   position: fixed;
