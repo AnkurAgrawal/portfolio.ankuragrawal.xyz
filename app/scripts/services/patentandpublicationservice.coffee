@@ -7,7 +7,7 @@
  # # patentAndPublicationService
  # Factory in the ankuragrawalApp.
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .factory 'patentAndPublicationService', ($firebaseObject, dbService) ->
 
     patentAndPublicationService = {}

@@ -7,7 +7,7 @@
  # # AwardService
  # Factory in the ankuragrawalApp.
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .factory 'awardService', ($firebaseObject, dbService) ->
 
     awardService = {}

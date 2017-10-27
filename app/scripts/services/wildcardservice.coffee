@@ -7,7 +7,7 @@
  # # wildcardService
  # Factory in the ankuragrawalApp.
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .factory 'wildcardService', ($firebaseObject, dbService) ->
 
     wildcardService = {}

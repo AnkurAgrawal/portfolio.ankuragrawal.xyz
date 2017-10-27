@@ -7,7 +7,7 @@
  # # aboutService
  # Factory in the ankuragrawalApp.
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .factory 'aboutService', ($firebaseArray, $firebaseObject, dbService) ->
 
     aboutService = {}
