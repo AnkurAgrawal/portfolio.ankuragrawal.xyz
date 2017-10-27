@@ -65,17 +65,13 @@
       <div class="grid-y medium-grid-frame">
       <div class="cell medium-auto medium-cell-block-container">
         <div class="grid-x grid-padding-x">
-        <div ng-if="!landing" ng-include="'views/partials/_sidebar.html'" class="cell medium-3 side-bar animated fadeIn"></div>
+          <div ng-if="!landing" ng-include="'views/partials/_sidebar.html'" class="cell medium-3 side-bar animated fadeIn medium-cell-block-y"></div>
 
-        <sticky-scroll du-scroll-container class="cell auto medium-cell-block-y">
-          <div class="grid-x grid-padding-x grid-padding-y">
-          <div class="cell auto view-container" ng-view></div>
-          <div class="page-scroll is-hidden">
-            <span style="visibility: inherit; opacity: 1;">Scroll</span>
-            <div class="bar" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-          </div>
-          </div>
-        </sticky-scroll>
+          <sticky-scroll du-scroll-container class="cell medium-9 medium-cell-block-y">
+            <div class="grid-x grid-padding-x grid-padding-y">
+              <div class="cell auto view-container" ng-view></div>
+            </div>
+          </sticky-scroll>
         </div>
       </div>
       </div>
@@ -122,6 +118,7 @@
   <script src="bower_components/photoswipe/dist/photoswipe.js"></script>
   <script src="bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
   <script src="bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js"></script>
+  <script src="bower_components/angulargrid/angulargrid.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -151,6 +148,7 @@
     <script defer="defer" src="scripts/directives/project-image-container.js"></script>
     <script defer="defer" src="scripts/directives/project-video-container.js"></script>
     <script defer="defer" src="scripts/services/dbservice.js"></script>
+    <script defer="defer" src="scripts/services/imageservice.js"></script>
     <script defer="defer" src="scripts/services/patentandpublicationservice.js"></script>
     <script defer="defer" src="scripts/services/projectservice.js"></script>
     <script defer="defer" src="scripts/services/aboutservice.js"></script>
