@@ -56,9 +56,12 @@
   .summary {
     font-family: "Open Sans";
     font-size: 1.4rem;
-    margin-top: 1rem;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5625rem 1.25rem 0.5625rem 1.1875rem;
     letter-spacing: 0.04rem;
     border: 0;
+    line-height: 1.6;
+    color: #8a8a8a;
   }
 
   aside {

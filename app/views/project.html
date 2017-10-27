@@ -3,43 +3,37 @@
     <header class="page-banner">
       <h4 sticky sticky-class="is-sticky" class="page-heading left animated" id="prj-title">{{project.title}}</h4>
     </header>
-    <div class="grid-y grid-padding-y">
-      <div class="cell small-12">
-        <blockquote class="summary">{{project.summary}}</blockquote>
-      </div>
-      <div class="cell small-12 flex-container flex-dir-column large-flex-dir-row large-align-top">
-        <aside class="project-metadata flex-child-shrink small-order-1 medium-order-1 large-order-2">
-          <dl class="metadata">
-            <dt>Date</dt>
-            <dd>{{project.timeline}}</dd>
-          </dl>
-          <dl ng-if="project.role" class="metadata">
-            <dt>My Role</dt>
-            <dd ng-repeat="role in project.role | split:','">
-              {{role}}
-            </dd>
-          </dl>
-          <dl ng-if="project.tools" class="metadata">
-            <dt>Tools Used</dt>
-            <dd ng-repeat="tool in project.tools | split:','">
-              {{tool}}
-            </dd>
-          </dl>
-          <dl ng-if="project.team" class="metadata">
-            <dt>Team Members</dt>
-            <dd ng-repeat="member in project.team | split:','">
-              {{member}}
-            </dd>
-          </dl>
-        </aside>
-        <div class="project-details flex-child-grow small-order-2 medium-order-2 large-order-1">
+      <div class="summary">{{project.summary}}</div>
+      <div class="grid-x">
+        <div class="project-metadata cell small-12 medium-12 large-2 small-order-1 medium-order-1 large-order-2">
+          <aside>
+            <dl ng-if="project.timeline" class="metadata">
+              <dt>Date</dt>
+              <dd>{{project.timeline}}</dd>
+            </dl>
+            <dl ng-if="project.role" class="metadata">
+              <dt>My Role</dt>
+              <dd ng-repeat="role in project.role | split:','">
+                {{role}}
+              </dd>
+            </dl>
+            <dl ng-if="project.tools" class="metadata">
+              <dt>Tools Used</dt>
+              <dd ng-repeat="tool in project.tools | split:','">
+                {{tool}}
+              </dd>
+            </dl>
+            <dl ng-if="project.team" class="metadata">
+              <dt>Team Members</dt>
+              <dd ng-repeat="member in project.team | split:','">
+                {{member}}
+              </dd>
+            </dl>
+          </aside>
+        </div>
+        <div class="project-details cell small-12 medium-12 large-9 small-order-2 medium-order-2 large-order-1">
           <section class="description" ng-if="project.description">
             <div class="section-body" bind-html-compile="project.description"></div>
-            <div class="section-body">
-
-
-
-            </div>
           </section>
           <section class="project-external-links" ng-if="project['external-links']">
             <div class="section-body">
@@ -67,7 +61,6 @@
           </div>
         </div>
       </div>
-    </div>
   </article>
 </div>
 
