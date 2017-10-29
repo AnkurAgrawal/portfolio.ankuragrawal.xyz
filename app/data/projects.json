@@ -210,10 +210,10 @@
     },
     "synku": {
       "title": "Synku",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "timeline" : "2014/10/01 - 2014/12/15",
+      "summary": "exploring the production of sensory objects",
       "intro": "",
-      "description": ".",
+      "description": "<section> <div class=\"section-body\"> <p>SynKu is a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.</p> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('interface.jpg')}}\" width=\"1024\" height=\"768\"></project-image-container> <p>SynKu first processes the recorded images and audio to produce categorizations along with various spectra (saturation, lightness, and hue for images; volume and pitch for sound). Once processed, SynKu prompts the user to collect a different type of media according to that new category (e.g., “capture a sound that is bright” or “snap a pic that’s slow”). SynKu interweaves the algorithmic processing of five such media recording activities using ten media attributes (e.g. light / dark, loud / soft) with users’ cross-sensory interpretation of those attributes. People can then share the resulting media assemblage as a short video narrative (or “Ku”). By creating and sharing Kus, they produce new sensory objects interpretable by people and software.</p> </div></section>",
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
