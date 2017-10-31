@@ -73,12 +73,12 @@
       "size": "medium"
     },
     {
-      "archived": true,
-      "id": "92ec77835d0373ee0e96da5d1c087f13",
-      "title": "Teaching and Leadership",
-      "slug": "teaching-and-leadership",
-      "short-description": "Teaching Assistant, Design Education, STEM Education",
-      "size": "medium"
+      "archived": false,
+      "id": "355bce211801260669ee2c4f973a7cd8",
+      "title": "Hollywood Stars",
+      "slug": "hollywood-stars",
+      "short-description": "Visualization, User-centered Design",
+      "size": "small"
     },
     {
       "archived": false,
@@ -86,15 +86,23 @@
       "title": "Visual Design And 3d Model Collection",
       "slug": "visual-design-and-3d-model-collection",
       "short-description": "Visual Design",
-      "size": "small"
+      "size": "large"
     },
     {
       "archived": false,
-      "id": "355bce211801260669ee2c4f973a7cd8",
-      "title": "Hollywood Stars",
-      "slug": "hollywood-stars",
-      "short-description": "Visualization, User-centered Design",
+      "id": "f9555c2270ae0e6ea4404f89525e50d3",
+      "title": "Web Development",
+      "slug": "web-development",
+      "short-description": "UI design, Prototyping, Development",
       "size": "small"
+    },
+    {
+      "archived": true,
+      "id": "92ec77835d0373ee0e96da5d1c087f13",
+      "title": "Teaching and Leadership",
+      "slug": "teaching-and-leadership",
+      "short-description": "Teaching Assistant, Design Education, STEM Education",
+      "size": "medium"
     },
     {
       "archived": true,
@@ -113,19 +121,11 @@
       "size": "small"
     },
     {
-      "archived": false,
+      "archived": true,
       "id": "201753795b8145c3d42534c881e32a26",
       "title": "Image Processing",
       "slug": "image-processing",
       "short-description": "Interaction design, Computer vision",
-      "size": "small"
-    },
-    {
-      "archived": false,
-      "id": "f9555c2270ae0e6ea4404f89525e50d3",
-      "title": "Web Development",
-      "slug": "web-development",
-      "short-description": "UI design, Prototyping, Development",
       "size": "small"
     }
   ],
@@ -213,7 +213,7 @@
       "timeline" : "2014/10/01 - 2014/12/15",
       "summary": "exploring the production of sensory objects",
       "intro": "",
-      "description": "<section> <div class=\"section-body\"> <p>SynKu is a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.</p> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('interface.jpg')}}\" width=\"1024\" height=\"768\"></project-image-container> <p>SynKu first processes the recorded images and audio to produce categorizations along with various spectra (saturation, lightness, and hue for images; volume and pitch for sound). Once processed, SynKu prompts the user to collect a different type of media according to that new category (e.g., “capture a sound that is bright” or “snap a pic that’s slow”). SynKu interweaves the algorithmic processing of five such media recording activities using ten media attributes (e.g. light / dark, loud / soft) with users’ cross-sensory interpretation of those attributes. People can then share the resulting media assemblage as a short video narrative (or “Ku”). By creating and sharing Kus, they produce new sensory objects interpretable by people and software.</p> </div></section>",
+      "description": "<section> <div class=\"section-body\"> <p>SynKu is a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ {'name':'interface-1.png'}, {'name':'interface-2.png'}, {'name':'interface-3.png'}, {'name':'interface-4.png'}, {'name':'interface-5.png'}, {'name':'interface-6.png'}, {'name':'interface-7.png'}, {'name':'interface-8.png'}, {'name':'interface-9.png'}, {'name':'interface-10.png'}, {'name':'interface-11.png'}, {'name':'interface-12.png'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"373\" height=\"734\"></project-image-container> </div> </div> <p>SynKu first processes the recorded images and audio to produce categorizations along with various spectra (saturation, lightness, and hue for images; volume and pitch for sound). Once processed, SynKu prompts the user to collect a different type of media according to that new category (e.g., “capture a sound that is bright” or “snap a pic that’s slow”). SynKu interweaves the algorithmic processing of five such media recording activities using ten media attributes (e.g. light / dark, loud / soft) with users’ cross-sensory interpretation of those attributes. People can then share the resulting media assemblage as a short video narrative (or “Ku”). By creating and sharing Kus, they produce new sensory objects interpretable by people and software.</p> </div></section>",
       "tags": "UX Design, Prototyping",
       "role": "Design Technologist",
       "tools": "",
