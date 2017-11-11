@@ -66,8 +66,13 @@
       <div class="cell medium-auto medium-cell-block-container">
         <div class="grid-x grid-padding-x">
           <div ng-if="!landing" ng-include="'views/partials/_sidebar.html'" class="cell small-12 medium-3 large-3 side-bar animated fadeIn medium-cell-block-y"></div>
+          <sticky-scroll ng-if="!landing" du-scroll-container class="cell small-12 medium-9 large-9 medium-cell-block-y">
+            <div class="grid-x grid-padding-x grid-padding-y">
+              <div class="cell auto view-container" ng-view></div>
+            </div>
+          </sticky-scroll>
 
-          <sticky-scroll du-scroll-container class="cell small-12 medium-9 large-9 medium-cell-block-y">
+          <sticky-scroll ng-if="landing" du-scroll-container class="cell small-12 medium-12 large-12 medium-cell-block-y">
             <div class="grid-x grid-padding-x grid-padding-y">
               <div class="cell auto view-container" ng-view></div>
             </div>
