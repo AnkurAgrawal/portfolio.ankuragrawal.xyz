@@ -26,7 +26,23 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         wildcardDefinition: (wildcardService) ->
           wildcardService.getData()
-    .when '/about/honors-and-awards/:awardSlug',
+    .when '/about/teaching',
+      templateUrl: 'views/teachings.html'
+      controller: 'TeachingCtrl'
+      controllerAs: 'teaching'
+      title: 'teaching'
+      resolve:
+        teachings: (teachingService, $route) ->
+          teachingService.getTeachings()
+    .when '/about/awards',
+      templateUrl: 'views/awards.html'
+      controller: 'AwardsCtrl'
+      controllerAs: 'awards'
+      title: 'awards'
+      resolve:
+        awards: (awardService, $route) ->
+          awardService.getAwards()
+    .when '/about/awards/:awardSlug',
       templateUrl: 'views/award.html'
       controller: 'AwardCtrl'
       controllerAs: 'award-details'
