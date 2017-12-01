@@ -1,0 +1,21 @@
+<div ng-if="teachings" class="teachings-page fadeIn animated item-list">
+  <article role="article">
+    <header class="page-banner">
+      <h4 sticky sticky-class="is-sticky" class="page-heading left animated" id="prj-title">Teaching</h4>
+    </header>
+    <section>
+      <div class="section-body">
+        <a class="teaching" href="about/teachings/{{slug}}" ng-repeat="(slug, teaching) in teachings">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h5 class="title">{{teaching.title}}</h5>
+              <div class="muted organization">{{teaching.organization}}</div>
+              <span class="muted date"><small>{{teaching.date}}</small></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </article>
+</div>
+<ng-include ng-if="!teachings" src="'views/404.html'"></ng-include>
