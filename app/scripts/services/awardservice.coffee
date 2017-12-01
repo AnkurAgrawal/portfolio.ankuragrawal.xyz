@@ -11,7 +11,10 @@ ankuragrawalApp
   .factory 'awardService', ($firebaseObject, dbService) ->
 
     awardService = {}
-    awardService.collectionName = 'honors-&-awards'
+    awardService.collectionName = 'awards'
+
+    awardService.getAwards = ->
+      dbService.query "#{this.collectionName}", $firebaseObject
 
     awardService.getAward = (awardSlug) ->
       dbService.query "#{this.collectionName}/#{awardSlug}", $firebaseObject
