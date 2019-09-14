@@ -46,13 +46,14 @@ ankuragrawalApp
       }
     ]
 
-    $scope.closeNavbarInMobile = (path) ->
+    $scope.openLink = (path) ->
       $location.path(path)
-      $timeout ->
-        if $('.top-bar').hasClass('expanded')
-          $('.toggle-topbar').click()
-      , 10
 
+    $scope.closeNavbarInMobile = (path) ->
+      $scope.openLink(path)
+      $timeout ->
+        $('.title-bar button').click()
+      , 10
 
     $rootScope.getClass = (paths) ->
       typeIsArray = Array.isArray || ( value ) -> return {}.toString.call( value ) is '[object Array]'
@@ -60,8 +61,11 @@ ankuragrawalApp
       active = false
       angular.forEach paths, (path) ->
         if (path is '/' and $location.path() is path) or (path isnt '/' and $location.path().substr(0, path.length) is path) then active = true
-      return "active" unless active isnt true
+      return 'active' unless active isnt true
 
     $scope.gotoTop = ->
       $location.hash('start-of-page')
       $anchorScroll()
+
+    $scope.isRetina = ->
+      ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches)) || (window.devicePixelRatio && window.devicePixelRatio >= 2)) && /(iPad|iPhone|iPod)/g.test(navigator.userAgent);

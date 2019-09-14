@@ -7,8 +7,9 @@
  # # TeachingCtrl
  # Controller of the ankuragrawalApp
 ###
-angular.module 'ankuragrawalApp'
-  .controller 'TeachingCtrl', ($scope, $rootScope, $routeParams, teachings) ->
+ankuragrawalApp
+  .controller 'TeachingCtrl', ($scope, $rootScope, $routeParams, teaching) ->
     $rootScope.landing = false
-
-    $scope.teachings = teachings
+    if teaching.title?
+      $scope.teaching = teaching
+      $scope.teaching.slug = $routeParams.teachingSlug

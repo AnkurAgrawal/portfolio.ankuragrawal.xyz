@@ -1,8 +1,8 @@
-<div class="grid-x fadeIn animated">
-  <div class="cell small-8 medium-6 large-4">
+<div class="grid-x fadeIn animated contact">
+  <div class="cell small-10 medium-6 large-6">
     <div class="cell auto">
       <h4 class="page-heading">Get in touch, say Hi!</h4>
-    </div>
+    </div><br>
     <div class="cell auto form">
       <!-- Error message -->
       <div class="error" ng-show="error">
@@ -15,17 +15,17 @@
       <form role="form" name="contactform" method="post" ng-submit="contactform.$valid && submitForm(contact)" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" ng-controller="ContactCtrl" ng-hide="success">
         <div class="row">
           <div class="medium-6 columns">
-            <label>Name
+            <label>Name <span>*</span>
               <input id="name" type="text" name="name" ng-model="contact.name" placeholder="" maxlength="255" required>
             </label>
           </div>
           <div class="medium-6 columns">
-            <label>Email address
+            <label>Email address <span>*</span>
               <input id="email" type="email" name="email" ng-model="contact.email" placeholder="" required>
             </label>
           </div>
           <div class="medium-6 columns">
-            <label>Message
+            <label>Message <span>*</span>
               <textarea id="message" name="message" rows="4" ng-model="contact.message" placeholder="" required></textarea>
             </label>
           </div>

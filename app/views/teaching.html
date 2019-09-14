@@ -1,0 +1,28 @@
+<div ng-if="teaching" class="teaching-page fadeIn animated">
+  <article role="article">
+    <header class="teaching-banner">
+      <small class="muted">Teaching</small>
+      <h3 sticky sticky-class="is-sticky" class="teaching-page-heading left animated" id="teaching-title">
+        <span class="teaching-heading-seg-text">{{teaching.title}} </span>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y teaching-details">
+      <section class="cell small-10">
+        <span class="muted organization section-body" ng-bind-html="teaching.organization"></span>
+      </section>
+      <section class="cell small-10">
+        <div class="section-body">
+          <ul class="list">
+            <li ng-repeat="description in teaching.description">
+              {{description}}
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cell small-10">
+
+      </section>
+    </div>
+  </article>
+</div>
+<ng-include ng-if="!teaching" src="'views/404.html'"></ng-include>

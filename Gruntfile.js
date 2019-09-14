@@ -108,7 +108,7 @@ module.exports = function (grunt) {
           var optBase = (typeof options.base === 'string') ? [options.base] : options.base;
           return [require('connect-modrewrite')(['!(\\..+)$ / [L]'])].concat(
             optBase.map(function(path) {
-              return connect.static(path);
+              return require('serve-static')(path);
             }));
         }
       },
@@ -118,16 +118,16 @@ module.exports = function (grunt) {
           middleware: function (connect) {
             return [
               require('connect-modrewrite')(['!(\\..+)$ / [L]']),
-              connect.static('.tmp'),
+              require('serve-static')('.tmp'),
               connect().use(
                 '/bower_components',
-                connect.static('./bower_components')
+                require('serve-static')('./bower_components')
               ),
               connect().use(
                 '/app/styles',
-                connect.static('./app/styles')
+                require('serve-static')('./app/styles')
               ),
-              connect.static(appConfig.app)
+              require('serve-static')(appConfig.app)
             ];
           }
         }
@@ -466,9 +466,10 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '.htaccess',
             '*.html',
-            'images/**/{,*/}*.{gif,webp,svg,jpg}',
+            'images/**/{,*/}*.{gif,webp,svg}',
             'styles/fonts/{,*}*.*',
-            'data/*',
+            'styles/*.svg',
+            'data/projects.json',
             'files/*'
           ]
         }, {

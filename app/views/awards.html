@@ -8,8 +8,8 @@
         <a class="award" href="about/awards/{{slug}}" ng-repeat="(slug, award) in awards">
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="cell auto">
-              <h5 class="title">{{award.title}}</h5>
-              <div class="muted organization">{{award.organization}}</div>
+              <h6 class="title">{{award.title}}</h6>
+              <div class="muted organization"><small>{{award.organization}}</small></div>
               <span class="muted date"><small>{{award.date}}</small></span>
             </div>
           </div>

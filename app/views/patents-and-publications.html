@@ -2,14 +2,14 @@
   <article role="article">
     <div class="grid-y grid-padding-y">
       <div class="cell small-12" ng-if="patents_publications_list">
-        <section class="Patents">
+        <section class="patents">
           <h6 class="section-heading">Patents</h6>
           <div class="section-body">
             <a class="patent" href="portfolio/patents-and-publications/{{slug}}" ng-if="patent.type == 'patent'" ng-repeat="(slug, patent) in patents_publications_list">
               <div class="grid-x grid-padding-x grid-padding-y">
                 <div class="cell auto">
-                  <h5 class="title">{{patent.title}}</h5>
-                  <span class=muted>{{patent['patent-number']}}</span>
+                  <h6 class="title">{{patent.title}}</h6>
+                  <small class="muted">{{patent['patent-number']}}</small>
                 </div>
               </div>
             </a>
@@ -21,8 +21,8 @@
             <a class="publication" href="portfolio/patents-and-publications/{{slug}}" ng-if="publication.type == 'publication'" ng-repeat="(slug, publication) in patents_publications_list">
               <div class="grid-x grid-padding-x grid-padding-y">
                 <div class="cell auto">
-                  <h5 class="title">{{publication.title}}</h5>
-                  <span class=muted>{{publication.publication}}</span>
+                  <h6 class="title">{{publication.title}}</h6>
+                  <small class="muted">{{publication.publication}}</small>
                 </div>
               </div>
             </a>

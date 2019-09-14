@@ -5,12 +5,17 @@
     </header>
     <section>
       <div class="section-body">
-        <a class="teaching" href="about/teachings/{{slug}}" ng-repeat="(slug, teaching) in teachings">
+        <a class="teaching" href="about/teaching/{{slug}}" ng-repeat="(slug, teaching) in teachings">
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="cell auto">
-              <h5 class="title">{{teaching.title}}</h5>
-              <div class="muted organization">{{teaching.organization}}</div>
+              <h6 class="title">{{teaching.title}}</h6>
+              <div class="muted organization"><small>{{teaching.organization}}</small></div>
               <span class="muted date"><small>{{teaching.date}}</small></span>
+              <ul class="list">
+                <li ng-repeat="description in teaching.description">
+                  <small>{{description}}</small>
+                </li>
+              </ul>
             </div>
           </div>
         </a>

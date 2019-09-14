@@ -3,11 +3,12 @@
 ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollMagicProvider) ->
   $routeProvider
     .when '/',
-      templateUrl: 'views/landing.html'
-      controller: 'LandingCtrl'
-      controllerAs: 'landing'
-      title: 'home - ankur agrawal, wildcard designer + technologist'
-      bodyClass: 'landing'
+      redirectTo: '/portfolio'
+      # templateUrl: 'views/landing.html'
+      # controller: 'LandingCtrl'
+      # controllerAs: 'landing'
+      # title: 'home - ankur agrawal, wildcard designer + technologist'
+      # bodyClass: 'landing'
     .when '/about',
       templateUrl: 'views/about.html'
       controller: 'AboutCtrl'
@@ -26,14 +27,54 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         wildcardDefinition: (wildcardService) ->
           wildcardService.getData()
+    .when '/about/work',
+      templateUrl: 'views/works.html'
+      controller: 'WorkCtrl'
+      controllerAs: 'work'
+      title: 'work'
+      resolve:
+        works: (workService, $route) ->
+          workService.getWorks()
+    .when '/about/work/:workSlug',
+      templateUrl: 'views/work-details.html'
+      controller: 'WorkDetailsCtrl'
+      controllerAs: 'work-details'
+      title: 'work'
+      resolve:
+        work: (workService, $route) ->
+          workService.getWork($route.current.params.workSlug)
     .when '/about/teaching',
       templateUrl: 'views/teachings.html'
-      controller: 'TeachingCtrl'
+      controller: 'TeachingsCtrl'
       controllerAs: 'teaching'
       title: 'teaching'
       resolve:
         teachings: (teachingService, $route) ->
           teachingService.getTeachings()
+    .when '/about/teaching/:teachingSlug',
+      templateUrl: 'views/teaching.html'
+      controller: 'TeachingCtrl'
+      controllerAs: 'teaching-details'
+      title: 'teaching'
+      resolve:
+        teaching: (teachingService, $route) ->
+          teachingService.getTeaching($route.current.params.teachingSlug)
+    .when '/about/leadership',
+      templateUrl: 'views/leaderships.html'
+      controller: 'LeadershipsCtrl'
+      controllerAs: 'leadership'
+      title: 'leadership'
+      resolve:
+        leaderships: (leadershipService, $route) ->
+          leadershipService.getLeaderships()
+    .when '/about/leadership/:leadershipSlug',
+      templateUrl: 'views/leadership.html'
+      controller: 'LeadershipCtrl'
+      controllerAs: 'leadership-details'
+      title: 'leadership'
+      resolve:
+        leadership: (leadershipService, $route) ->
+          leadershipService.getLeadership($route.current.params.leadershipSlug)
     .when '/about/awards',
       templateUrl: 'views/awards.html'
       controller: 'AwardsCtrl'
@@ -88,8 +129,8 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       controllerAs: 'contact'
       title: 'contact'
     .otherwise
-      templateUrl: "views/404.html"
-      controller: "404Ctrl"
+      templateUrl: 'views/404.html'
+      controller: '404Ctrl'
 
   $locationProvider
     .html5Mode true
@@ -114,7 +155,7 @@ ankuragrawalApp.run [
     progressBar = ngProgressFactory.createInstance()
     progressBar.setColor '#76a7fa'
 
-    $rootScope.$on "$routeChangeStart",  (event, next, current) ->
+    $rootScope.$on '$routeChangeStart',  (event, next, current) ->
       rand = Math.floor Math.random() * 8
       $rootScope.rand = rand
       progressBar.start()
@@ -129,16 +170,16 @@ ankuragrawalApp.run [
       progressBar.stop()
       $anchorScroll()
       $ 'sticky-scroll'
-      .scrollTop 0, 20
+        .scrollTop 0, 20
       $ '#main'
-      .access true
+        .access true
       if $route.current.title
         $.announce $route.current.title + ' page loaded', 'assertive'
       if $route.current
         $rootScope.title = $route.current.title
         $rootScope.bodyClass = $route.current.bodyClass
 
-    $rootScope.$on "$routeChangeError", (event, current, previous) ->
+    $rootScope.$on '$routeChangeError', (event, current, previous) ->
       progressBar.complete()
       progressBar.stop()
 

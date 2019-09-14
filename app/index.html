@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="bower_components/angular-flickr/dist/angular-flickr.min.css" />
   <link rel="stylesheet" href="bower_components/photoswipe/dist/photoswipe.css" />
   <link rel="stylesheet" href="bower_components/photoswipe/dist/default-skin/default-skin.css" />
+  <link rel="stylesheet" href="bower_components/lightslider/dist/css/lightslider.min.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -72,11 +73,7 @@
             </div>
           </sticky-scroll>
 
-          <sticky-scroll ng-if="landing" du-scroll-container class="cell small-12 medium-12 large-12 medium-cell-block-y">
-            <div class="grid-x grid-padding-x grid-padding-y">
-              <div class="cell auto view-container" ng-view></div>
-            </div>
-          </sticky-scroll>
+          <div ng-if="landing" class="cell small-12 view-container" ng-view></div>
         </div>
       </div>
       </div>
@@ -89,7 +86,6 @@
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
   <script src="bower_components/angular-aria/angular-aria.js"></script>
@@ -100,10 +96,10 @@
   <script src="bower_components/SHA-1/sha1.js"></script>
   <script src="bower_components/angulartics/src/angulartics.js"></script>
   <script src="bower_components/angulartics-google-analytics/lib/angulartics-ga.js"></script>
-  <script src="bower_components/what-input/dist/what-input.js"></script>
+  <script src="bower_components/jquery/jquery.js"></script>
   <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-  <script src="bower_components/ngprogress/build/ngprogress.js"></script>
-  <script src="bower_components/a11y_kit/dist/a11y_kit.jquery.js"></script>
+  <script src="bower_components/ngprogress/build/ngprogress.min.js"></script>
+  <script src="bower_components/a11y_kit/dist/a11y_kit.js"></script>
   <script src="bower_components/angular-hotkeys/build/hotkeys.js"></script>
   <script src="bower_components/angular-tooltips/dist/angular-tooltips.min.js"></script>
   <script src="bower_components/motion-ui/dist/motion-ui.js"></script>
@@ -124,6 +120,8 @@
   <script src="bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
   <script src="bower_components/ng-videosharing-embed/build/ng-videosharing-embed.min.js"></script>
   <script src="bower_components/angulargrid/angulargrid.js"></script>
+  <script src="bower_components/cloudinary-jquery/cloudinary-jquery.js"></script>
+  <script src="bower_components/lightslider/dist/js/lightslider.min.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -142,6 +140,7 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script defer="defer" src="scripts/app.js"></script>
+    <script defer="defer" src="scripts/ws.js"></script>
     <script defer="defer" src="scripts/config/routes.js"></script>
     <script defer="defer" src="scripts/config/constants.js"></script>
     <script defer="defer" src="scripts/config/values.js"></script>
@@ -152,12 +151,15 @@
     <script defer="defer" src="scripts/directives/app-header.js"></script>
     <script defer="defer" src="scripts/directives/project-image-container.js"></script>
     <script defer="defer" src="scripts/directives/project-video-container.js"></script>
+    <script defer="defer" src="scripts/directives/lightgallery.js"></script>
     <script defer="defer" src="scripts/services/dbservice.js"></script>
     <script defer="defer" src="scripts/services/imageservice.js"></script>
     <script defer="defer" src="scripts/services/patentandpublicationservice.js"></script>
     <script defer="defer" src="scripts/services/projectservice.js"></script>
     <script defer="defer" src="scripts/services/aboutservice.js"></script>
+    <script defer="defer" src="scripts/services/workservice.js"></script>
     <script defer="defer" src="scripts/services/teachingservice.js"></script>
+    <script defer="defer" src="scripts/services/leadershipservice.js"></script>
     <script defer="defer" src="scripts/services/awardservice.js"></script>
     <script defer="defer" src="scripts/services/wildcardservice.js"></script>
     <script defer="defer" src="scripts/controllers/app.js"></script>
@@ -168,11 +170,15 @@
     <script defer="defer" src="scripts/controllers/project.js"></script>
     <script defer="defer" src="scripts/controllers/contact.js"></script>
     <script defer="defer" src="scripts/controllers/about.js"></script>
+    <script defer="defer" src="scripts/controllers/work.js"></script>
+    <script defer="defer" src="scripts/controllers/workdetails.js"></script>
+    <script defer="defer" src="scripts/controllers/teachings.js"></script>
     <script defer="defer" src="scripts/controllers/teaching.js"></script>
+    <script defer="defer" src="scripts/controllers/leaderships.js"></script>
+    <script defer="defer" src="scripts/controllers/leadership.js"></script>
     <script defer="defer" src="scripts/controllers/awards.js"></script>
     <script defer="defer" src="scripts/controllers/award.js"></script>
     <script defer="defer" src="scripts/controllers/wildcard.js"></script>
-    <script defer="defer" src="scripts/ws.js"></script>
     <!-- endbuild -->
 
   <!-- Google Analytics -->
@@ -186,4 +192,3 @@
     galite('send', 'pageview');
   </script>
 </body>
-</html>

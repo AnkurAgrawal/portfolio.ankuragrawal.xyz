@@ -14,6 +14,6 @@ ankuragrawalApp
     aboutService.collectionName = 'about'
 
     aboutService.getData = ->
-      dbService.query "#{this.collectionName}", $firebaseObject
+      dbService.query this.collectionName, $firebaseObject
 
     aboutService

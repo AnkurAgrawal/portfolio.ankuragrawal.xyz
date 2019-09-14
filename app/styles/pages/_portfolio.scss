@@ -2,6 +2,7 @@
 .portfolio-grid {
   min-height: 600px;
   margin: -10px -12px 15px;
+  margin-bottom: 6rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -101,7 +102,6 @@
           itinerant-probes,
           toothgloss,
           goslometer,
-          tangible-play-surfaces,
           visual-design-and-3d-model-collection,
           teaching-and-leadership,
           web-development,
@@ -110,6 +110,9 @@
           flame,
           hollywood-stars,
           work-happy,
+          code-maker,
+          story-maker,
+          tangible-play-surfaces,
           image-processing,
           sweet-treat);
         @each $project-slug in $project-slug-list {

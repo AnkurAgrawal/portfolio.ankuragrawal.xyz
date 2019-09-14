@@ -27,6 +27,10 @@
           .wildcard-tooltip-link {
             font-weight: normal;
             cursor: pointer;
+
+            .icon-question {
+              background-position: 0 0; width: 32px; height: 32px;
+            }
           }
           .wildcard-tip {
             .close-button {

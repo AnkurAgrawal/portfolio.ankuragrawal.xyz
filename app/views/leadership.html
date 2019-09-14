@@ -1,0 +1,28 @@
+<div ng-if="leadership" class="leadership-page fadeIn animated">
+  <article role="article">
+    <header class="leadership-banner">
+      <small class="muted">Leadership</small>
+      <h3 sticky sticky-class="is-sticky" class="leadership-page-heading left animated" id="leadership-title">
+        <span class="leadership-heading-seg-text">{{leadership.title}} </span>
+      </h3>
+    </header>
+    <div class="grid-y grid-padding-y leadership-details">
+      <section class="cell small-10">
+        <span class="muted organization section-body" ng-bind-html="leadership.organization"></span>
+      </section>
+      <section class="cell small-10">
+        <div class="section-body">
+          <ul class="list">
+            <li ng-repeat="description in leadership.description">
+              {{description}}
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cell small-10">
+
+      </section>
+    </div>
+  </article>
+</div>
+<ng-include ng-if="!leadership" src="'views/404.html'"></ng-include>

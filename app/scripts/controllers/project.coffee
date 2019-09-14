@@ -12,21 +12,41 @@ ankuragrawalApp
     $rootScope.landing = false
 
     $scope.getCurrentProjectImageAssetUrl = (image) ->
-      "#{imageService.getImageAssetUrl()}projects/#{$scope.project.slug}/#{image}"
+      imageService.getImageAssetUrl() + 'projects/' + $scope.project.slug + '/' + image
 
-    $scope.isRetina = ->
-      ((window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches)) || (window.devicePixelRatio && window.devicePixelRatio >= 2)) && /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+    $scope.getCurrentProjectThumbnailImageAssetUrl = (image) ->
+      imageService.getThumbnailImageAssetUrl() + 'projects/' + $scope.project.slug + '/' + image
 
     $scope.init = ->
-      $rootScope.title = "#{project.title}: project ";
-      $.announce($rootScope.title + ' page loaded', 'assertive')
-      _getImagesInProject()
+      $rootScope.title = project.title + ': project ';
+      # $.announce($rootScope.title + ' page loaded', 'assertive')
+      _getImagesInProject('.project-details section.description')
+      setTimeout ->
+        $.cloudinary.responsive()
+        $('#lightSlider').lightSlider
+          gallery: true,
+          item: 1,
+          autoWidth: false,
+          loop: true,
+          slideMargin: 0,
+          thumbItem: 12,
+          adaptiveHeight: true,
+
+          pager: true,
+
+          enableTouch:true,
+          enableDrag:true,
+          freeMove:true,
+          swipeThreshold: 40,
+
+          keyPress: true
+      , 100
 
     $scope.images = []
 
-    _getImagesInProject = ->
+    _getImagesInProject = (containerSection) ->
       setTimeout ->
-        $images = $('.project-details section.description img')
+        $images = $(containerSection + ' img')
         if $images.length > 0
           $images.each (imgA) ->
             $img = $(this)
@@ -34,24 +54,24 @@ ankuragrawalApp
             h = parseInt($img.attr('data-height'), 10) || parseInt($img.attr('height'), 10)
 
             img =
-              src: $img.attr('src')
+              src: $img.attr('data-src') || $img.attr('ng-data-src')
               w: if $scope.isRetina() then w/2 else w
               h: if $scope.isRetina() then h/2 else h
               title: $img.parents('figure').find('figcaption').text() || $img.attr('alt')
             $scope.images.push(img)
-          _initPhotoSwipe()
+          _initPhotoSwipe(containerSection)
       , 100
       return
 
-    _initPhotoSwipe = ->
+    _initPhotoSwipe = (containerSection) ->
       setTimeout ->
         pswpElement = document.querySelectorAll(".pswp")[0]
         items = angular.copy($scope.images)
 
-        $('.project-details section.description').on 'click', 'figure', (e) ->
+        $(containerSection).on 'click', 'figure', (e) ->
           e.preventDefault()
           options =
-            index: $('.project-details section.description figure').index(this)
+            index: $(containerSection + ' figure').index(this)
             history: false
             closeOnScroll: false
             showHideOpacity: true
@@ -59,7 +79,7 @@ ankuragrawalApp
             hideAnimationDuration: 500
             showAnimationDuration: 500
             getThumbBoundsFn: (index) ->
-              thumbnail = document.querySelectorAll(".project-details section.description img")[index]
+              thumbnail = document.querySelectorAll(containerSection + ' img')[index]
               pageYScroll = window.pageYOffset or document.documentElement.scrollTop
               rect = thumbnail.getBoundingClientRect()
               x: rect.left

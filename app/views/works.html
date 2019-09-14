@@ -1,0 +1,26 @@
+<div ng-if="works" class="works-page fadeIn animated item-list">
+  <article role="article">
+    <header class="page-banner">
+      <h4 sticky sticky-class="is-sticky" class="page-heading left animated" id="prj-title">Work</h4>
+    </header>
+    <section>
+      <div class="section-body">
+        <a class="work" href="about/work/{{slug}}" ng-repeat="(slug, work) in works">
+          <div class="grid-x grid-padding-x grid-padding-y">
+            <div class="cell auto">
+              <h6 class="title">{{work.title}}</h6>
+              <div class="muted organization"><small>{{work.organization}}</small></div>
+              <span class="muted date"><small>{{work.date}}</small></span>
+              <ul class="list">
+                <li ng-repeat="description in work.description">
+                  <small>{{description}}</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </article>
+</div>
+<ng-include ng-if="!works" src="'views/404.html'"></ng-include>

@@ -1,504 +1,862 @@
 {
-  "projects":[
+    "projects": [
+        {
+            "archived": false,
+            "development": false,
+            "title": "Patents and Publications",
+            "slug": "patents-and-publications",
+            "short-description": "Inventions, Papers, Conferences",
+            "size": "small"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Sweet Treat",
+            "slug": "sweet-treat",
+            "short-description": "Fabrication, 3D Modeling, Mechanical, UX Design",
+            "size": "medium"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "ToothGloss",
+            "slug": "toothgloss",
+            "short-description": "UX Design, Prototyping, UI Design",
+            "size": "medium"
+        },
+        {
+            "archived": true,
+            "development": false,
+            "title": "ScratchHear - A passive audio interface",
+            "slug": "scratch-hear-a-passive-audio-interface",
+            "short-description": "Material interface, Acoustics",
+            "size": "medium"
+        },
+        {
+            "archived": true,
+            "development": true,
+            "title": "Code Maker",
+            "slug": "code-maker",
+            "short-description": "Intel, RFID, Toys, Play, Prototyping, STEM Education",
+            "size": "medium"
+        },
+        {
+            "archived": true,
+            "development": true,
+            "title": "Story Maker",
+            "slug": "story-maker",
+            "short-description": "Intel, RFID, Toys, Play, Prototyping",
+            "size": "medium"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Itinerant Probes",
+            "slug": "itinerant-probes",
+            "short-description": "Social Inquiry, Prototyping, Design Research",
+            "size": "medium"
+        },
+        {
+            "archived": false,
+            "development": true,
+            "title": "Tangible Play Surfaces",
+            "slug": "tangible-play-surfaces",
+            "short-description": "Intel, RFID, Toys, Prototyping",
+            "size": "small"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Synku",
+            "slug": "synku",
+            "short-description": "Cross Sensory Perception, Research",
+            "size": "medium"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Orchestable",
+            "slug": "orchestable",
+            "short-description": "Prototyping, Experience Design, Music",
+            "size": "small"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Hollywood Stars",
+            "slug": "hollywood-stars",
+            "short-description": "Visualization, User-centered Design",
+            "size": "small"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Visual Design and 3D Model Collection",
+            "slug": "visual-design-and-3d-model-collection",
+            "short-description": "Visual Design",
+            "size": "small"
+        },
+        {
+            "archived": false,
+            "development": false,
+            "title": "Web Development",
+            "slug": "web-development",
+            "short-description": "UI design, Prototyping, Development",
+            "size": "small"
+        },
+        {
+            "archived": true,
+            "development": false,
+            "title": "Teaching and Leadership",
+            "slug": "teaching-and-leadership",
+            "short-description": "Teaching Assistant, Design Education, STEM Education",
+            "size": "medium"
+        },
+        {
+            "archived": true,
+            "development": false,
+            "title": "Work Happy",
+            "slug": "work-happy",
+            "short-description": "User experience design, Interaction design",
+            "size": "small"
+        },
+        {
+            "archived": true,
+            "development": false,
+            "title": "Goslometer",
+            "slug": "goslometer",
+            "short-description": "User-centered design, Paper prototyping",
+            "size": "small"
+        },
+        {
+            "archived": true,
+            "development": false,
+            "title": "Image Processing",
+            "slug": "image-processing",
+            "short-description": "Interaction design, Computer vision",
+            "size": "small"
+        }
+    ],
+    "projects-details":
     {
-      "archived": false,
-      "id": "92ec77835d0373ee0e96da5d1c087f13",
-      "title": "Patents and Publications",
-      "slug": "patents-and-publications",
-      "short-description": "Patents, Inventions, Publications, Conferences",
-      "size": "small"
+        "sweet-treat":
+        {
+            "title": "Sweet Treat",
+            "timeline": "01/02/2016 - 03/15/2017",
+            "summary": "changing people’s behavior of taking candies from the HCDE main office and creating a fun and collaborative atmosphere in the office",
+            "intro": "",
+            "description": "<p>Sweet Treat started with the idea of redesigning candy bowl to solve a problem department of HCDE was facing, which after our research we realized wasn't just HCDE's problem but almost everywhere. The problem was good candy running out too soon and less desirable candy not getting picked up by anyone. Over the course of next ten weeks, we set out to solve this issue of loneliness of less desirable candy.</p><div class=\"design-process\"></div><p>We started with doing <b>field research</b> to find out the cause of the problems so we can design to solve them. Our research developed into <b>three clear findings</b>.</p><div class=\"research-findings list\"> <span class=\"finding\">Free candy in the office provides a place for people to interact with others. However, some less positive social interactions happen when people sitting near the bowl are frequently interrupted by candy takers who feel the need to justify their actions.</span> <span class=\"finding\">The department thinks the bowl belongs to everyone in the office, with the burden of buying and refilling candy being shared by everyone in the office. But people only take candy from it, and complain to the office manager when the bowl is empty.</span> <span class=\"finding\">The bowl is usually filled with a variety of candy at first. But some types of candy run out more quickly than others because people tend to pick the same types of candy. This leaves the less desirable ones at the bottom of the bowl for a long time before they are finally selected.</span></div><p>We then translated these findings into <b>three design opportunities</b>.</p><div class=\"design-opportunities list\"> <span class=\"design-opportunity\">Enrich positive social interactions among HCDE staff, faculty and students.</span> <span class=\"design-opportunity\">Encourage all staff in the office to refill the candy bowl, and foster the collective sense of responsibility.</span> <span class=\"design-opportunity\">Make the candy bowl consumption sustainable, in both speed of consumption and diversity of choice.</span></div><p>We used these findings to <b>brainstorm, ideate, sketch and design</b> an initial prototype. The efforts was focused on making the bowl easier to refill, increasing the variety of candy in the bowl at any given time, and increasing engagement in the office surrounding it.</p><h6 class=\"section-heading\">Brainstorming</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-brainstorming_1.jpg', 'picture-prototype-1-brainstorming_2.jpg', 'picture-prototype-1-brainstorming_3.jpg', 'picture-prototype-1-brainstorming_4.jpg', 'picture-prototype-1-brainstorming_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st prototype brainstorming\"></project-image-container> </div></div><h6 class=\"section-heading\">Making the prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ {alt: 'Sketch of 1st prototype', name: 'sketch-prototype-1-making_1.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_1.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_2.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_3.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_4.jpg'}, {alt: '1st prototype', name: 'picture-prototype-1-making_5.jpg'} ]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" alt=\"{{image.alt}}\"></project-image-container> </div></div><h6 class=\"section-heading\">Finished low fidelity prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-finished_1.jpg', 'picture-prototype-1-finished_2.jpg', 'picture-prototype-1-finished_3.jpg', 'picture-prototype-1-finished_4.jpg', 'picture-prototype-1-finished_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st finished prototype\"></project-image-container> </div></div><h6 class=\"section-heading\">Usability testing</h6><p>We were then able to do some rapid testing on the prototype and get feedback about what wasn't clear. Our main goal was to gather feedback on the three challenges and the overall physical design. For testing, the prototype was <b>placed in a public place</b> in our department where students, staff, and faculty would pass by. Participants were those who walked and took a few minutes to explore the prototype. The researcher standing near the prototype conducted a brief interview asking them about their experience.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-testing_1.jpg', 'picture-prototype-1-testing_2.jpg', 'picture-prototype-1-testing_3.jpg', 'picture-prototype-1-testing_4.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st prototype testing\"></project-image-container> </div></div><p>Ultimately, we had seven participants complete our study which uncovered several key usability issues.</p><div class=\"usability-findings list\"> <span class=\"finding\">The purpose of the charity box and the sugar rush box is unclear.</span> <span class=\"finding\">The sliding game is too time consuming.</span> <span class=\"finding\">It is unclear the the drawer contains different candy.</span> <span class=\"finding\">The buttons are hard to select due to their size.</span></div><p>Time to brainstorm again. As a result of the findings from our testing, we made modifications to the design of both the physical and digital parts of the prototype.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-brainstorming_1.jpg', 'picture-prototype-2-brainstorming_2.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd prototype brainstorming\"></project-image-container> </div></div><p>From there, <b>we created Sweet Treat</b>, a redesigned candy bowl that asks users to complete a challenge in order to earn their candy. Those that don't have time to play the challenge can simply grab a piece of less desirable candy from the tray at the top of the machine. Finally, the auto-refilling drum added in the back of the bowl has four sections to store the candy. This drum can refill the bowl automatically when it's empty, which means that the candy bowl does not have to be filled manually too often. It also keep a good balance in the variety of candy in the bowl by refilling only when most of the candy are gone.</p><h6 class=\"section-heading\">Making the final prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-making_1.jpg', 'picture-prototype-2-making_2.jpg', 'picture-prototype-2-making_3.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd prototype in making\"></project-image-container> </div></div><h6 class=\"section-heading\">Finished final prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-finished_1.jpg', 'picture-prototype-2-finished_2.jpg', 'picture-prototype-2-finished_3.jpg', 'picture-prototype-2-finished_4.jpg', 'picture-prototype-2-finished_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd finished prototype\"></project-image-container> </div></div><h6 class=\"section-heading\">Digital interaction design</h6><project-image-container src=\"{{getCurrentProjectImageAssetUrl('picture-prototype-2-finished-digital.jpg')}}\" alt=\"Digital interaction design\"></project-image-container><h6 class=\"section-heading\">Control system design</h6><project-image-container src=\"{{getCurrentProjectImageAssetUrl('picture-prototype-2-finished-electronic.jpg')}}\" alt=\"Electronic control system design\"></project-image-container>",
+            "gallery-pictures": ["picture-existing-candy-bowl.jpg", "picture-prototype-1-brainstorming_1.jpg", "picture-prototype-1-brainstorming_2.jpg", "picture-prototype-1-brainstorming_3.jpg", "picture-prototype-1-brainstorming_4.jpg", "picture-prototype-1-brainstorming_5.jpg", "sketch-prototype-1-making_1.jpg", "picture-prototype-1-making_1.jpg", "picture-prototype-1-making_2.jpg", "picture-prototype-1-making_3.jpg", "picture-prototype-1-making_4.jpg", "picture-prototype-1-making_5.jpg", "picture-prototype-1-finished_1.jpg", "picture-prototype-1-finished_2.jpg", "picture-prototype-1-finished_3.jpg", "picture-prototype-1-finished_4.jpg", "picture-prototype-1-finished_5.jpg", "picture-prototype-1-testing_1.jpg", "picture-prototype-1-testing_2.jpg", "picture-prototype-1-testing_3.jpg", "picture-prototype-1-testing_4.jpg", "picture-prototype-2-brainstorming_1.jpg", "picture-prototype-2-brainstorming_2.jpg", "picture-prototype-2-making_1.jpg", "picture-prototype-2-making_2.jpg", "picture-prototype-2-making_3.jpg", "picture-prototype-2-finished_1.jpg", "picture-prototype-2-finished_2.jpg", "picture-prototype-2-finished_3.jpg", "picture-prototype-2-finished_4.jpg", "picture-prototype-2-finished_5.jpg", "picture-prototype-2-finished-digital.jpg", "picture-prototype-2-finished-electronic.jpg"],
+            "tags": "UX Design, Prototyping, 3d modelling, Laser cutting, 3d printing, Mechanical",
+            "role": "Design Technologist",
+            "tools": "Laser Cutting, Arduino, WiFi module, ",
+            "team": "Ankur Agrawal, Chen Ye, Linshuang Chen, Allie Deford",
+            "external-links": [
+                "{\"file\":\"files/sweet-treat-process-book.pdf\",\"title\":\"Checkout the process book\",\"caption\":\"process book\"}",
+                    "{\"file\":\"files/sweet-treat-poster.pdf\",\"title\":\"Checkout the poster\",\"caption\":\"poster\"}"
+                    ],
+            "votes": 0,
+            "views": 0
+        },
+        "orchestable":
+        {
+            "title": "Orchestable",
+            "timeline": "09/01/2011 - 01/15/2012",
+            "summary": "a system that provides a digital multi-touch interface and enables people to play multiple musical instruments simultaneously, through a natural user interface with broader accessibility and flexibility",
+            "intro": "",
+            "description": "<p>Orchestable was developed as a capstone project for my bachelor \"degree\" of technology. At the time there were apps to play musical instruments on a touch device but with limitations, Most of the apps were allowing playing of a single instrument at a time. And among all the apps I studied, more than half were single touch input apps. This can be very problematic while playing musical instruments, since almost all instruments realistically need multi-touch input. I set out to solve this problem.</p><p>The first step in the project was to define the target users, <strong>beginners</strong> and <strong>hobyist</strong> musicians.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('musician-piano.svg')}}\" alt=\"Target user\" data-width=\"478\" data-height=\"578\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-6\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('musician-drums.svg')}}\" alt=\"Target user\" data-width=\"599\" data-height=\"462\"></project-image-container> </div></div><section> <h6 class=\"section-heading\">User Research</h6> <div class=\"section-body\"><p>During my secondary research, I found that musicians who were using the digital apps for playing music instruments were using multiple devices to play multiple instruments in groups.</p> <p>Next, I did field research to understand how they use muscial instruments and what are critical requirements for an on-screen digital interface to do similar activities. After interviewing two musicians, I derived four key findings from the research.</p> <ul class=\"list\"> <li>People are hesitant of investing too much money in the beginning.</li> <li>Being able to move the device is important.</li> <li>People want to try various instruments.</li> <li>People often practice and compose in groups.</li> </ul> <p>Based on these findings, I came up with six design guidelines.</p> <ul class=\"list\"> <li>The device should be low-cost so that it’s affordable.</li> <li>User should be able to dismantle the setup in order to move it around.</li> <li>The process of assembling the setup should be fairly easy to make it less time consuming.</li> <li>The touch screen should be big enough for a group of people to interact simultaneously.</li> <li>The interface should provide access to various instruments.</li> <li>The interface should allow selection of multiple instruments.</li> </ul> <p>I used these design guidelines to brainstorm and sketch some concepts for a interface that can be used by multiple people to play digital music instruments together. There were two parts to the setup, physical interface and digital interface. I chose four music instruments to design the digital interface for: Piano, Octapad, Congos and Drums.</p> <p>From the field research and ideation, it was certain that a touch interface would be best possible option. Now the challenge was,</p> <blockquote class=\"intro\">how to make a low budget big touch screen which offers scalability and portability</blockquote> </div></section><section> <h6 class=\"section-heading\">Physical Prototyping</h6> <div class=\"section-body\"> <p>A big capacitive touch screens was expensive, so I did some research on low cost methods of making a touch screen using camera.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-6\" ng-repeat=\"image in [ 'ftir.jpg', 'dsi.jpg', 'rdi.jpg', 'llp.jpg', 'fdi.jpg', 'ledlp.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"IR based touch technology\" data-width=\"450\" data-height=\"288\"></project-image-container> </div> </div> <p>Although, the most accurate and effective of the six methods is Frustrated Internal Reflection (FTIR), it is also the most expensive. Keeping the design guidelines in mind, I selected two technologies, Rear Diffused Illumination (RDI) and Front Diffused illumination (FDI). The touch screen using any of the two technologies</p> <ul class=\"list\"> <li>is the cheapest hardware solutions among all six of them, still reasonably accurate unlike LED Light Plane method</li> <li>can be put together using simple tools like \"light bulb\" for IR emission, a normal glass sheet and a diffuser for projection.</li> </ul> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-3 large-3\" ng-repeat=\"image in [ {'name':'rdi-touch-surface.jpg','alt':'Rear diffused illumination','class':'shadow-purple'}, {'name':'fdi-touch-surface.jpg','alt':'Front diffused illumination','class':'shadow-purple'}, {'name':'ledlp-touch-surface.jpg','alt':'LED light plane'}, {'name':'llp-touch-surface.jpg','alt':'Laser light place'}, {'name':'dsi-touch-surface.jpg','alt':'Diffused screen illumination'}, {'name':'ftir-touch-surface.jpg','alt':'Frustrated internal reflection'}]\"> <project-image-container class=\"show-caption {{image.class}}\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" alt=\"{{image.alt}}\" data-width=\"205\" data-height=\"154\"></project-image-container> </div> </div> <p>I built a smaller prototype of the table design to test both techonlogies. The testing concluded with rear diffused illumination offering a simpler and more compact setup.</p> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('box-prototype.png')}}\" alt=\"Box prototype\" data-width=\"220\" data-height=\"165\"></project-image-container> </div></section><section> <h6 class=\"section-heading\">Table-top interface</h6> <div class=\"section-body\"> <p>Using rear diffused infrared illumination technique and testing it with box prototype, I built a table form factor for the touch screen interface. The hardware of the project was implemented using a simple IR camera, plain glass sheet, wooden table and a short-throw projector. The cost for the complete setup was USD 550 excluding the computer.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-6\" ng-repeat=\"image in [ 'table-top-interface-1.jpg', 'table-top-interface-2.jpg', 'table-top-interface-3.jpg', 'table-top-interface-5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"Table top interface\" data-width=\"720\" data-height=\"480\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Digital interface</h6> <div class=\"section-body\"> <p>The interface for the table has a collection of four instruments to choose from: Piano, Octapad, Congos, and Drums. It is designed to look like a stage to give some context. When an instrument from the stage is selected, another play screen would show up, with a floating window of the instrument. By repeating the process of selecting an instrument from the stage, multiple instruments can be added to the play screen. Every instrument window can be moved and arranged freely on the table top according to the positions of the musicians.</p> </div></section><section> <div class=\"section-body\"> <p>Later, I collborated with a colleague and added interface for real physical instruments to it using MAX/MSP. Now a group can practice and/or compose music using digital version of the instruments in Orchestable. Additionally, they can connect physical instruments, and use the audio filter and effects built into Orchestable.</p> <project-video-container src=\"dXlXYIry934\" data-width=\"720\" data-height=\"405\" youtube></project-video-container> </div></section>",
+            "gallery-pictures": ["table-top-interface-3.jpg", "table-top-interface-1.jpg", "table-top-interface-2.jpg", "table-top-interface-5.jpg", "ftir.jpg", "dsi.jpg", "rdi.jpg", "llp.jpg", "fdi.jpg", "ledlp.jpg", "rdi-touch-surface.jpg", "fdi-touch-surface.jpg", "ledlp-touch-surface.jpg", "llp-touch-surface.jpg", "dsi-touch-surface.jpg", "ftir-touch-surface.jpg", "box-prototype.png"],
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "Wooden table, Webcam (Converted into IR), Short-Throw Projector, Acrylic sheet, Butter Paper, MT4J, CCV, JOGL, MinimLibs",
+            "team": "Ankur Agrawal",
+            "votes": 0,
+            "views": 0
+        },
+        "toothgloss":
+        {
+            "title": "Toothgloss",
+            "timeline": "2014/10/01 - 2014/12/10",
+            "summary": "an advanced interdental cleaning system, to increase floss usage by addressing the challenges associated with current flossing practice",
+            "intro": "",
+            "description": "<p>The goal of this product is to make the activity of interdental cleaning fit better within people’s lives, allowing them to use the product regularly to improve their dental health. ToothGloss includes advanced gum-like Gloss sticks within a SmartBox, whose interactive digital screen empowers the users to set goals and schedules that work for their lives.</p><section> <h6 class=\"section-heading\">Problem Statement</h6> <div class=\"section-body\"> <p>The modern day medical system has learned what it takes to maintain healthy teeth throughout one’s lifetime, and created technology to enable users to act towards this endeavor. Yet, the rate of preventable oral disease remains high, even among highly educated populations with access to medical tools and expertise. What can be done to decrease these disease rates?</p> <p>To ansnwer this question, we started out with conducting user research.</p> <p><strong>Secondary Research:</strong> We focused on working-age adults for the purposes of this study. This was defined as ages 16 through 60, encompassing the time when the mouth has fully matured up to the health changes of later life. We categorized our findings by Cause & Fix, to help identify which problems were best to investigate. We found that 40% of the working-age adults are facing dental health issues with gum desease and tooth decay being the most common of them. Best fixes for the health issue are preventative: Fluoridated water, Brush twice daily, and Floss daily. Among these flossing was least popular and performed less frequently. That became the focus of our project.</p> <p><strong>Questionnaire:</strong> Armed with a narrowed focus on interdental cleaning, it was time to consult the users about their practices at home, so we created a <a class=\"link\" target=\"_blank\" href=\"http://www.surveygizmo.com/s3/1863812/Interdental-Cleaning\">Questionnaire</a> using SurveyGizmo. Some survey findings:</p> <ul class=\"list\" class=\"list\"> <li>51% do not/believe they do not have time or think flossing takes too long</li> <li>46% don’t feel the need to floss because they brush well</li> <li>43% forget</li> <li>12% feel lazy</li> </ul> <p><strong>Semi-Structured Interviews:</strong> These were performed by asking interviewees questions about their dental hygiene practices and motivations behind them. These conversations were open-ended and only prompted when needed, allowing the user to provide the most unbiased information.</p> <ul class=\"list\" class=\"list\"> <li>Confirmed lack of flossing because people feel they do not have time.</li> <li>Revealed issues with taste, difficulty with mouth hardware, effects of conversations with dental hygienists</li> </ul> </div></section><section> <h6 class=\"section-heading\">Design Question</h6> <div class=\"section-body\"> <p>From our findings, we derived the design question to guide us during the ideation phase.</p> <blockquote class=\"intro\">How can we improve the frequency and quality of user-performed interdental cleaning among working-age adults?</blockquote> <p>Our research showed that the design should:</p> <ul class=\"list\" class=\"list\"> <li>be portable</li> <li>be quick to use and/or hands-free to allow multitasking</li> <li>show before and after results or provide other immediate feedback</li> <li>inform the user of health risks</li> <li>remind the user to perform interdental cleaning</li> <li>have neutral taste and be pain free</li> </ul> </div></section><section> <h6 class=\"section-heading\">Ideation</h6> <p>For ideation all of the group members brought sketches of their concepts and shared with the entire group. We disected each concepts to extract the underlying features and put them up on the board. Later we sorted the features by categories, then ranking them within each category. The features ranking higher in each category were pulled together and re-organized into artifact combinations & re-sketched for a list of potential final design concepts.</p> <div class=\"section-body\"> <p></p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-12 large-12\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_1.jpg')}}\" data-width=\"1024\" data-height=\"239\"></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_2.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_3.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_4.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> </div> <p></p> <h6>Suction Wand</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_1.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_2.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> </div> <p>The SuctionWand is perhaps the most familiar dental product as a comparable suction device is currently used in dental offices and it looks similar to an electric toothbrush or Waterpik®. The user manually moves the wand around their mouth while it provides suction to remove the plaque around and in between the teeth. It uses an ultrasonic pulses to loosen plaque that may be too dried on for the vacuum to remove. Being a portable onehanded device it allows for a semimultitasking experience. The product is also reusable, making it more expensive up front, but longerlasting and less wasteful. The wand notifies the user via a series of beeps when this needs to be performed.</p> <h6>ToothGloss</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_1.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_2.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> </div> <p>ToothGloss is gum that flosses. Less viscous and more sticky than typical chewing gum, it flows between and around the teeth, grabbing the plaque. Upon spitting out the gum, the user can see the removed items stuck in the substance, giving immediate results. It is portable, handfree, cheap and disposable and also comes in different flavors. Its case has a slot for each day of the month, visually reminding the consumer to use the product. While gum is a familiar object, it is not made for every type of user. Those with temporomandibular joint disorder (TMJ), cannot chew gum frequently.</p> <h6>FlossBots</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_1.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_2.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_3.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> </div> <p>FlossBots are microscopic robots contained within a userfriendly liquid medium. Using mass spectrometertype technology, they seek out the plaque in between and around the users’ teeth, and then target those locations for scrubbingstyle cleaning. Delivery as a liquid enables the user flexibility of where to use the product; in their home or on the go. Unlike floss, FlossBots is painfree and handsfree, allowing the user to multitask. Results are confirmed when the user spits out the cleaner; removed plaque can be viewed as a different color in the liquid.</p> </div></section><section> <h6 class=\"section-heading\">Prototyping</h6> <div class=\"section-body\"> <p>Out of the three shortlisted design solutions we chose the ToothGloss as it allowed us to prototype five out of six of our design criteria. We created a low-tech box out of cardboard and springs with a digital interface on the box using phone. The case has visual reminder slots for each day. In the short time flow of this project we were unable to obtain color changing gum to simulate plaque detection, however we were able to create a small and light portable box containing pain-free, taste optional (mint in this case), hands-free gum. The box’s screen interface allows the user to set goals and reminders and display informational health tips as seen in the snapshots below.</p> </div></section><section> <h6 class=\"section-heading\">Physical Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'hardware_2.jpg'}, {'name':'hardware_3.jpg'}, {'name':'hardware_4.jpg'}, {'name':'hardware_5.jpg'}, {'name':'hardware_1.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Digital Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'goal_1.jpg'}, {'name':'goal_2.jpg'}, {'name':'goal_3.jpg'}, {'name':'risk_1.jpg'}, {'name':'risk_2.jpg'}, {'name':'reminder_1.jpg'}, {'name':'reminder_2.jpg'}, {'name':'reminder_3.jpg'}, {'name':'reminder_4.jpg'}, {'name':'reminder_5.jpg'}, {'name':'reminder_6.jpg'}, {'name':'reminder_7.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Usability testing</h6> <div class=\"section-body\"> <p>The evaluations were performed in the “wild” or uncontrolled environment of the school campus. After a brief introduction to the purpose of our system, the testers went through a series of tasks while thinking aloud.</p> <p>The users found a variety of places for improvement. Some particularly notable findings:</p> <ul class=\"list\" class=\"list\"> <li>one user was unfamiliar with flossing (cultural difference) and such we were solving a problem he did not have and gave him a little extra introduction to the situation.</li> <li>Two of the users were unaware that the alarm sound was in-fact meant for them, an apparent hazard of Wizard-of-Oz features in an uncontrolled environment.</li> <li>Minor tweaks were made to the interface between users, so they had slightly different experiences.</li> <li>Between the first and second tests we changed the screen resolution (switched phones) for a better user experience, and between the second and third tests we made some changes to the box labelling, adding a title and moving the day-by-day tickmarks per user suggestion.</li> </ul> <div class=\"callout\"> <h6>Evaluation Tasks</h6> <p>Please read this paragraph out loud to become comfortable with narrating your thoughts for us:</p> <p>ToothGloss is an advanced flossing system. The futuristic gum can target and clean plaque between the teeth without the need for traditional flossing. This is an early prototype. Please complete the tasks below, talking aloud as you go. It is helpful to us if you narrate your thoughts, good, bad, weird etc during the evaluation.</p> <ol> <li>Add a goal to gloss weekdays at 7am</li> <li>Add a reminder for 7am on weekdays</li> <li>Add another goal to gloss on weekends</li> <li>Set a reminder for Saturday at 3pm</li> <li>Review the risks of not flossing</li> <li>When your weekend alarm goes off, take out a piece of advanced gloss gum</li> <li>Approximate which day’s gum you selected. Which day of which week was it?</li> <li>Find out more information about one of the risks</li> </ol> <h6>Post-Evaluation Questionnaire</h6> <ol> <li>When performing the ToothGloss tasks, was anything confusing?</li> <li>When working with the interface, did ToothGloss do what you expected?</li> <li>What features did you like?</li> <li>What features need improvement or were missing?</li> <li>Would such a product motivate you to floss more?</li> </ol> </div> </div></section>",
+            "gallery-pictures": ["hardware_1.jpg", "hardware_2.jpg", "hardware_3.jpg", "hardware_4.jpg", "hardware_5.jpg", "ideation_1.jpg", "ideation_2.jpg", "ideation_3.jpg", "ideation_4.jpg", "suctionwand_1.jpg", "suctionwand_2.jpg", "toothgloss_1.jpg", "toothgloss_2.jpg", "flossbots_1.jpg", "flossbots_2.jpg", "flossbots_3.jpg", "goal_1.jpg", "goal_2.jpg", "goal_3.jpg", "risk_1.jpg", "risk_2.jpg", "reminder_1.jpg", "reminder_2.jpg", "reminder_3.jpg", "reminder_4.jpg", "reminder_5.jpg", "reminder_6.jpg", "reminder_7.jpg"],
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Ankur Agrawal, Alysse Gallo, Meredith Anderson",
+            "external-links": [
+                "{\"file\":\"files/toothgloss-design-specification.pdf\",\"title\":\"design specification for Toothgloss\",\"caption\":\"design specification\"}"
+                ],
+            "votes": 0,
+            "views": 0
+        },
+        "scratch-hear-a-passive-audio-interface":
+        {
+            "title": "ScratchHear - A passive audio interface",
+            "timeline": "2014/10/01 - 2014/12/10",
+            "summary": "exploring the acoustic properties of material to design a passive audio interface that can generate sound from scratching the surface",
+            "intro": "",
+            "description": "",
+            "gallery-pictures": ["audio-strip-1.jpg", "lofi-prototyping-1.jpg", "audio-strip-2.jpg", "brainstorming-1.jpg", "brainstorming-2.jpg", "brainstorming-3.jpg", "talking_tapes.jpg", "accessibility-tools-1.jpg"],
+            "tags": "Material interface, Acoustics",
+            "role": "Researcher, Audio Technologist",
+            "tools": "",
+            "votes": 0,
+            "views": 0
+        },
+        "code-maker":
+        {
+            "title": "Code Maker",
+            "timeline": "2015/06/01 - 2015/09/15",
+            "summary": "create actionable programs using RFID embedded LEGO blocks",
+            "intro": "",
+            "description": ".",
+            "tags": "Tangible Interaction, Play, RFID, UX Design, Prototyping, STEM Education",
+            "role": "Design Technologist",
+            "tools": "",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "story-maker":
+        {
+            "title": "Story Maker",
+            "timeline": "2017/01/01 - 2017/12/12",
+            "summary": "Lorem ipsum dolor sit amet",
+            "intro": "",
+            "description": ".",
+            "tags": "Tangible Interaction, Play, RFID, UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "tangible-play-surfaces":
+        {
+            "title": "Tangible Play Surfaces",
+            "timeline": "2015/06/01 - 2015/09/15",
+            "summary": "an RFID based passive playing surface with active objects and active playing surface with passive objects",
+            "intro": "",
+            "description": "<section><div class=\"section-body\"> <project-image-container alt=\"\" src=\"{{getCurrentProjectImageAssetUrl('tangible-play-surface.png')}}\" width=\"1500\" height=\"1200\"></project-image-container></div> </section> <section><p>I started this project during my internship at Intel Labs in 2015. It was an effort to create low-powered tangible programming interfaces for assisting children in learning simple logic. We were interested in exploring the method of stackable programming in which tangibles are stacked in a specific order to execute a set of commands. By changing the configuration/arrangement of the tabgibles w.r.t. each other, the system can be programmed to behave in different ways. We implemented two approaches to sensing the location of objects on a surface.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"><div class=\"cell small-12 medium-6 large-6\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('active-objects.png')}}\" alt=\"Active objects\" data-width=\"268\" data-height=\"166\"></project-image-container></div><div class=\"cell small-12 medium-6 large-6\"> <small>In the first approach, Active Surface, Passive Objects, we created an active surface that can sense any object with an embedded passive RFID tag. A single microcontroller reads an array of RFID antennas through an analog multiplexer. Each antenna in the array corresponds to a known position on the surface, thus the placement of an RFID tag at a given position can signify an order of the tags.</small></div></div><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"><div class=\"cell small-12 medium-6 large-6\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('RFID-grid.png')}}\" alt=\"Active surface\" data-width=\"268\" data-height=\"166\"></project-image-container></div><div class=\"cell small-12 medium-6 large-6\"> <small>In the second approach, Passive Surface, Active Objects, we created a larger surface using a two-dimensional array of passive RFID tags. Each object to be placed on the surface has its own microcontroller, NFC reader, wireless communication, and battery, and thus each object actively scans for tags to allow the system to determine its x/y coordinates on the surface. A central compute module hosts a database of actions to trigger for a configuration of objects on the surface.</small></div></div><p>In both the approaches, we used an RFID tag operating on 13.56 MHz high frequency band. This operating band is one of the most commonly used, and off-the-shelf components are readily available. Two prototypes were developed based on each these two RFID approaches as a proof of concept: Code Maker and Story Maker.</p> </section> <section><h6 class=\"section-heading\">Code Maker</h6><div class=\"section-body\"><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"><div class=\"cell small-12 medium-8 large-8\"> <project-image-container alt=\"\" src=\"{{getCurrentProjectImageAssetUrl('code-maker.png')}}\" width=\"662\" height=\"370\"></project-image-container></div><div class=\"cell small-12 medium-3 large-3\"> <project-image-container alt=\"\" src=\"{{getCurrentProjectImageAssetUrl('software-interface.png')}}\" width=\"1200\" height=\"1920\"></project-image-container></div></div><p>This prototype utilizes the “Active Surface, Passive Objects” approach to enable object sensing. We designed the system to help children learn the basic concepts of programming, for example, linear execution of commands. An antenna array is located on the side of a robotic fire truck built with LEGO. To control the actuation of the fire truck, children place a series of RFID-embedded “command tiles” on the side of the truck, then press a button to cause the truck to execute the commands on the tiles. When the button is pressed, the microcontroller reads the antenna array, detecting the command tiles present, then activates actuators on the fire truck. The actuators on the fire truck provide: go forward, stop, go in reverse, play siren, blink lights, and move the ladder up or down. The controller accesses memory where a database of commands, associated with the tiles, is stored and uses these commands to control the actuators on the model.</p><p>Code Maker includes an Android-based software user interface, built using Google Blockly, to allow children to compare tangible and software-based approaches to accomplish the same functionality in the robotic fire truck</p></div> </section> <section><h6 class=\"section-heading\">Story Maker</h6><div class=\"section-body\"><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"><div class=\"cell small-12 medium-8 large-8\"> <project-image-container alt=\"\" src=\"{{getCurrentProjectImageAssetUrl('story-maker.png')}}\" width=\"504\" height=\"275\"></project-image-container></div></div><p>This prototype utilizes the “Passive Surface, Active Objects” approach to enable object sensing. Each toy has an RFID scanner that allows it to report its position on the surface underlain with passive RFID tags. We used “The Three Little Pigs” story as an example. This classic fable tells of three pigs who build three houses with three different materials. When the Big Bad Wolf comes to eat the pigs, he tries to blow down each house. In the prototype, the wolf and the houses have RFID readers, and depending on the wolf’s proximity to a house, the system plays a part of the story on a computer screen, including associated text to help teach reading.</p><p>In this implementation, the computer stores a database of scenes that can be triggered by object proximity. Children would not have to adhere to existing stories. They could mix and match characters and other objects to play any scene from the database.</p></div> </section> <section> <project-video-container src=\"359895043\" data-width=\"720\" data-height=\"405\" vimeo></project-video-container> </section>",
+            "tags": "Tangible Interaction, Play, RFID, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Ankur Agrawal, Glen J Anderson, Rebecca Chierichetti, Meng Shi",
+            "external-links": [],
+            "internal-links": [
+                "{\"file\":\"/portfolio/patents-and-publications/tangible-play-surface-using-passive-rfid-sensor-array\",\"title\":\"Published in CHI EA 2018\",\"caption\":\"publication\"}"
+                ],
+            "votes": 0,
+            "views": 0
+        },
+        "itinerant-probes":
+        {
+            "title": "Itinerant Probes",
+            "timeline": "2015/04/15 - 2015/07/15",
+            "summary": "using probes to explore people's relationship with public spaces",
+            "intro": "",
+            "description": "<section> <div class=\"section-body\"> <p>Itinerant probes explores the idea of using dynamic events to re-engage people in a particular space. These probes lives in a public space, enliven the collective memory and history of people and their experiences in that space. During our research, we designed a number of probes related to lighting and investigated them at three public sites.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-2\" ng-repeat=\"image in [ {'name':'workbook/itinerant-probes-workbook-v01-1.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-2.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-3.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-4.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-5.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-6.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-7.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-8.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-9.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-10.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-11.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-12.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-13.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-14.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-15.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-16.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-17.jpg'}]\"> <project-image-container alt=\"Workbook\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"1024\" height=\"512\"></project-image-container> </div> </div> <p>The project started from the idea of exploring public stairwells for safety and lightening. But, as often happens with any design project, it evolved into a bigger, broader question of what is a public space and what does these spaces mean for people using them.</p> </div></section><section> <h6 class=\"section-heading\">Stairwells</h6> <div class=\"section-body\"> <p>We began our journey by exploring three public walkways in Seattle.</p> <ul class=\"list\"> <li>Wall of Death</li> <li>Rainier Training Grounds</li> <li>Freeway Park</li> </ul> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in [ {'name':'wall-of-death.jpg','alt':'Wall of Death'}, {'name':'rainier-training-grounds.jpg','alt':'Rainier Training Grounds'}, {'name':'freeway-park.jpg','alt':'Freeway Park'}]\"> <project-image-container alt=\"{{image.alt}}\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"1080\" height=\"1440\"></project-image-container> </div> </div> <p>We interviewed people using these spaces to learn about what they think of the stairwells, especially during evening and night, when it's dark. At Wall-of-death, pedestrians, particularly women, felt very unsafe and usually rush through. Most of the stairwells in this area is dark at night. Pedestrians using Rainier Training Grounds were mostly enthusiast, running on the stairs for training and workouts. Freeway Park was portrayed as \"creepy\" at night due to it's structure which had lots of blind spots.</p> </div></section><section> <h6 class=\"section-heading\">Probes</h6> <div class=\"section-body\"> <h6>Where light belongs <small class=\"muted\">(Fluorescent lights & glow-in-the-dark Play-Dough)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-1.1.jpg','itinerant-probes-1.2.jpg','itinerant-probes-1.3.jpg']\"> <project-image-container alt=\"Where light belongs\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1024\" height=\"768\"></project-image-container> </div> </div> <h6>Where messages flow <small class=\"muted\">(Fluorescent paint in squeeze bottles)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-2.1.jpg','itinerant-probes-2.2.jpg','itinerant-probes-2.3.jpg']\"> <project-image-container alt=\"Where messages flow\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"2014\" height=\"768\"></project-image-container> </div> </div> <h6>Where stairs text <small class=\"muted\">(Fluorescent chalk with fill-in-the-blank messages)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-3.1.jpg','itinerant-probes-3.2.jpg','itinerant-probes-3.3.jpg']\"> <project-image-container alt=\"Where stairs text\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1024\" height=\"768\"></project-image-container> </div> </div> </div></section>",
+            "tags": "Design Probes, Social Inquiry, Public Spaces, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Daniela Rosner, Ankur Agrawal, Ariel Duncan, Mei Chen, Kathi Kitner, Margaret Morris, Sarah Fox",
+            "internal-links": [
+                "{\"file\":\"/portfolio/patents-and-publications/designing-for-movement-in-public-life-with-itinerant-probes\",\"title\":\"Published in DIS 2016\",\"caption\":\"publication\"}"
+                ],
+            "votes": 0,
+            "views": 0
+        },
+        "synku":
+        {
+            "title": "Synku",
+            "timeline": "2014/10/01 - 2014/12/15",
+            "summary": "exploring the production of sensory objects",
+            "intro": "",
+            "description": "<section> <div class=\"section-body\"> <p>SynKu is a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ {'name':'interface-1.png'}, {'name':'interface-2.png'}, {'name':'interface-3.png'}, {'name':'interface-4.png'}, {'name':'interface-5.png'}, {'name':'interface-6.png'}, {'name':'interface-7.png'}, {'name':'interface-8.png'}, {'name':'interface-9.png'}, {'name':'interface-10.png'}, {'name':'interface-11.png'}, {'name':'interface-12.png'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"373\" height=\"734\"></project-image-container> </div> </div> <p>SynKu first processes the recorded images and audio to produce categorizations along with various spectra (saturation, lightness, and hue for images; volume and pitch for sound). Once processed, SynKu prompts the user to collect a different type of media according to that new category (e.g., “capture a sound that is bright” or “snap a pic that’s slow”). SynKu interweaves the algorithmic processing of five such media recording activities using ten media attributes (e.g., light / dark, loud / soft) with users’ cross-sensory interpretation of those attributes. People can then share the resulting media assemblage as a short video narrative (or “Ku”). By creating and sharing Kus, they produce new sensory objects interpretable by people and software.</p> </div></section>",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Ankur Agrawal, Aravind Ravi, Wenvi Hidayat, Mark Stamnes, Daniela Rosner, Mei Shen",
+            "external-links": [
+                "{\"file\":\"files/SynKu_CHI15-poster.pdf\",\"title\":\"Poster from CHI 2016\",\"caption\":\"poster\"}"
+                ],
+            "internal-links": [
+                "{\"file\":\"/portfolio/patents-and-publications/synku-exploring-the-production-of-sensory-objects\",\"title\":\"Published in CHI 2016\",\"caption\":\"publication\"}"
+                ],
+            "votes": 0,
+            "views": 0
+        },
+        "teaching-and-leadership":
+        {
+            "title": "Teaching And Leadership",
+            "timeline": "2017/01/01 - 2017/12/12",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "intro": "",
+            "description": ".",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "visual-design-and-3d-model-collection":
+        {
+            "title": "Visual Design and 3D Model Collection",
+            "summary": "passion for sketch and graphic design",
+            "intro": "",
+            "description": "<div class=\"dynamic-grid\" angular-grid=\"[ {'name':'sketch-model.png','width':'1001','height':'1328'},  {'name':'poster-explore-beyond-the-horizon_.png','width':'1024','height':'652'}, {'name':'model-barrel.jpg','width':'500','height':'400'}, {'name':'model-thread-reel.jpg','width':'500','height':'400'}, {'name':'model-watering-can.jpg','width':'400','height':'300'}, {'name':'model-wooden-box.jpg','width':'300','height':'240'}, {'name':'model-tea-pot.jpg','width':'400','height':'300'}, {'name':'model-box.jpg','width':'640','height':'480'}, {'name':'model-cart.jpg','width':'640','height':'480'}, {'name':'model-dog.jpg','width':'640','height':'480'}, {'name':'model-shopping-cart.jpg','width':'640','height':'480'}, {'name':'model-toy-car.jpg','width':'640','height':'480'}, {'name':'poster-blood-donation-campaign.jpg','width':'500','height':'755'}, {'name':'poster-bugzilla.jpg','width':'924','height':'660'}, {'name':'poster-cogitate.jpg','width':'1024','height':'768'}, {'name':'poster-evolution-in-buses.png','width':'951','height':'672'}, {'name':'poster-evolution-of-universe.jpg','width':'993','height':'702'}, {'name':'poster-housing.jpg','width':'654','height':'542'}, {'name':'poster-lazy-rider.jpg','width':'960','height':'600'}, {'name':'business-card-bachelors-of-comedy.jpg','width':'528','height':'155'}, {'name':'icon-bachelors-of-comedy.jpg','width':'960','height':'560'}, {'name':'Cover-horizontal-composition.JPG','width':'797','height':'1024'}, {'name':'cover-with-image.png','width':'797','height':'1024'}, {'name':'cover-with-line.png','width':'797','height':'1024'}, {'name':'text-image-break.jpg','width':'304','height':'304'}, {'name':'text-image-juggle.jpg','width':'304','height':'304'} ]\" ag-grid-width=\"300\" ag-gutter-size=\"10\" ag-id=\"gallery\" ag-refresh-on-img-load=\"false\"> <div class=\"grid\" data-ng-repeat=\"image in [ {'name':'sketch-model.png','width':'1001','height':'1328'},{'name':'poster-explore-beyond-the-horizon_.png','width':'2640','height':'1680'}, {'name':'model-barrel.jpg','width':'500','height':'400'}, {'name':'model-thread-reel.jpg','width':'500','height':'400'}, {'name':'model-watering-can.jpg','width':'400','height':'300'}, {'name':'model-wooden-box.jpg','width':'300','height':'240'}, {'name':'model-tea-pot.jpg','width':'400','height':'300'}, {'name':'model-box.jpg','width':'640','height':'480'}, {'name':'model-cart.jpg','width':'640','height':'480'}, {'name':'model-dog.jpg','width':'640','height':'480'}, {'name':'model-shopping-cart.jpg','width':'640','height':'480'}, {'name':'model-toy-car.jpg','width':'640','height':'480'}, {'name':'poster-blood-donation-campaign.jpg','width':'500','height':'755'}, {'name':'poster-bugzilla.jpg','width':'924','height':'660'}, {'name':'poster-cogitate.jpg','width':'1024','height':'768'}, {'name':'poster-evolution-in-buses.png','width':'951','height':'672'}, {'name':'poster-evolution-of-universe.jpg','width':'993','height':'702'}, {'name':'poster-housing.jpg','width':'654','height':'542'}, {'name':'poster-lazy-rider.jpg','width':'960','height':'600'}, {'name':'business-card-bachelors-of-comedy.jpg','width':'528','height':'155'}, {'name':'icon-bachelors-of-comedy.jpg','width':'960','height':'560'}, {'name':'Cover-horizontal-composition.JPG','width':'2994','height':'3840'}, {'name':'cover-with-image.png','width':'2432','height':'3124'}, {'name':'cover-with-line.png','width':'2432','height':'3124'}, {'name':'text-image-break.jpg','width':'304','height':'304'}, {'name':'text-image-juggle.jpg','width':'304','height':'304'} ]\"> <figure itemprop=\"associatedMedia\" itemscope itemtype=\"http://schema.org/ImageObject\"> <a href=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" itemprop=\"contentUrl\"> <img ng-data-src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" ng-src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" class=\"grid-img\" itemprop=\"thumbnail\" data-size=\"[{{image.width}}, {{image.height}}]\" data-actual-width=\"{{image.width}}\" data-actual-height=\"{{image.height}}\" width=\"{{image.width}}\" height=\"{{image.height}}\"> </a> </figure> </div></div>",
+            "tags": "Visual Design, Graphic Design, Modeling, Prototyping",
+            "role": "Visual Designer",
+            "tools": "",
+            "team": "Ankur Agrawal",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "hollywood-stars":
+        {
+            "title": "Hollywood Stars",
+            "timeline": "2017/01/01 - 2017/12/12",
+            "summary": "from nomination to winning the Oscar",
+            "intro": "",
+            "description": "<section> <div class=\"section-body\"> <div class='tableauPlaceholder' id='viz1506811340279' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HollywoodStars&#47;OscarMovieOverview-Ratings&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='HollywoodStars&#47;OscarMovieOverview-Ratings' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;9Q&#47;9Q8Q3QCXK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1506811340279'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script> </div></section><section> <div class=\"section-body\"> <p>The project started with the idea of using visualization to predict patterns in movies that get nominated and ultimately win Oscar. During our research the goal of the projects pivoted to another tangent. The goal became, using visualization to see what makes a movie win Oscar among the nominees. This narrowed our scope to comparing winning movies with the nominated movies, as opposed to winning movies with all the movies.</p> </div></section><section> <h6 class=\"section-heading\">Data Collection</h6> <div class=\"section-body\"> <p>To get the list of movies nominated for Oscars, we used the official <a class=\"link\" href=\"http://awardsdatabase.oscars.org/\" target=\"_blank\">Academy Award database</a> as our primary source. To collect the additional details we chose <a class=\"link\" href=\"http://www.imdb.com/\" target=\"_blank\">IMDb</a> and <a class=\"link\" href=\"https://www.rottentomatoes.com/\" target=\"_blank\">Rotten Tomatoes</a> as our secondary sources.</p> <p>To start the collection process, we downloaded the list of movies from the Academy Award database. The list contained records of <strong>8832</strong> movies nominated so far for the Oscars. We generated an ID number for every movie to ease the merging process later on when we have additional data during post-processing. Afterwards, we started collecting data from IMDb using a free web service API, <a class=\"link\" href=\"http://www.omdbapi.com/\" target=\"_blank\">OMDb</a>. The API provides details in JSON format, which we re-formatted using a text editor, <a class=\"link\" href=\"https://www.sublimetext.com\" target=\"_blank\">Sublime Text</a>. From here, we used <a class=\"link\" href=\"http://openrefine.org\" target=\"_blank\">OpenRefine</a> to convert the data into tabular format, which is readable in Excel. It was then merged with the Oscar movie dataset using a custom Excel macro coded in Visual Basic. Later, we extracted Rotten Tomatoes’ data for their critics’ and users’ ratings using Rotten Tomatoes’ web API interface. We wrote a Python script to get the data in JSON format and then merged it with the Oscar dataset following almost the same process as for the previous IMDB data merges.</p> </div></section><section> <h6 class=\"section-heading\">With big data set came Big Problems!</h6> <div class=\"section-body\"> <p>Due to the inconsistent naming convention of IMDb, we had to manually search for approximately 1200 movies on the IMDb site in order to either correct the name or the movie release year, as many times Oscar nomination year and release year are different. Additionally, we used OpenRefine to correct any typos in the titles. Since many of our dimensions have multiple values, we were not able to use them for anything in Tableau other than as a filter using a calculated field and custom parameters. This created an issue for us in exploring our data. We addressed this by creating a natural join between the list of genre and the movie list, thus allowing us to use the genre field as a dimension that can be used in a graph. This would enable us to provide better data filtration methods for an end user.</p> <p>Though we eventually created a cohesive data set suitable for our purposes, we did experience some challenges. One of our biggest challenges in making meaning of this data was that the majority of the values were nominal data. This left us with few quantitative values that could be used for analysis. Fortunately, some of the nominal fields we had to work with make meaningful differences with regards to movie audiences, especially genre. One way we considered dealing with this challenge was to take the plot text data and classify each movie into a story type. The plan was to make this a filter in the data, so that users see comparisons between not only a movie’s genre, but a movie’s mood or plot as well. Ultimately, we discovered this to be a larger undertaking than would be worth undertaking, given the short time frame, and likely much more difficult than we would be prepared for as well. Previous research had been attempted using a machine learning algorithm and custom scripts to classify movies into strict genres using the plot synopsis found in IMDb. Unfortunately, this approach yielded results of only 12% accuracy (Tanenbaum, p6.) A possible reason for this is that most movies can accompany more than one genre type, which is also an issue we discovered within our dataset. For this reason, we decided to abandon this as a possible approach.</p> </div></section><section> <h6 class=\"section-heading\">Sketching the ideas</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in ['sketch-1.jpg', 'sketch-2.jpg', 'sketch-3.jpg', 'sketch-4.jpg', 'sketch-5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1440\" height=\"1080\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Visualization designs</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in ['viz1-1.jpg', 'viz2-1.jpg', 'viz2-2.jpg', 'viz2-3.jpg', 'viz3-1.jpg', 'viz3-2.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"720\" height=\"570\"></project-image-container> </div> </div> </div></section>",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Ankur Agrawal, Monica Caraway, Wenqi Li, Matt Yukubousky",
+            "external-links": [
+                "{\"file\":\"files/hollywood-stars-paper.pdf\",\"title\":\"Checkout the paper\",\"caption\":\"project paper\"}"
+                ],
+            "votes": 0,
+            "views": 0
+        },
+        "work-happy":
+        {
+            "title": "Work Happy",
+            "timeline": "2015/03/21 - 2015/03/21",
+            "summary": "a tool to track mood at work to figure out problems and help suggest measure to mitigate them",
+            "intro": "",
+            "description": "<section><div class=\"section-body\"><p>The tool was developed as a part of a 3 hour long hackathon, <a class=\"link\" href=\"https://protohack.com\" target=\"_blank\">Protohack</a>.</p></div></section>",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Sidhartha Gudipati, Sangeun Lee, Ankur Agrawal, Yana Levitskaia",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "goslometer":
+        {
+            "title": "Goslometer",
+            "timeline": "2017/01/01 - 2017/12/12",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "intro": "",
+            "description": ".",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "team": "Ankur Agrawal",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "image-processing":
+        {
+            "title": "Image Processing",
+            "timeline": "2017/01/01 - 2017/12/12",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "intro": "",
+            "description": ".",
+            "tags": "UX Design, Prototyping",
+            "role": "Design Technologist",
+            "tools": "",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        },
+        "web-development":
+        {
+            "title": "Web Development",
+            "timeline": "2012/02/01 - 2014/03/31",
+            "summary": "designing + developing websites and mobile applications as a founder of Trionix Solutions",
+            "intro": "",
+            "description": "<div class=\"dynamic-grid\" angular-grid=\"[ {alt:'Sugandh Tea',name:'sugandh-tea.jpg',height:'862',width:'1024'}, {alt:'ValueKojen - Business Registration Company',name:'value-kojen.jpg',height:'768',width:'1024'}, {alt:'Just Kiding',name:'just-kiding.jpg',height:'520',width:'720'}, {alt:'Trionix Solutions',name:'trionix.jpg',height:'1203',width:'1067'}, {alt:'SSTPL',name:'sstpl.jpg',height:'1280',width:'1372'}, {alt:'OMyDocs',name:'omydocs.jpg',height:'1024',width:'1121'}, {alt:'Akshayam,MDI',name:'mdi-akshayam.jpg',height:'690',width:'1287'}, {alt:'Natyasudha',name:'natyasudha.jpg',height:'734',width:'1280'}, {alt:'SociAlert.in',name:'socialert.jpg',height:'778',width:'1282'}, {alt:'TCHK',name:'thakral.jpg',height:'908',width:'1024'}, {alt:'Bachelor of Comedy',name:'bachelor-of-comedy.jpg',height:'768',width:'1077'}, {alt:'Cerule Consulting',name:'cerule-consulting.jpg',height:'1518',width:'942'}, {alt:'ASL HR Solutions',name:'aslhr.jpg',height:'1115',width:'720'} ]\" ag-grid-width=\"300\" ag-gutter-size=\"10\" ag-id=\"gallery\" ag-refresh-on-img-load=\"false\"> <div class=\"grid\" data-ng-repeat=\"image in [ {alt:'Sugandh Tea',name:'sugandh-tea.jpg',height:'862',width:'1024'}, {alt:'ValueKojen - Business Registration Company',name:'value-kojen.jpg',height:'768',width:'1024'}, {alt:'Just Kiding',name:'just-kiding.jpg',height:'520',width:'720'}, {alt:'Trionix Solutions',name:'trionix.jpg',height:'1203',width:'1067'}, {alt:'SSTPL',name:'sstpl.jpg',height:'1280',width:'1372'}, {alt:'OMyDocs',name:'omydocs.jpg',height:'1024',width:'1121'}, {alt:'Akshayam,MDI',name:'mdi-akshayam.jpg',height:'690',width:'1287'}, {alt:'Natyasudha',name:'natyasudha.jpg',height:'734',width:'1280'}, {alt:'SociAlert.in',name:'socialert.jpg',height:'778',width:'1282'}, {alt:'TCHK',name:'thakral.jpg',height:'908',width:'1024'}, {alt:'Bachelor of Comedy',name:'bachelor-of-comedy.jpg',height:'768',width:'1077'}, {alt:'Cerule Consulting',name:'cerule-consulting.jpg',height:'1518',width:'942'}, {alt:'ASL HR Solutions',name:'aslhr.jpg',height:'1115',width:'720'} ]\"> <figure itemprop=\"associatedMedia\" itemscope itemtype=\"http://schema.org/ImageObject\"> <a href=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" itemprop=\"contentUrl\"> <img src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" class=\"grid-img\" data-actual-width=\"{{image.width}}\" data-actual-height=\"{{image.height}}\" alt=\"{{image.alt}}\"> </a> </figure> </div></div>",
+            "role": "Founder, Designer, Developer",
+            "tools": "",
+            "external-links": [],
+            "votes": 0,
+            "views": 0
+        }
     },
+    "about":
     {
-      "archived": false,
-      "id": "ce25d816e48495e01a003fd8fdb491fd",
-      "title": "Sweet Treat",
-      "slug": "sweet-treat",
-      "short-description": "Prototyping, 3d Modelling, Mechanical, UX Design",
-      "size": "medium"
+        "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, interface designer and even design technologist, but what the heck is \"wildcard\"?</p><p>It's someone, <b>none of the above, or, all of the above!</b> Someone who knows his/her stuff inside out, but still keeps an open mind. Someone who has a big bag of tricks in variety of areas, but is always keen to learn. Someone who is curious and not afraid of the unexpected but embraces it and thrives on it. Someone who is fascinated by different perspectives.</p>",
+        "summary": "<p>I am exploring how sensing and sense-making technologies can augment human interaction with material space, and how physical and digital worlds interact with each other. I seek to push my research further to identify new modes of expression that allow for a deeper and richer means of communicating and interacting with physical materials.</p><p>I hold a master of science degree in Human-Centered Design & Engineering (HCDE) from University of Washington (UW), and a bachelor of technology degree in Computer Science & Engineering.</p>",
+        "journey": "",
+        "experiences": ["work", "teaching", "leadership", "awards"],
+        "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering"],
+        "quotes": [
+            {
+                "title": "The only way to discover the limits of the possible is to go beyond them into the impossible.",
+                "author": "Arthur C. Clarke"
+            },
+            {
+                "title": "We keep moving forward, opening new doors, and doing new things, because we’re curious and curiosity keeps leading us down new paths.",
+                "author": "Walt Disney"
+            },
+            {
+                "title": "There have to be reasons that you get up in the morning and you want to live. Why do you want to live? What's the point? What inspires you? What do you love about the future?",
+                "author": "Elon Musk"
+            },
+            {
+                "title": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+                "author": "Albert Einstein"
+            }]
     },
+    "hobbies":
     {
-      "archived": false,
-      "id": "4f3f75760c115f6c680e8c9975ffb37b",
-      "title": "ToothGloss",
-      "slug": "toothgloss",
-      "short-description": "UX Design, Prototyping, UI Design",
-      "size": "medium"
+        "photography":
+        {},
+        "archery":
+        {},
+        "sketching":
+        {},
+        "violin":
+        {},
+        "boxing":
+        {},
+        "cooking":
+        {},
+        "hiking":
+        {},
+        "bouldering":
+        {},
+        "bōjutsu":
+        {}
     },
+    "patents-and-publications":
     {
-      "archived": false,
-      "id": "f4dc40d676074d5ab05bbcaab14d5a7f",
-      "title": "Orchestable",
-      "slug": "orchestable",
-      "short-description": "Prototyping, Experience Design, Music",
-      "size": "medium"
+        "kid-space-interactive-learning-in-a-smart-environment":
+        {
+            "type": "publication",
+            "title": "Kid Space: Interactive Learning in a Smart Environment",
+            "citation": "Glen J Anderson, Selvakumar Panneer, Meng Shi, Carl S Marshall, <b>Ankur Agrawal</b>, Rebecca Chierichetti, Giuseppe Raffa, John Sherry, Daria Loi, Lenitra Megail Durham. 2018. Kid Space: Interactive Learning in a Smart Environment. In Proceedings of the Group Interaction Frontiers in Technology (GIFT'18). ACM, New York, NY, USA, Article 8, 9 pages. DOI: https://doi.org/10.1145/3279981.3279986",
+            "abstract": "Kid Space is a smart space for children, enabled by an innovative, centralized projection device that senses multimodal interactivity and intelligently projects augmented reality (AR) content across surfaces. Kid Space uses a visible agent to guide learning through play. Two preliminary studies evaluated Kid Space with children 5 to 8 years old. Study 1 showed that children engaged enthusiastically with the projected character during a math exercise and during physically active games. A parent questionnaire showed that parents valued Kid Space for learning and physical activity. Study 2 found that children engaged with a projected agent at a closer distance than with a television. Parents showed a preference for a projected AR agent over an agent on a television or a standard projection. Parents also showed a preference for an agent that demonstrated awareness of children's physicality in the space.",
+            "pictures": [
+                "tangible.jpg"
+            ],
+            "url": "https://doi.org/10.1145/3279981.3279986",
+            "publication": "Proceedings, GIFT '18"
+        },
+        "tangible-play-surface-using-passive-rfid-sensor-array":
+        {
+            "type": "publication",
+            "title": "Tangible Play Surface Using Passive RFID Sensor Array",
+            "citation": "<b>Ankur Agrawal</b>, Glen J Anderson, Meng Shi, and Rebecca Chierichetti. 2018. Tangible Play Surface Using Passive RFID Sensor Array. In Proceedings of the 36th Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '18). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/3170427.3186514",
+            "abstract": "We present two approaches to sensing objects on a surface, using passive Radio Frequency Identification (RFID), and explain the application of this technology to toy prototypes, Code Maker and Story Maker. In Code Maker, we created a system with an RFID antenna array on a robotic fire truck. The array senses RFID-embedded tiles as they are placed on the truck. Each tile corresponds to a command that is executed by the truck, directing to move, light up, and make sounds. In Story Maker, RFID antennas are embedded in toys that are placed on a mat, underlain with a two-dimensional array of RFID tags. The toys report their position on the mat, which triggers a scene in the story that corresponds to the configuration of toys. We describe the advantages of these RFID implementations as an alternative to other approaches, such as resistive sensing and hardware connectors.",
+            "pictures": [
+                "tangible.jpg"
+            ],
+            "url": "https://doi.org/10.1145/3170427.3186514",
+            "publication": "Proceedings, CHI EA '18"
+        },
+        "synku-exploring-the-production-of-sensory-objects":
+        {
+            "type": "publication",
+            "title": "SynKu: Exploring the Production of Sensory Objects",
+            "citation": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
+            "abstract": "This paper describes SynKu, a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. We discuss how the SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.",
+            "pictures": [
+                "SynKu.jpg"
+            ],
+            "url": "https://dl.acm.org/citation.cfm?id=2732813",
+            "publication": "Proceedings, CHI EA '15"
+        },
+        "designing-for-movement-in-public-life-with-itinerant-probes":
+        {
+            "type": "publication",
+            "title": "Designing for Movement in Public Life with Itinerant Probes",
+            "citation": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
+            "abstract": "This pictorial illustrates how objects can illuminate people's experience of public space, an approach we call itinerant probes. Itinerant probes are not individualized, mediated artifacts, but instead dynamic events that en- liven people's personal and collective memories. Building on the probes literature and recent ecological perspectives, we describe three probes related to lighting that we investigated at three public sites. Our explorations with these probes highlight the intimate histories associated with public spaces.",
+            "pictures": [
+                "itinerant-probes-1.jpg",
+                "itinerant-probes-2.jpg",
+                "itinerant-probes-3.jpg",
+                "itinerant-probes-4.jpg",
+                "itinerant-probes-5.jpg",
+                "itinerant-probes-6.jpg",
+                "itinerant-probes-7.jpg",
+                "itinerant-probes-8.jpg",
+                "itinerant-probes-9.jpg"
+            ],
+            "url": "https://dl.acm.org/citation.cfm?id=2901913",
+            "publication": "Proceedings, DIS '15"
+        },
+        "position-determination-and-control-with-radio-frequency-identification-tags":
+        {
+            "type": "patent",
+            "title": "Position Determination and Control with Radio Frequency Identification Tags",
+            "authors": "Glen J. Anderson, Anand S. Konanur, Kevin W. Bross, Gregory A. Peek, Rebecca A. Chierichetti, Ankur Agrawal ",
+            "abstract": "Control of an apparatus is provided according to determination of positioning of information pieces with radio frequency identification (RFID) tags. In embodiments, an apparatus may include one or more pieces, wherein each piece may be positionable in one or more piece positions of a region and may include a passive RFID tag that stores information relating to a characteristic of the piece. An arrangement of RFID antennas may be positioned proximal to the region, and a RFID reader may provide reads of the pieces near the RFID antennas. One or more processors may determine the piece positions of the one or more pieces from the reads and may provide control of the apparatus according to the one or more pieces and their piece positions.",
+            "pictures": [
+                "US9704003.1.jpg",
+                "US9704003.2.jpg",
+                "US9704003.3.jpg",
+                "US9704003.4.jpg",
+                "US9704003.5.jpg",
+                "US9704003.6.jpg",
+                "US9704003.7.jpg",
+                "US9704003.8.jpg"
+            ],
+            "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003",
+            "patent-number": "US 9704003 B1 | July 2017, DE 112016005818 | Pending 2018, CN 108351705 A | Pending 2018, WO 2017105658 A1"
+        },
+        "transitioning-augmented-reality-objects-in-physical-and-digital-environments":
+        {
+            "type": "patent",
+            "title": "Transitioning Augmented Reality Objects in Physical and Digital Environments",
+            "authors": "Glen J. Anderson, Reese Bowes, Ankur Agrawal",
+            "abstract": "Described are apparatuses, methods and storage media associated with transitioning an augmented reality object between physical and digital environments, wherein the augmented reality object is embodied in at least two information carrying objects, which information carrying objects comprise a sensor-enabled physical object and a digital object.",
+            "pictures": [
+                "US20170178406.1.jpg",
+                "US20170178406.2.jpg",
+                "US20170178406.3.jpg",
+                "US20170178406.4.jpg",
+                "US20170178406.5.jpg",
+                "US20170178406.6.jpg",
+                "US20170178406.7.jpg",
+                "US20170178406.8.jpg",
+                "US20170178406.9.jpg",
+                "US20170178406.10.jpg",
+                "US20170178406.11.jpg"
+            ],
+            "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09846970",
+            "patent-number": "US 9846970 B2 | December 2017"
+        },
+        "technologies-for-physical-programming":
+        {
+            "type": "patent",
+            "title": "Technologies for Physical Programming",
+            "authors": "Glen J. Anderson, Rebecca A. Chierichetti, Meng Shi, Yevgeniy Y. Yarmosh, Mark R. Francis, Ravishankar Iyer, Reese Bowes, Ankur Agrawal ",
+            "abstract": "Apparatuses, methods and storage medium associated with a model compute system for physical programming are disclosed herein. In embodiments, an apparatus may include one or more processors, devices, and/or circuitry to identify first rules associated with one or more physical subcomponents, e.g., blocks, tiles, or the like, or combinations thereof, assembled in a constructed model in a first control modality, wherein at least one first rule defines a first predetermined behavior of the constructed model, and determine a first program stack for execution by the model compute system based on the first rules associated with the one or more physical subcomponents. Other embodiments may be described and/or claimed.",
+            "pictures": [
+                "US20170269906A1.1.png",
+                "US20170269906A1.2.png",
+                "US20170269906A1.3.png",
+                "US20170269906A1.4.png",
+                "US20170269906A1.5.png",
+                "US20170269906A1.6.png",
+                "US20170269906A1.7.png",
+                "US20170269906A1.8.png",
+                "US20170269906A1.9.png",
+                "US20170269906A1.10.png"
+            ],
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170269906",
+            "patent-number": "US 10275222 B2 | April 2019"
+        },
+        "technologies-for-motion-compensated-virtual-reality":
+        {
+            "type": "patent",
+            "title": "Technologies for Motion-compensated Virtual Reality",
+            "authors": "Glen J. Anderson, Richard T. Beckwith, Ankur Agrawal, Meng Shi",
+            "abstract": "Technologies for motion-compensated virtual reality include a virtual reality compute device of a vehicle. The virtual reality compute device is configured to render a virtual reality content to an occupant of the vehicle and determine a motion of the vehicle based at least on sensor data generated by one or more vehicle motion sensors of the vehicle. Based on the determined motion of the vehicle, the virtual reality compute device modifies the rendered virtual reality media. In some embodiments, the virtual reality compute device may utilize other sensors associated with the vehicle and/or a user-worn virtual reality device to predict the motion of the vehicle in order to determine an expected motion of the vehicle that is expected to be sensed in the future.",
+            "pictures": [
+                "US20170269906A1.1.png",
+                "US20170269906A1.2.png"
+            ],
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20180096501",
+            "patent-number": "US 10186065 B2 | January 2019, EP 3519877 A1 | Pending 2019, CN 109690386 A | Pending 2019, WO 2018063572 A1"
+        },
+        "determining-visually-reflective-properties-of-physical-surfaces-in-a-mixed-reality-environment":
+        {
+            "type":"patent",
+            "title":"Determining Visually Reflective Properties Of Physical Surfaces In A Mixed Reality Environment",
+            "authors": "Ankur Agrawal, Glen J. Anderson, Meng Shi",
+            "abstract": "The present disclosure is directed to systems, apparatuses, and processes to identify one or more physical surfaces within a mixed reality environment, determine visually reflective properties, respectively, of the one or more physical surfaces, and based upon the determined visually reflective properties, determined for an image to be projected out location in the mixed reality environment, characteristics of a reflection of the image in one of the one or more physical surfaces. Subsequent projections of the image in the location of the mixed reality environment may take into consideration the characteristics determined. Other embodiments may recommend or edit the image to be projected to optimize reflections of the image within the mixed reality environment. Other embodiments may be disclosed and/or claimed.",
+            "patent-number": "US 20190122441 A1 | Pending 2019",
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190122441"
+        },
+        "real-time-language-learning-within-a-smart-space":
+        {
+            "type":"patent",
+            "title":"Real-time Language Learning Within A Smart Space",
+            "authors": "Carl S Marshall, Giuseppe Raffa, Shi Meng, Lama Nachman, Ankur Agrawal, Selvakumar Panneer, Glen J Anderson, Lenitra M Durham",
+            "abstract": "Language education systems capable of integrating with a user's daily life and automatically producing educational prompts would be particularly advantageous. An example method includes determining a user's identity, detecting a language education subject, prompting the user with a language education message, receiving a user's response, and updating a user profile associated with the user based on the user's response. Methods may also include determining user state (including emotional, physical, social, etc.) and determining, based on the user state, whether to prompt the user with the language education prompt.",
+            "patent-number": "US 20190139448 A1 | Pending 2019",
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190139448"
+        },
+        "methods-and-apparatus-to-transition-between-2d-and-3d-renderings-of-augmented-reality-content":
+        {
+            "type":"patent",
+            "title":"Methods And Apparatus To Transition Between 2d And 3d Renderings Of Augmented Reality Content",
+            "authors": "Pete Denman, John Sherry, Glen J Anderson, Benjamin Bair, Rebecca Chierichetti, Ankur Agrawal, Meng Shi",
+            "abstract": "Methods and apparatus to transition between 2D and 3D renderings of augmented reality content are disclosed. An example apparatus includes a user input analyzer to determine an intended movement of an AR object relative to a first zone of a real world environment and a second zone of the real world environment. The apparatus also includes an AR content generator, in response to user input, to: render an appearance of movement of the AR object in the first zone based upon a first set of rules; and render the AR object in the second zone, movement of the AR object in the second zone based on a second set of rules different than the first set of rules.",
+            "patent-number": "US 20190164334 A1 | Pending 2019",
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190164334"
+        },
+        "projected-augmented-reality-to-obscure-physical-objects":
+        {
+            "type":"patent",
+            "title":"Projected Augmented Reality To Obscure Physical Objects",
+            "authors": "Glen J Anderson, Carl Marshall, Ankur Agrawal, Meng Shi, Selvakumar Panneer",
+            "abstract": "The present disclosure is directed to systems, apparatuses, and processes that provide mixed reality and/or augmented reality interactive environments. Disclosed embodiments include mechanisms to determine a location of a physical object within a mixed reality environment, determine a location of a viewer within the mixed reality environment, and project a display onto the physical object or on a portion of an area within the mixed reality environment proximate to the physical object to obscure the physical object from the viewer, based upon at least the location of the physical object with respect to the location of the viewer. Other embodiments may be disclosed and/or claimed.",
+            "patent-number": "US 20190043262 A1 | Pending 2018",
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190043262"
+        },
+        "technologies-for-virtual-attribute-assignment-referencing-real-objects":
+        {
+            "type":"patent",
+            "title":"Technologies For Virtual Attribute Assignment Referencing Real Objects",
+            "authors": "Glen J Anderson, Carl Marshall, John Sherry, Rebecca Chierichetti, Ankur Agrawal, Meng Shi, Giuseppe Raffa",
+            "abstract": "Technologies for virtual attribute assignment include a compute device. The compute device is configured to receive an attribute assignment command from a user and analyze the attribute assignment command to determine a user-selected virtual object, a user-referenced attribute of the user-selected virtual object, a user-selected real object, and a user-referenced attribute of the user-selected real object. Based on the attribute assignment command, the compute device is further configured to determine a state of the user-referenced attribute of the user-selected real object and update a state of the user-referenced attribute of the user-selected virtual object based on the state of the user-referenced attribute of the user-selected real object.",
+            "patent-number": "US 20190043267 A1 | Pending 2018",
+            "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190043267"
+        }
     },
+    "awards":
     {
-      "archived": true,
-      "id": "c9ce14056430af051a181fe343b62f4f",
-      "title": "Tangible Play Surfaces",
-      "slug": "tangible-play-surfaces",
-      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
-      "size": "small"
+        "no-i-in-team-may-2019":
+        {
+            "title": "No I In Team Award",
+            "organization": "Anticipatory Computing Lab, Systems and Software Research, Intel Labs, Hillsboro, OR",
+            "date": "May 2019",
+            "description": "For extra effort and hours invested to ensure the successful execution of the research studies, including creating a Unity interface and installing sensors in the space..",
+            "external-links": []
+        },
+        "no-i-in-team-feb-2019":
+        {
+            "title": "No I In Team Award",
+            "organization": "Anticipatory Computing Lab, Systems and Software Research, Intel Labs, Hillsboro, OR",
+            "date": "February 2019",
+            "description": "For driving new usages, architecture, and application; and developing working prototypes.",
+            "external-links": []
+        },
+        "best-project-demonstration-september-2018":
+        {
+            "title": "Best Project Demonstration",
+            "organization": "Intel Labs, Hillsboro, OR",
+            "date": "September 2018",
+            "description": "For innovative prototypes of ambient computing at Intel Labs’ Tech insights open house.",
+            "external-links": []
+        },
+        "division-recognition-award-march-2018":
+        {
+            "title": "Division Recognition Award",
+            "organization": "Systems and Software Research, Intel Labs, Hillsboro, OR",
+            "date": "March 2018",
+            "description": "For implementing a complete prototype to capture, process and display immersive light fields; and guiding the development through user experience research.",
+            "external-links": []
+        },
+        "graduate-innovation-june-2016":
+        {
+            "title": "Graduate Innovation Award",
+            "organization": "Dept. of HCDE, University of Washington, Seattle, WA",
+            "date": "June 2016",
+            "description": "For research work and projects during master’s degree program. This HCDE \"Award of Excellence for Innovation\" honors students who have demonstrated excellence through the design and development of novel engineering and technology artifacts or practices that exemplify human-centered design principles.",
+            "external-links": [
+                "http://www.hcde.washington.edu/awards/excellence",
+                "https://www.flickr.com/photos/125381443@N04/27543641843/in/album-72157670116573331/",
+                "https://www.flickr.com/photos/125381443@N04/27543642603/in/album-72157670116573331/"
+            ]
+        },
+        "cheetah-intel-labs-september-2016":
+        {
+            "title": "Cheetah",
+            "organization": "Intel Labs, Hillsboro, OR",
+            "date": "September 2016",
+            "description": "For a prototype designed and developed in record time to define a focused vision of smart home spaces for kids.",
+            "external-links": []
+        },
+        "best-project-demonstration-intel-labs-september-2015":
+        {
+            "title": "Best Project Demonstration",
+            "organization": "Intel Labs, Santa Clara, CA",
+            "date": "September 2015",
+            "description": "For innovative prototypes of tangible toys at Intel Labs’ open house project exhibition.",
+            "external-links": []
+        },
+        "jed-i-project-challenge-june-2012":
+        {
+            "title": "Jed-i Project Challenge",
+            "organization": "The Joy of Engineering, Design and Innovation (Jed-i), Bangalore, India",
+            "date": "June 15, 2012",
+            "description": "Second place in Computing Division for innovation in creating a touch interface prototype as a capstone project for bachelor’s degree. The finals of the Project Challenge was held at IISC, Bangalore, India among 69 selected teams out of 210 projects.",
+            "external-links": []
+        },
+        "central-sector-scholarship":
+        {
+            "title": "Central Sector Scholarship",
+            "organization": "Ministry of Human Resource Development (MHRD), Government of India",
+            "description": "Awarded for the meritorious performance in school's academics.",
+            "date": "June 2008 - June 2012"
+        }
     },
+    "teachings":
     {
-      "archived": true,
-      "id": "c9ce14056430af051a181fe343b62f4f",
-      "title": "Code Maker",
-      "slug": "code-maker",
-      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
-      "size": "medium"
+        "graduate-teaching-assistant-dis-hcid":
+        {
+            "title": "Graduate Teaching Assistant, Designing Interactive Systems (HCID 510)",
+            "organization": "MHCI+d, University of Washington, Seattle",
+            "description": [
+                "Guided a class of 28 graduate students in design and interactive technologies, favoring design thinking in lieu of implementation concerns",
+                "Graded assignment and project submissions per instructions of faculty members"
+            ],
+            "date": "March 16, 2015 - June 15, 2015"
+        },
+        "teaching-assistant-algorithms":
+        {
+            "title": "Teaching Assistant & Lab Instructor, Algorithms",
+            "organization": "Dept. of Computer Science & Engineering, Jaypee Institute of Information & Technology, India",
+            "description": [
+                "Offered lessons in algorithm design and data structures to a class of more than 45 students",
+                "Reviewed and suggested modification in student assignments"
+            ],
+            "date": "June 2011 – May 2012"
+        },
+        "guest-lecture-visual-design":
+        {
+            "title": "Guest Lecturer, Visual Design",
+            "organization": "HCDE, University of Washington, Seattle",
+            "description": [
+                "Delivered a lecture on design tools to a class of 30 senior-year college students"
+            ],
+            "date": "March 2015 – June 2015"
+        },
+        "lead-mentor-stem":
+        {
+            "title": "Lead Mentor, STEM Education",
+            "organization": "Dream Project, Department of Education, University of Washington, Seattle",
+            "description": [
+                "Taught middle and high school students about tangible design, prototyping and programming",
+                "Organized weekly tinkering workshops on STEM related topics"
+            ],
+            "date": "October 1, 2015 - March 15, 2016"
+        },
+        "mentor-python":
+        {
+            "title": "Mentor, Python",
+            "organization": "Community Data Science Workshop (CDSW), University of Washington, Seattle",
+            "description": [
+                "Provided over a hundred students with sessions on Python programming"
+            ],
+            "date": "March 2015 – June 2015"
+        },
+        "mentor-ucdc":
+        {
+            "title": "Mentor, User Centered Design Charrette",
+            "organization": "HCDE, University of Washington, Seattle, WA",
+            "description": [
+                "Held design activities and workshops in high schools",
+                "Instructed students in user-centered design processes"
+            ],
+            "date": "March 2015 – June 2015"
+        }
     },
+    "leaderships":
     {
-      "archived": true,
-      "id": "c9ce14056430af051a181fe343b62f4f",
-      "title": "Story Maker",
-      "slug": "story-maker",
-      "short-description": "Intel Internship, RFID, Toys, Play, Prototyping, STEM Education",
-      "size": "medium"
+        "volunteer-chair-icmi":
+        {
+            "title": "Volunteer Chair",
+            "organization": "ACM International Conference on Multi-modal Interaction (ICMI), Seattle, USA",
+            "description": [
+                "Created and maintained the website of the conference",
+                "Coordinated volunteers and registration desk"
+            ],
+            "date": "2015"
+        },
+        "organizer-ic3":
+        {
+            "title": "Organizer",
+            "organization": "IEEE, International Conference on Contemporary Computing (IC3), Noida, India",
+            "description": [
+                "Supervised hospitality operations, stationery, registration desk and volunteers"
+            ],
+            "date": "2010 – 2012"
+        },
+        "judge-taf-academy":
+        {
+            "title": "Judge",
+            "organization": "Technology Access Foundation Academy (TAF), Seattle, USA",
+            "description": [
+                "Evaluated project presentations on design, technology and engineering"
+            ],
+            "date": "2015"
+        },
+        "treasurer-hcde-gsa":
+        {
+            "title": "Treasurer",
+            "organization": "HCDE Graduate Student Association, Seattle, USA",
+            "description": [
+                "Managed accounts, administrative funds and budgets",
+                "Planned design activities and events"
+            ],
+            "date": "2015 – 2016"
+        }
     },
+    "work":
     {
-      "archived": false,
-      "id": "0afcddbef1671bb770a46fae3afc7f1e",
-      "title": "Itinerant Probes",
-      "slug": "itinerant-probes",
-      "short-description": "Research, Design as Probes, Prototyping, Social Inquiry",
-      "size": "small"
-    },
-    {
-      "archived": false,
-      "id": "25f6b1e54da98a7b440eb405b938e40c",
-      "title": "Synku",
-      "slug": "synku",
-      "short-description": "Cross Sensory Perception, Research",
-      "size": "medium"
-    },
-    {
-      "archived": false,
-      "id": "355bce211801260669ee2c4f973a7cd8",
-      "title": "Hollywood Stars",
-      "slug": "hollywood-stars",
-      "short-description": "Visualization, User-centered Design",
-      "size": "small"
-    },
-    {
-      "archived": false,
-      "id": "5d0ec23e49e3b86653bf9494dcd7fc93",
-      "title": "Visual Design And 3d Model Collection",
-      "slug": "visual-design-and-3d-model-collection",
-      "short-description": "Visual Design",
-      "size": "large"
-    },
-    {
-      "archived": false,
-      "id": "f9555c2270ae0e6ea4404f89525e50d3",
-      "title": "Web Development",
-      "slug": "web-development",
-      "short-description": "UI design, Prototyping, Development",
-      "size": "small"
-    },
-    {
-      "archived": true,
-      "id": "92ec77835d0373ee0e96da5d1c087f13",
-      "title": "Teaching and Leadership",
-      "slug": "teaching-and-leadership",
-      "short-description": "Teaching Assistant, Design Education, STEM Education",
-      "size": "medium"
-    },
-    {
-      "archived": true,
-      "id": "e6bed3d90de33faa2329a60bacb24dad",
-      "title": "Work Happy",
-      "slug": "work-happy",
-      "short-description": "User experience design, Interaction design",
-      "size": "small"
-    },
-    {
-      "archived": true,
-      "id": "62290b615650f5640e1da0e393de2b1d",
-      "title": "Goslometer",
-      "slug": "goslometer",
-      "short-description": "User-centered design, Paper prototyping",
-      "size": "small"
-    },
-    {
-      "archived": true,
-      "id": "201753795b8145c3d42534c881e32a26",
-      "title": "Image Processing",
-      "slug": "image-processing",
-      "short-description": "Interaction design, Computer vision",
-      "size": "small"
+        "design-technologist":
+        {
+            "title": "Design Technologist",
+            "organization": "User Experience Innovation (UXI) – Intel Labs, Hillsboro, OR",
+            "description": [
+                "Work on R&D projects to design next generation of AR, VR, immersive, automated vehicle, smart spaces experiences",
+                "Conduct concept prototyping, sketching, storyboarding, game logic and user research; and collaborate with development teams"
+            ],
+            "date": "May 2016 – Present"
+        },
+        "intern-ux-designer":
+        {
+            "title": "Intern - UX Designer",
+            "organization": "User Experience Innovation (UXI) – Intel Labs, Hillsboro, OR",
+            "description": [
+                "Initiated an R&D project to design interactive tangible toys using RFID",
+                "Conducted tangible prototyping, sketching and user research"
+            ],
+            "date": "June 2015 – September 2015"
+        },
+        "entrepreneur":
+        {
+            "title": "Entrepreneur",
+            "organization": "Trionix Solutions, Ghaziabad, India",
+            "description": [
+                "Led a team of 10 designers and developers",
+                "Fulfilled a dual role as a UI engineer and a full-stack developer",
+                "Executed 30+ projects of graphic design and responsive web and mobile applications for clients in USA, UK, China, Singapore and India"
+            ],
+            "date": "August 2011 – June 2014"
+        },
+        "head-of-development":
+        {
+            "title": "Head of Development",
+            "organization": "Interactiv LLC, Boston, MA",
+            "description": [
+                "Designed/developed MVP of an interactive Chrome extension for YouTube, which allows users to add annotations and stories to the videos"
+            ],
+            "date": "January 2014 – March 2014"
+        },
+        "software-engineer":
+        {
+            "title": "Software Engineer",
+            "organization": "MTree Software Private Limited, Noida, India",
+            "description": [
+                "Designed/developed a hybrid mobile application, IceBreaker – a networking application which facilitates spatial neighbor search and promotes in-person interactions at events",
+                "Designed/developed a webcam based 3D face reconstruction and virtual glasses try-on system",
+                "Built a paper touch pad to detect finger touch with webcam"
+            ],
+            "date": "June 2012 – June 2014"
+        },
+        "ui-ux-engineering-intern":
+        {
+            "title": "UI/UX Engineering Intern",
+            "organization": "ICU-India, Jaipur, India",
+            "description": [
+                "Designed/developed a web application, EManage – a management tool which enables supervisors to track employee records such as work hours and tasks assigned"
+            ],
+            "date": "May 2011 – June 2011"
+        }
     }
-  ],
-  "projects-details": {
-    "sweet-treat": {
-      "title": "Sweet Treat",
-      "timeline" : "01/02/2016 - 03/15/2017",
-      "summary": "motivate staff, faculty, and students to change their current behavior of taking candy from the HCDE main office and create a fun and collaborative atmosphere in the office?",
-      "intro": "",
-      "description": "<project-image-container src=\"{{getCurrentProjectImageAssetUrl('picture-existing-candy-bowl.jpg')}}\" alt=\"Candy bowl\"></project-image-container><p>Sweet Treat started with the idea of redesigning candy bowl to solve a problem department of HCDE was facing, which after our research we realised wasn't just HCDE's problem but almost everywhere. The problem was good candy running out too soon and less desirable candy not getting picked up by anyone. Over the course of next ten weeks, we set out to solve this issue of loneliness of less desirable candy.</p><div class=\"design-process\"></div><p>We started with doing <b>field research</b> to find out the cause of the problems so we can design to solve them. Our research developed into <b>three clear findings</b>.</p><div class=\"research-findings list\"> <span class=\"finding\">Free candy in the office provides a place for people to interact with others. However, some less positive social interactions happen when people sitting near the bowl are frequently interrupted by candy takers who feel the need to justify their actions.</span> <span class=\"finding\">The department thinks the bowl belongs to everyone in the office, with the burden of buying and refilling candy being shared by everyone in the office. But people only take candy from it, and complain to the office manager when the bowl is empty.</span> <span class=\"finding\">The bowl is usually filled with a variety of candy at first. But some types of candy run out more quickly than others because people tend to pick the same types of candy. This leaves the less desirable ones at the bottom of the bowl for a long time before they are finally selected.</span></div><p>We then translated these findings into <b>three design opportunities</b></p><div class=\"design-opportunities list\"> <span class=\"design-opportunity\">Enrich positive social interactions among HCDE staff, faculty and students.</span> <span class=\"design-opportunity\">Encourage all staff in the office to refill the candy bowl, and foster the collective sense of responsibility.</span> <span class=\"design-opportunity\">Make the candy bowl consumption sustainable, in both speed of consumption and diversity of choice.</span></div><p>We used these findings to <b>brainstorm, ideate, sketch and design</b> an initial prototype. The efforts was focused on making the bowl easier to refill, increasing the variety of candy in the bowl at any given time, and increasing engagement in the office surrounding it</p><h6 class=\"section-heading\">Brainstorming</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-brainstorming_1.jpg', 'picture-prototype-1-brainstorming_2.jpg', 'picture-prototype-1-brainstorming_3.jpg', 'picture-prototype-1-brainstorming_4.jpg', 'picture-prototype-1-brainstorming_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st prototype brainstorming\"></project-image-container> </div></div><h6 class=\"section-heading\">Making of prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ {alt: 'Sketch of 1st prototype', name: 'sketch-prototype-1-making_1.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_1.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_2.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_3.jpg'}, {alt: '1st prototype in making', name: 'picture-prototype-1-making_4.jpg'}, {alt: '1st prototype', name: 'picture-prototype-1-making_5.jpg'} ]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" alt=\"{{image.alt}}\"></project-image-container> </div></div><h6 class=\"section-heading\">Finished low fidelity prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-finished_1.jpg', 'picture-prototype-1-finished_2.jpg', 'picture-prototype-1-finished_3.jpg', 'picture-prototype-1-finished_4.jpg', 'picture-prototype-1-finished_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st finished prototype\"></project-image-container> </div></div><h6 class=\"section-heading\">Usability testing</h6><p>We were then able to do some rapid testing on the prototype and get feedback about what wasn't clear. Our main goal was to gather feedback on the 3 digital challenges and the overall physical design. For testing, the prototype was <b>placed in a public place</b> in out department where students, staff, and faculty would pass by. Participants were those who walked and took a few minutes to explore the prototype. The researcher standing near the prototype conducted a brief interview asking them about their experience.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-1-testing_1.jpg', 'picture-prototype-1-testing_2.jpg', 'picture-prototype-1-testing_3.jpg', 'picture-prototype-1-testing_4.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"1st prototype testing\"></project-image-container> </div></div><p>Ultimately, we had 7 participants complete our study which uncovered several key usability issues.</p><div class=\"usability-findings list\"> <span class=\"finding\">The purpose of the charity box and the sugar rush box is unclear.</span> <span class=\"finding\">The sliding game is too time consuming.</span> <span class=\"finding\">It is unclear the the drawer contains different candy.</span> <span class=\"finding\">The buttons are hard to select due to their size.</span></div><p>Time to brainstorm again. As a result of the findings from our testing, we made modifications to the design of both the physical and digital parts of the prototype.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-brainstorming_1.jpg', 'picture-prototype-2-brainstorming_2.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd prototype brainstorming\"></project-image-container> </div></div><p>From there, <b>we created Sweet Treat</b>, a redesigned candy bowl that asks users to complete a challenge in order to earn their candy. Those that don't have time to play the challenge can simply grab a piece of less desirable candy from the tray at the top of the machine. Finally, the auto-refilling drum means that the candy bowl has to be filled less, while extending the variety of candy in the bowl.</p><h6 class=\"section-heading\">Making of final prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-making_1.jpg', 'picture-prototype-2-making_2.jpg', 'picture-prototype-2-making_3.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd prototype in making\"></project-image-container> </div></div><h6 class=\"section-heading\">Finished final prototype</h6><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ 'picture-prototype-2-finished_1.jpg', 'picture-prototype-2-finished_2.jpg', 'picture-prototype-2-finished_3.jpg', 'picture-prototype-2-finished_4.jpg', 'picture-prototype-2-finished_5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"2nd finished prototype\"></project-image-container> </div></div><h6 class=\"section-heading\">Digital interaction design</h6><project-image-container src=\"{{getCurrentProjectImageAssetUrl('picture-prototype-2-finished-digital.jpg')}}\" alt=\"Digital interaction design\"></project-image-container><h6 class=\"section-heading\">Control system design</h6><project-image-container src=\"{{getCurrentProjectImageAssetUrl('picture-prototype-2-finished-electronic.jpg')}}\" alt=\"Electronic control system design\"></project-image-container>",
-      "tags": "UX Design, Prototyping, 3d modelling, Laser cutting, 3d printing, Mechanical",
-      "role": "Design Technologist",
-      "tools": "Laser Cutting, Arduino, WiFi module, ",
-      "team": "Ankur Agrawal, Chen Ye, Linshuang Chen, Allie Deford",
-      "external-links": [
-        "{\"file\":\"files/sweet-treat-process-book.pdf\",\"title\":\"Checkout the process book\",\"caption\":\"process book\"}",
-        "{\"file\":\"files/sweet-treat-poster.pdf\",\"title\":\"Checkout the poster\",\"caption\":\"poster\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "orchestable": {
-      "title": "Orchestable",
-      "timeline" : "09/01/2011 - 01/15/2012",
-      "summary": "a system that provides a digital multi-touch interface to a group of people for playing multiple musical instruments simultaneously through a natural user interface with broader accessibility and flexibility.",
-      "intro": "",
-      "description": "<project-image-container src=\"{{getCurrentProjectImageAssetUrl('table-top-interface-3.jpg')}}\" alt=\"Project setup\"></project-image-container><p>Orchestable was developed as a capstone project for my bachelor of technology degeree. At the time there were apps to play musical instruments on a touch device but there were limitations, Most of the apps were allowing playing of a single instrument at a time. And among all the apps I studied, more than half were single touch input apps. This can be very problematic while playing musical instruments since, almost all instruments realistically need multi-touch input. I set out to solve this problem.</p><p>The first step in the project was to define the target users, <strong>beginners</strong> and <strong>hobyist</strong> musicians.</p><div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('musician-piano.svg')}}\" alt=\"Target user\" data-width=\"478\" data-height=\"578\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-6\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('musician-drums.svg')}}\" alt=\"Target user\" data-width=\"599\" data-height=\"462\"></project-image-container> </div></div><section> <h6 class=\"section-heading\">User Research</h6> <div class=\"section-body\"><p>During my secondary research, I found that musicians who were using the digital apps for playing music instruments were trying to play multiple instrument in groups using this application but using multiple devices.</p> <p>Next, I did field research to understand how they use muscial instruments and what are critical requirements for an on-screen digital interface to do similar activities. After interviewing 2 musicians, I derived 4 key findings from the research</p> <ul class=\"list\"> <li>People are hesitant of investing too much money in the beginning.</li> <li>Being able to move the device is important.</li> <li>People want to try various instruments.</li> <li>People often practice and compose in groups.</li> </ul> <p>Based on these findings, I came up with 6 design guidelines</p> <ul class=\"list\"> <li>It has to be a low cost device to make it affordable</li> <li>User should be able to dismantle the setup in order to move it around</li> <li>The process of assembling the setup should be fairly easy to make it less time consuming</li> <li>The touch screen should be big enough for a group of people to interact simultaneously</li> <li>The interface should provide access to various instruments</li> <li>The interface should allow selection of multiple instruments</li> </ul> <p>I used these design guidelines to brainstorm and sketch some concepts for a interface that can be used by multiple people to play digital music instruments together. There were two parts to the setup, physical interface and digital interface. I chose 4 music instruments to design the digital interface for: Piano, Octapad, Congos and Drums.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-hardware-interface-1.jpg')}}\" alt=\"Sketch of 1st proposed hardware interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-hardware-interface-2.jpg')}}\" alt=\"Sketch of 2nd proposed hardware interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-hardware-interface-3.jpg')}}\" alt=\"Sketch of 3rd proposed hardware interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-digital-interface-1.jpg')}}\" alt=\"Sketch of 1st proposed digital interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-digital-interface-2.jpg')}}\" alt=\"Sketch of 2nd proposed digital interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('sketch-digital-interface-3.jpg')}}\" alt=\"Sketch of 3rd proposed digital interface\" data-width=\"800\" data-height=\"600\"></project-image-container> </div> </div> <p>From the field research and ideation, it was certain that a touch interface would be best possible option. The challenge became</p> <blockquote class=\"intro\">how to make a low budget big touch screen which offer scalability and portability</blockquote> </div></section><section> <h6 class=\"section-heading\">Physical Prototyping</h6> <div class=\"section-body\"> <p>A big capacitive touch screens was expensive, so I did some research on low cost methods of making a touch screen using camera.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-6\" ng-repeat=\"image in [ 'ftir.jpg', 'dsi.jpg', 'rdi.jpg', 'llp.jpg', 'fdi.jpg', 'ledlp.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"IR based touch technology\" data-width=\"450\" data-height=\"288\"></project-image-container> </div> </div> <p>Although the most accurate and effective of the 6 methods is Frustated Internal Reflection (FTIR), it is also most expensive. Keeping the design guidelines in mind, I selected two technology, Rear Diffused Illumination (RDI) and Front Diffused illumination (FDI). The touch screen using any of the two methods</p> <ul class=\"list\"> <li>is the cheapest hardware solutions among all six of them, still reasonably accurate unlike LED Light Plane method</li> <li>can be put together using simple tools like \"light bulb\" for IR emission, a normal glass sheet and a diffuser for projection.</li> </ul> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-3 large-3\" ng-repeat=\"image in [ {'name':'rdi-touch-surface.jpg','alt':'Rear diffused illumination','class':'shadow-purple'}, {'name':'fdi-touch-surface.jpg','alt':'Front diffused illumination','class':'shadow-purple'}, {'name':'ledlp-touch-surface.jpg','alt':'LED light plane'}, {'name':'llp-touch-surface.jpg','alt':'Laser light place'}, {'name':'dsi-touch-surface.jpg','alt':'Diffused screen illumination'}, {'name':'ftir-touch-surface.jpg','alt':'Frustrated internal reflection'}]\"> <project-image-container class=\"show-caption {{image.class}}\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" alt=\"{{image.alt}}\" data-width=\"205\" data-height=\"154\"></project-image-container> </div> </div> <p>I built a smaller prototype of the table design to test both techonlogies. The testing concluded with rear diffused illumination offering a simpler and more compact setup.</p> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('box-prototype.png')}}\" alt=\"Box prototype\" data-width=\"220\" data-height=\"165\"></project-image-container> </div></section><section> <h6 class=\"section-heading\">Table-top interface</h6> <div class=\"section-body\"> <p>Using rear diffused infrared illumination technique and testing it with box prototype, I built a table form factor for the touch screen interface. The hardware of the project was implemented using a simple IR camera, plain glass sheet, wooden table and a short-throw projector. The cost for the complete setup was $550 excluding the computer.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-6\" ng-repeat=\"image in [ 'table-top-interface-1.jpg', 'table-top-interface-2.jpg', 'table-top-interface-3.jpg', 'table-top-interface-5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"Table top interface\" data-width=\"720\" data-height=\"480\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Digital interface</h6> <div class=\"section-body\"> <p>The interface for the table has a collection of 4 instruments to choose from: piano, drums, congo, and octapad. I designed it to look like a stage to give some context. Selecting an instrument from the stage will bring up another screen, play screen, with a floating window of the instrument. By repeating the process of selecting an instrument fron the stage, multiple instruments can be added to the play screen. Every instrument window can be moved and arranged freely on the table top according to the positions of the musicians.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-6\" ng-repeat=\"image in [ 'digital-interface-1.jpg', 'digital-interface-2.jpg', 'digital-interface-3.jpg', 'digital-interface-4.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" alt=\"Digital interface\" data-width=\"720\" data-height=\"480\"></project-image-container> </div> </div> </div></section><section> <div class=\"section-body\"> <p>Later, I collborated with a colleague and added interface for real physical instruments to it using MAX/MSP. Now a group can practice and/or compose music using Orchestable for digital version of the instruments and connect their physical instruments and use the filter and effects built into the project.</p> <project-video-container src=\"dXlXYIry934\" data-width=\"720\" data-height=\"405\" youtube></project-video-container> </div></section>",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "Wooden table, Webcam (Converted into IR), Short-Throw Projector, Acrylic sheet, Butter Paper, MT4J, CCV, JOGL, MinimLibs",
-      "team": "Ankur Agrawal",
-      "external-links": [
-        "{\"file\":\"files/orchestable-project-report.pdf\",\"title\":\"Checkout the project report\",\"caption\":\"project report\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "toothgloss": {
-      "title": "Toothgloss",
-      "timeline" : "2014/10/01 - 2014/12/10",
-      "summary": "an advanced interdental cleaning system, to be used as a replacement, or supplement to traditional flossing.",
-      "intro": "",
-      "description": "<project-image-container src=\"{{getCurrentProjectImageAssetUrl('hardware_1.jpg')}}\" alt=\"ToothGloss\" width=\"720\" height=\"405\"></project-image-container><p>The goal of this product is to make the activity of interdental cleaning fit better within people’s lives, allowing them to use the product regularly to improve their dental health. ToothGloss includes advanced technology gum-like Gloss sticks within a SmartBox, whose interactive digital screen empowers the users to set goals and schedules that work for their lives.</p><section> <h6 class=\"section-heading\">Problem Statement</h6> <div class=\"section-body\"> <p>The modern day medical system has learned what it takes to maintain healthy teeth throughout one’s lifetime, and created technology to enable users to act towards this endeavor. Yet, the rate of preventable oral disease remains high, even among highly educated populations with access to medical tools and expertise. What can be done to decrease these disease rates?</p> <p>To ansnwer this question, we started out with conducting user research.</p> <p><strong>Secondary Research:</strong> We focused on working-age adults for the purposes of this study. This was defined as ages 16 through 60, encompassing the time when the mouth has fully matured up to the health changes of later life. We categorized our findings by Cause & Fix, to help identify which problems were best to investigate. We found that 40% of the working-age adults are facing dental health issues with gum desease and tooth decay being the most common of them. Best fixes for the health issue are preventative: Fluoridated water, Brush twice daily, and Floss daily. Among these flossing was least popular and performed less frequently. That became the focus of our project.</p> <p><strong>Questionnaire:</strong> Armed with a narrowed focus on interdental cleaning, it was time to consult the users about their practices at home, so we created a <a class=\"link\" target=\"_blank\" href=\"http://www.surveygizmo.com/s3/1863812/Interdental-Cleaning\">Questionnaire</a> using SurveyGizmo. Some survey findings:</p> <ul class=\"list\" class=\"list\"> <li>51% do not/believe they do not have time or think flossing takes too long</li> <li>46% don’t feel the need to floss because they brush well</li> <li>43% forget</li> <li>12% feel lazy</li> </ul> <p><strong>Semi-Structured Interviews:</strong> These were performed by asking interviewees questions about their dental hygiene practices and motivations behind them. These conversations were open-ended and only prompted when needed, allowing the user to provide the most unbiased information.</p> <ul class=\"list\" class=\"list\"> <li>Confirmed lack of flossing because people feel they do not have time.</li> <li>Revealed issues w/ taste, difficulty w/ mouth hardware, effects of conversations with dental hygienists</li> </ul> </div></section><section> <h6 class=\"section-heading\">Design Question</h6> <div class=\"section-body\"> <p>From our findings, we derived the design question to guide us during the ideation phase.</p> <blockquote class=\"intro\">How can we improve the frequency and quality of user-performed interdental cleaning among working-age adults?</blockquote> <p>Our research showed that the design should:</p> <ul class=\"list\" class=\"list\"> <li>be portable</li> <li>be quick to use and/or hands-free to allow multitasking</li> <li>show before and after results or provide other immediate feedback</li> <li>inform the user of health risks</li> <li>remind the user to perform interdental cleaning</li> <li>have neutral taste and be pain free</li> </ul> </div></section><section> <h6 class=\"section-heading\">Ideation</h6> <p>For ideation all of the group members brought sketches of their concepts and shared with the entire group. We disected each concepts to extract the underlying features and put them up on the board. Later we sorted the features by categories, then ranking them within each category. The features ranking higher in each category were pulled together and re-organized into artifact combinations & re-sketched for a list of potential final design concepts.</p> <div class=\"section-body\"> <p></p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-12 large-12\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_1.jpg')}}\" data-width=\"1024\" data-height=\"239\"></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_2.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_3.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-4 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('ideation_4.jpg')}}\" width=\"1024\" height=\"768\" ></project-image-container> </div> </div> <p></p> <h6>Suction Wand</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_1.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('suctionwand_2.jpg')}}\" width=\"823\" height=\"1000\" ></project-image-container> </div> </div> <p>The SuctionWand is perhaps the most familiar dental product as a comparable suction device is currently used in dental offices and it looks similar to an electric toothbrush or Waterpik®. The user manually moves the wand around their mouth while it provides suction to remove the plaque around and in between the teeth. It uses an ultrasonic pulses to loosen plaque that may be too dried on for the vacuum to remove. Being a portable onehanded device it allows for a semimultitasking experience. The product is also reusable, making it more expensive up front, but longerlasting and less wasteful. The wand notifies the user via a series of beeps when this needs to be performed.</p> <h6>ToothGloss</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_1.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('toothgloss_2.jpg')}}\" width=\"649\" height=\"768\" ></project-image-container> </div> </div> <p>ToothGloss is gum that flosses. Less viscous and more sticky than typical chewing gum, it flows between and around the teeth, grabbing the plaque. Upon spitting out the gum, the user can see the removed items stuck in the substance, giving immediate results. It is portable, handfree, cheap and disposable and also comes in different flavors. Its case has a slot for each day of the month, visually reminding the consumer to use the product. While gum is a familiar object, it is not made for every type of user. Those with temporomandibular joint disorder (TMJ), cannot chew gum frequently.</p> <h6>FlossBots</h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_1.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_2.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> <div class=\"cell small-12 medium-6 large-4\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl('flossbots_3.jpg')}}\" width=\"629\" height=\"768px\"></project-image-container> </div> </div> <p>FlossBots are microscopic robots contained within a userfriendly liquid medium. Using mass spectrometertype technology, they seek out the plaque in between and around the users’ teeth, and then target those locations for scrubbingstyle cleaning. Delivery as a liquid enables the user flexibility of where to use the product; in their home or on the go. Unlike floss, FlossBots is painfree and handsfree, allowing the user to multitask. Results are confirmed when the user spits out the cleaner; removed plaque can be viewed as a different color in the liquid.</p> </div></section><section> <h6 class=\"section-heading\">Prototyping</h6> <div class=\"section-body\"> <p>Out of the three shortlisted design solutions we chose the ToothGloss as it allowed us to prototype five out of six of our design criteria. We created a low-tech box out of cardboard, and springs with a digital interface on the box using phone. The case has visual reminder slots for each day. In the short time flow of this project we were unable to obtain color changing gum to simulate plaque detection, however we were able to create a small and light portable box containing pain-free, taste optional (mint in this case), hands-free gum. The box’s screen interface allows the user to set goals and reminders and display informational health tips as seen in the snamshots below.</p> </div></section><section> <h6 class=\"section-heading\">Physical Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'hardware_2.jpg'}, {'name':'hardware_3.jpg'}, {'name':'hardware_4.jpg'}, {'name':'hardware_5.jpg'}, {'name':'hardware_1.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Digital Interface</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in [ {'name':'goal_1.jpg'}, {'name':'goal_2.jpg'}, {'name':'goal_3.jpg'}, {'name':'risk_1.jpg'}, {'name':'risk_2.jpg'}, {'name':'reminder_1.jpg'}, {'name':'reminder_2.jpg'}, {'name':'reminder_3.jpg'}, {'name':'reminder_4.jpg'}, {'name':'reminder_5.jpg'}, {'name':'reminder_6.jpg'}, {'name':'reminder_7.jpg'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"720\" height=\"405\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Usability testing</h6> <div class=\"section-body\"> <p>The evaluations were performed in the “wild” or uncontrolled environment of the school campus. After a brief introduction to the purpose of our system, the testers went through a series of tasks while thinking aloud.</p> <p>The users found a variety of places for improvement. Some particularly notable findings:</p> <ul class=\"list\" class=\"list\"> <li>one user was unfamiliar with flossing (cultural difference) and such we were solving a problem he did not have and gave him a little extra introduction to the situation.</li> <li>Two of the users were unaware that the alarm sound was in-fact meant for them, an apparent hazard of Wizard-of-Oz features in an uncontrolled environment.</li> <li>Minor tweaks were made to the interface between users, so they had slightly different experiences.</li> <li>Between the first and second tests we changed the screen resolution (switched phones) for a better user experience, and between the second and third tests we made some changes to the box labelling, adding a title and moving the day-by-day tickmarks per user suggestion.</li> </ul> <div class=\"callout\"> <h6>Evaluation Tasks</h6> <p>Please read this paragraph out loud to become comfortable with narrating your thoughts for us:</p> <p>ToothGloss is an advanced flossing system. The futuristic gum can target and clean plaque between the teeth without the need for traditional flossing. This is an early prototype. Please complete the tasks below, talking aloud as you go. It is helpful to us if you narrate your thoughts, good, bad, weird etc during the evaluation.</p> <ol> <li>Add a goal to gloss weekdays at 7am</li> <li>Add a reminder for 7am on weekdays</li> <li>Add another goal to gloss on weekends</li> <li>Set a reminder for Saturday at 3pm</li> <li>Review the risks of not flossing</li> <li>When your weekend alarm goes off, take out a piece of advanced technology gloss gum</li> <li>Approximate which day’s gum you selected. Which day of which week was it?</li> <li>Find out more information about one of the risks</li> </ol> <h6>Post-Evaluation Questionnaire</h6> <ol> <li>When performing the ToothGloss tasks, was anything confusing?</li> <li>When working with the interface, did ToothGloss do what you expected?</li> <li>What features did you like?</li> <li>What features need improvement or were missing?</li> <li>Would such a product motivate you to floss more?</li> </ol> </div> </div></section>",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Ankur Agrawal, Alysse Gallo, Meredith Anderson",
-      "external-links": [
-        "{\"file\":\"files/toothgloss-design-specification.pdf\",\"title\":\"design specification for Toothgloss\",\"caption\":\"design specification\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "tangible-play-surfaces": {
-      "title": "Tangible Play Surfaces",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "intro": "",
-      "description": ".",
-      "tags": "Tangible Interaction, Play, RFID, UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "itinerant-probes": {
-      "title": "Itinerant Probes",
-      "timeline" : "2015/04/15 - 2015/07/15",
-      "summary": "using probes to explore people's relationship with public spaces.",
-      "intro": "",
-      "description": "<section> <div class=\"section-body\"> <p>Itinerant probes explores the idea of using dynamic events to re-engage people in a particular space. These probes lives in a public space, enliven the collective memory and history of people and their experiences in that space. During our research, we designed a number of probes related to lighting and investigated them at three public site.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-2\" ng-repeat=\"image in [ {'name':'workbook/itinerant-probes-workbook-v01-1.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-2.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-3.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-4.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-5.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-6.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-7.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-8.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-9.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-10.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-11.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-12.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-13.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-14.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-15.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-16.jpg'}, {'name':'workbook/itinerant-probes-workbook-v01-17.jpg'}]\"> <project-image-container alt=\"Workbook\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"1024\" height=\"512\"></project-image-container> </div> </div> <p>The project started from the idea of exploring public stairwells for safety and lightening. But, as often happens with any design project, it evolved into a bigger, broader question of what is a public space and what does these spaces means for people using them.</p> </div></section><section> <h6 class=\"section-heading\">Stairwells</h6> <div class=\"section-body\"> <p>We began our journey by exploring three public walkways in Seattle.</p> <ul class=\"list\"> <li>Wall of Death</li> <li>Rainier Training Grounds</li> <li>Freeway Park</li> </ul> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in [ {'name':'wall-of-death.jpg','alt':'Wall of Death'}, {'name':'rainier-training-grounds.jpg','alt':'Rainier Training Grounds'}, {'name':'freeway-park.jpg','alt':'Freeway Park'}]\"> <project-image-container alt=\"{{image.alt}}\" src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"1080\" height=\"1440\"></project-image-container> </div> </div> <p>We interviewed people using these spaces to learn about what they think of the stairwells, especially during evening and night, when it's dark. At Wall-of-death, Pedestrian, particularly women, felt very unsafe and usually rush through. Most of the stairwells in this area is dark at night. Pedestrian using Rainier Training Grounds were mostly enthusiast, running on the stairs for training and workouts. Freeway Park was portrayed as \"creepy\" at night due to it's structure which had lots of blind spots.</p> </div></section><section> <h6 class=\"section-heading\">Probes</h6> <div class=\"section-body\"> <h6>Where light belongs <small class=\"muted\">(Fluorescent lights & glow-in-the-dark Play-Dough)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-1.1.jpg','itinerant-probes-1.2.jpg','itinerant-probes-1.3.jpg']\"> <project-image-container alt=\"Where light belongs\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1024\" height=\"768\"></project-image-container> </div> </div> <h6>Where messages flow <small class=\"muted\">(Fluorescent paint in squeeze bottles)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-2.1.jpg','itinerant-probes-2.2.jpg','itinerant-probes-2.3.jpg']\"> <project-image-container alt=\"Where messages flow\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"2014\" height=\"768\"></project-image-container> </div> </div> <h6>Where stairs text <small class=\"muted\">(Fluorescent chalk with fill-in-the-blank messages)</small></h6> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-4 large-4\" ng-repeat=\"image in ['itinerant-probes-3.1.jpg','itinerant-probes-3.2.jpg','itinerant-probes-3.3.jpg']\"> <project-image-container alt=\"Where stairs text\" src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1024\" height=\"768\"></project-image-container> </div> </div> </div></section>",
-      "tags": "Design Probes, Social Inquiry, Public Spaces, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Daniela Rosner, Ankur Agrawal, Ariel Duncan, Mei Chen, Kathi Kitner, Margaret Morris, Sarah Fox",
-      "internal-links": [
-        "{\"file\":\"/portfolio/patents-and-publications/designing-for-movement-in-public-life-with-itinerant-probes\",\"title\":\"Published in DIS 2016\",\"caption\":\"publication\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "synku": {
-      "title": "Synku",
-      "timeline" : "2014/10/01 - 2014/12/15",
-      "summary": "exploring the production of sensory objects",
-      "intro": "",
-      "description": "<section> <div class=\"section-body\"> <p>SynKu is a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.</p> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-6 medium-4 large-3\" ng-repeat=\"image in [ {'name':'interface-1.png'}, {'name':'interface-2.png'}, {'name':'interface-3.png'}, {'name':'interface-4.png'}, {'name':'interface-5.png'}, {'name':'interface-6.png'}, {'name':'interface-7.png'}, {'name':'interface-8.png'}, {'name':'interface-9.png'}, {'name':'interface-10.png'}, {'name':'interface-11.png'}, {'name':'interface-12.png'}]\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" width=\"373\" height=\"734\"></project-image-container> </div> </div> <p>SynKu first processes the recorded images and audio to produce categorizations along with various spectra (saturation, lightness, and hue for images; volume and pitch for sound). Once processed, SynKu prompts the user to collect a different type of media according to that new category (e.g., “capture a sound that is bright” or “snap a pic that’s slow”). SynKu interweaves the algorithmic processing of five such media recording activities using ten media attributes (e.g. light / dark, loud / soft) with users’ cross-sensory interpretation of those attributes. People can then share the resulting media assemblage as a short video narrative (or “Ku”). By creating and sharing Kus, they produce new sensory objects interpretable by people and software.</p> </div></section>",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Ankur Agrawal, Aravind Ravi, Wenvi Hidayat, Mark Stamnes, Daniela Rosner, Mei Shen",
-      "external-links": [
-        "{\"file\":\"files/SynKu_CHI15-poster.pdf\",\"title\":\"Poster from CHI 2016\",\"caption\":\"poster\"}"
-      ],
-      "internal-links": [
-        "{\"file\":\"/portfolio/patents-and-publications/synku-exploring-the-production-of-sensory-objects\",\"title\":\"Published in CHI 2016\",\"caption\":\"publication\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "teaching-and-leadership": {
-      "title": "Teaching And Leadership",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "intro": "",
-      "description": ".",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "visual-design-and-3d-model-collection": {
-      "title": "Visual Design and 3d Model Collection",
-      "summary": "I like to sketch and do graphic design when I'm bored.",
-      "intro": "",
-      "description": "<div class=\"dynamic-grid\" angular-grid=\"[ {'name':'poster-explore-beyond-the-horizon.png','width':'1024','height':'652'}, {'name':'poster-explore-beyond-the-horizon_.png','width':'1024','height':'652'}, {'name':'model-barrel.jpg','width':'500','height':'400'}, {'name':'model-thread-reel.jpg','width':'500','height':'400'}, {'name':'model-watering-can.jpg','width':'400','height':'300'}, {'name':'model-wooden-box.jpg','width':'300','height':'240'}, {'name':'model-tea-pot.jpg','width':'400','height':'300'}, {'name':'model-box.jpg','width':'640','height':'480'}, {'name':'model-cart.jpg','width':'640','height':'480'}, {'name':'model-dog.jpg','width':'640','height':'480'}, {'name':'model-shopping-cart.jpg','width':'640','height':'480'}, {'name':'model-toy-car.jpg','width':'640','height':'480'}, {'name':'poster-blood-donation-campaign.jpg','width':'500','height':'755'}, {'name':'poster-bugzilla.jpg','width':'924','height':'660'}, {'name':'poster-cogitate.jpg','width':'1024','height':'768'}, {'name':'poster-dodgeball.jpg','width':'1241','height':'877'}, {'name':'poster-evolution-in-buses.png','width':'951','height':'672'}, {'name':'poster-evolution-of-universe.jpg','width':'993','height':'702'}, {'name':'poster-housing.jpg','width':'654','height':'542'}, {'name':'poster-lazy-rider.jpg','width':'960','height':'600'}, {'name':'business-card-bachelors-of-comedy.jpg','width':'528','height':'155'}, {'name':'icon-bachelors-of-comedy.jpg','width':'960','height':'560'}, {'name':'Cover-horizontal-composition.JPG','width':'797','height':'1024'}, {'name':'cover-with-image.png','width':'797','height':'1024'}, {'name':'cover-with-line.png','width':'797','height':'1024'}, {'name':'text-image-break.jpg','width':'304','height':'304'}, {'name':'text-image-juggle.jpg','width':'304','height':'304'} ]\" ag-grid-width=\"300\" ag-gutter-size=\"10\" ag-id=\"gallery\" ag-refresh-on-img-load=\"false\"> <div class=\"grid\" data-ng-repeat=\"image in [ {'name':'poster-explore-beyond-the-horizon.png','width':'2640','height':'1680'}, {'name':'poster-explore-beyond-the-horizon_.png','width':'2640','height':'1680'}, {'name':'model-barrel.jpg','width':'500','height':'400'}, {'name':'model-thread-reel.jpg','width':'500','height':'400'}, {'name':'model-watering-can.jpg','width':'400','height':'300'}, {'name':'model-wooden-box.jpg','width':'300','height':'240'}, {'name':'model-tea-pot.jpg','width':'400','height':'300'}, {'name':'model-box.jpg','width':'640','height':'480'}, {'name':'model-cart.jpg','width':'640','height':'480'}, {'name':'model-dog.jpg','width':'640','height':'480'}, {'name':'model-shopping-cart.jpg','width':'640','height':'480'}, {'name':'model-toy-car.jpg','width':'640','height':'480'}, {'name':'poster-blood-donation-campaign.jpg','width':'500','height':'755'}, {'name':'poster-bugzilla.jpg','width':'924','height':'660'}, {'name':'poster-cogitate.jpg','width':'1024','height':'768'}, {'name':'poster-dodgeball.jpg','width':'1241','height':'877'}, {'name':'poster-evolution-in-buses.png','width':'951','height':'672'}, {'name':'poster-evolution-of-universe.jpg','width':'993','height':'702'}, {'name':'poster-housing.jpg','width':'654','height':'542'}, {'name':'poster-lazy-rider.jpg','width':'960','height':'600'}, {'name':'business-card-bachelors-of-comedy.jpg','width':'528','height':'155'}, {'name':'icon-bachelors-of-comedy.jpg','width':'960','height':'560'}, {'name':'Cover-horizontal-composition.JPG','width':'2994','height':'3840'}, {'name':'cover-with-image.png','width':'2432','height':'3124'}, {'name':'cover-with-line.png','width':'2432','height':'3124'}, {'name':'text-image-break.jpg','width':'304','height':'304'}, {'name':'text-image-juggle.jpg','width':'304','height':'304'} ]\"> <figure itemprop=\"associatedMedia\" itemscope itemtype=\"http://schema.org/ImageObject\"> <a href=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" itemprop=\"contentUrl\"> <img src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" class=\"grid-img\" data-actual-width=\"{{image.width}}\" data-actual-height=\"{{image.height}}\" width=\"{{image.width}}\" height=\"{{image.height}}\"> </a> </figure> </div></div>",
-      "tags": "Visual Design, Graphic Design, Modeling, Prototyping",
-      "role": "Visual Designer",
-      "tools": "",
-      "team": "Ankur Agrawal",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "hollywood-stars": {
-      "title": "Hollywood Stars",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "from nomination to winning the Oscar",
-      "intro": "",
-      "description": "<section> <div class=\"section-body\"> <div class='tableauPlaceholder' id='viz1506811340279' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HollywoodStars&#47;OscarMovieOverview-Ratings&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='2' /> <param name='site_root' value='' /><param name='name' value='HollywoodStars&#47;OscarMovieOverview-Ratings' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;9Q&#47;9Q8Q3QCXK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div> <script type='text/javascript'> var divElement = document.getElementById('viz1506811340279'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script> </div></section><section> <div class=\"section-body\"> <p>The project started with the idea of using visualization to predict patterns in movies that get nominated and ultimately win Oscar. During our research the goal of the projects pivoted to another tangent. The goal became, using visualization to see what makes a movie win Oscar among the nominees. This narrowed our scope to comparing winning movies with the nominated movies, as opposed to winning movies with all the movies.</p> </div></section><section> <h6 class=\"section-heading\">Data Collection</h6> <div class=\"section-body\"> <p>To get the list of movies nominated for Oscars, we used the official <a class=\"link\" href=\"http://awardsdatabase.oscars.org/\" target=\"_blank\">Academy Award database</a> as our primary source. To collect the additional details we chose <a class=\"link\" href=\"http://www.imdb.com/\" target=\"_blank\">IMDb</a> and <a class=\"link\" href=\"https://www.rottentomatoes.com/\" target=\"_blank\">Rotten Tomatoes</a> as our secondary sources.</p> <p>To start the collection process, we downloaded the list of movies from the Academy Award database. The list contained records of <strong>8832</strong> movies nominated so far for the Oscars. We generated an ID number for every movie to ease the merging process later on when we have additional data during post-processing. Afterwards, we started collecting data from IMDb using a free web service API, <a class=\"link\" href=\"http://www.omdbapi.com/\" target=\"_blank\">OMDb</a>. The API provides details in JSON format, which we re-formatted using a text editor, <a class=\"link\" href=\"https://www.sublimetext.com\" target=\"_blank\">Sublime Text</a>. From here, we used <a class=\"link\" href=\"http://openrefine.org\" target=\"_blank\">OpenRefine</a> to convert the data into tabular format, which is readable in Excel. It was then merged with the Oscar movie dataset using a custom Excel macro coded in Visual Basic. Later, we extracted Rotten Tomatoes’ data for their critics’ and users’ ratings using Rotten Tomatoes’ web API interface. We wrote a Python script to get the data in JSON format and then merged it with the Oscar dataset following almost the same process as for the previous IMDB data merges.</p> </div></section><section> <h6 class=\"section-heading\">With big data set came Big Problems!</h6> <div class=\"section-body\"> <p>Due to the inconsistent naming convention of IMDb, we had to manually search for approximately 1200 movies on the IMDb site in order to either correct the name or the movie release year, as many times Oscar nomination year and release year are different. Additionally, we used OpenRefine to correct any typos in the titles. Since many of our dimensions have multiple values, we were not able to use them for anything in Tableau other than as a filter using a calculated field and custom parameters. This created an issue for us in exploring our data. We addressed this by creating a natural join between the list of genre and the movie list, thus allowing us to use the genre field as a dimension that can be used in a graph. This would enable us to provide better data filtration methods for an end user.</p> <p>Though we eventually created a cohesive data set suitable for our purposes, we did experience some challenges. One of our biggest challenges in making meaning of this data was that the majority of the values were nominal data. This left us with few quantitative values that could be used for analysis. Fortunately, some of the nominal fields we had to work with make meaningful differences with regards to movie audiences, especially genre. One way we considered dealing with this challenge was to take the plot text data and classify each movie into a story type. The plan was to make this a filter in the data, so that users see comparisons between not only a movie’s genre, but a movie’s mood or plot as well. Ultimately, we discovered this to be a larger undertaking than would be worth undertaking, given the short time frame, and likely much more difficult than we would be prepared for as well. Previous research had been attempted using a machine learning algorithm and custom scripts to classify movies into strict genres using the plot synopsis found in IMDb. Unfortunately, this approach yielded results of only 12% accuracy (Tanenbaum, p6.) A possible reason for this is that most movies can accompany more than one genre type, which is also an issue we discovered within our dataset. For this reason, we decided to abandon this as a possible approach.</p> </div></section><section> <h6 class=\"section-heading\">Sketching the ideas</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in ['sketch-1.jpg', 'sketch-2.jpg', 'sketch-3.jpg', 'sketch-4.jpg', 'sketch-5.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"1440\" height=\"1080\"></project-image-container> </div> </div> </div></section><section> <h6 class=\"section-heading\">Visualization designs</h6> <div class=\"section-body\"> <div class=\"grid-x grid-margin-x grid-margin-y image-grid-container\"> <div class=\"cell small-12 medium-6 large-4\" ng-repeat=\"image in ['viz1-1.jpg', 'viz2-1.jpg', 'viz2-2.jpg', 'viz2-3.jpg', 'viz3-1.jpg', 'viz3-2.jpg']\"> <project-image-container src=\"{{getCurrentProjectImageAssetUrl(image)}}\" width=\"720\" height=\"570\"></project-image-container> </div> </div> </div></section>",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Ankur Agrawal, Monica Caraway, Wenqi Li, Matt Yukubousky",
-      "external-links": [
-        "{\"file\":\"files/hollywood-stars-paper.pdf\",\"title\":\"Checkout the paper\",\"caption\":\"project paper\"}"
-      ],
-      "votes": 0,
-      "views": 0
-    },
-    "work-happy": {
-      "title": "Work Happy",
-      "timeline" : "2015/03/21 - 2015/03/21",
-      "summary": "a tool to track mood at work to figure out problems and help suggest measure to mitigate them.",
-      "intro": "",
-      "description": "<section><div class=\"section-body\"><p>The tool was developed as a part of a 3 hour long hackathon, <a class=\"link\" href=\"https://protohack.com\" target=\"_blank\">Protohack</a>.</p></div></section>",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Sidhartha Gudipati, Sangeun Lee, Ankur Agrawal, Yana Levitskaia",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "goslometer": {
-      "title": "Goslometer",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "intro": "",
-      "description": ".",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "team": "Ankur Agrawal",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "image-processing": {
-      "title": "Image Processing",
-      "timeline" : "2017/01/01 - 2017/12/12",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "intro": "",
-      "description": ".",
-      "tags": "UX Design, Prototyping",
-      "role": "Design Technologist",
-      "tools": "",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    },
-    "web-development": {
-      "title": "Web Development",
-      "timeline" : "2012/02/01 - 2014/03/31",
-      "summary": "during my career as a founder of Trionix Solutions, I worked on designing and developing websites and mobile applications.",
-      "intro": "",
-      "description": "<div class=\"dynamic-grid\" angular-grid=\"[ {alt:'Sugandh Tea',name:'sugandh-tea.jpg',height:'862',width:'1024'}, {alt:'ValueKojen - Business Registration Company',name:'value-kojen.jpg',height:'768',width:'1024'}, {alt:'Just Kiding',name:'just-kiding.jpg',height:'520',width:'720'}, {alt:'Trionix Solutions',name:'trionix.jpg',height:'1203',width:'1067'}, {alt:'SSTPL',name:'sstpl.jpg',height:'1280',width:'1372'}, {alt:'OMyDocs',name:'omydocs.jpg',height:'1024',width:'1121'}, {alt:'Akshayam,MDI',name:'mdi-akshayam.jpg',height:'690',width:'1287'}, {alt:'Natyasudha',name:'natyasudha.jpg',height:'734',width:'1280'}, {alt:'SociAlert.in',name:'socialert.jpg',height:'778',width:'1282'}, {alt:'TCHK',name:'thakral.jpg',height:'908',width:'1024'}, {alt:'Bachelor of Comedy',name:'bachelor-of-comedy.jpg',height:'768',width:'1077'}, {alt:'Cerule Consulting',name:'cerule-consulting.jpg',height:'1518',width:'942'}, {alt:'ASL HR Solutions',name:'aslhr.jpg',height:'1115',width:'720'} ]\" ag-grid-width=\"300\" ag-gutter-size=\"10\" ag-id=\"gallery\" ag-refresh-on-img-load=\"false\"> <div class=\"grid\" data-ng-repeat=\"image in [ {alt:'Sugandh Tea',name:'sugandh-tea.jpg',height:'862',width:'1024'}, {alt:'ValueKojen - Business Registration Company',name:'value-kojen.jpg',height:'768',width:'1024'}, {alt:'Just Kiding',name:'just-kiding.jpg',height:'520',width:'720'}, {alt:'Trionix Solutions',name:'trionix.jpg',height:'1203',width:'1067'}, {alt:'SSTPL',name:'sstpl.jpg',height:'1280',width:'1372'}, {alt:'OMyDocs',name:'omydocs.jpg',height:'1024',width:'1121'}, {alt:'Akshayam,MDI',name:'mdi-akshayam.jpg',height:'690',width:'1287'}, {alt:'Natyasudha',name:'natyasudha.jpg',height:'734',width:'1280'}, {alt:'SociAlert.in',name:'socialert.jpg',height:'778',width:'1282'}, {alt:'TCHK',name:'thakral.jpg',height:'908',width:'1024'}, {alt:'Bachelor of Comedy',name:'bachelor-of-comedy.jpg',height:'768',width:'1077'}, {alt:'Cerule Consulting',name:'cerule-consulting.jpg',height:'1518',width:'942'}, {alt:'ASL HR Solutions',name:'aslhr.jpg',height:'1115',width:'720'} ]\"> <figure itemprop=\"associatedMedia\" itemscope itemtype=\"http://schema.org/ImageObject\"> <a href=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" itemprop=\"contentUrl\"> <img src=\"{{getCurrentProjectImageAssetUrl(image.name)}}\" class=\"grid-img\" data-actual-width=\"{{image.width}}\" data-actual-height=\"{{image.height}}\" alt=\"{{image.alt}}\"> </a> </figure> </div></div>",
-      "role": "Founder, Designer, Developer",
-      "tools": "",
-      "external-links": [],
-      "votes": 0,
-      "views": 0
-    }
-  },
-  "about": {
-    "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, interface designer and even design technologist, but what the heck is \"wildcard\"?</p><p>It's someone, <b>none of the above, Or, all of the above!</b> Someone who knows their stuff inside and out, but still keeps an open mind. Someone who posses a big bag of tricks in variety of areas, but always keen to learn. Someone who is curious and not afraid of the unexpected but embraces it and thrive on it. Someone who is facinated by different perspectives.</p>",
-    "summary": "",
-    "journey": "",
-    "experiences": ["work","teaching","leadership"],
-    "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering", "bōjutsu"],
-    "quotes": [
-      {"title": "The only way to discover the limits of the possible is to go beyond them into the impossible.", "author": "Arthur C. Clarke"},
-      {"title": "We keep moving forward, opening new doors, and doing new things, because we’re curious and curiosity keeps leading us down new paths.", "author": "Walt Disney"},
-      {"title": "The future continues. How do you want to be remembered? what will you leave for them?", "author": "Hiroshi Ishii"},
-      {"title": "The important thing is not to stop questioning. Curiosity has its own reason for existing.", "author": "Albert Einstein"}
-    ]
-  },
-  "hobbies": {
-    "photography": {
-    },
-    "archery": {
-    },
-    "sketching": {
-    },
-    "violin": {
-    },
-    "boxing": {
-    },
-    "cooking": {
-    },
-    "hiking": {
-    },
-    "bouldering": {
-    },
-    "bōjutsu": {
-    }
-  },
-  "patents-and-publications": {
-    "synku-exploring-the-production-of-sensory-objects": {
-      "type": "publication",
-      "title": "SynKu: Exploring the Production of Sensory Objects",
-      "authors": "<b>Ankur Agrawal</b>, Wenvi Hidayat, Aravind Ravi, Mark Stamnes, Meishen Yin, and Daniela Rosner. 2015. SynKu: Exploring the Production of Sensory Objects. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '15). ACM, New York, NY, USA, 2121-2126. DOI: https://doi.org/10.1145/2702613.2732813",
-      "abstract": "This paper describes SynKu, a mobile application that merges audio and image processing with human interpretation to speculate on the production of sensory objects. Sensory objects are representations of sensory phenomena interpreted and used by both people and software. We discuss how the SynKu application enables us to explore how algorithms help to change and legitimate the reconstruction of sensory phenomena across self-tracking platforms.",
-      "pictures": [
-        "SynKu.jpg"
-      ],
-      "url": "https://dl.acm.org/citation.cfm?id=2732813",
-      "publication": "Proceedings, CHI EA '15"
-    },
-    "designing-for-movement-in-public-life-with-itinerant-probes": {
-      "type": "publication",
-      "title": "Designing for Movement in Public Life with Itinerant Probes",
-      "authors": "Daniela K. Rosner, Margaret E. Morris, Ariel Duncan, Sarah E. Fox, Kathi R. Kitner, <b>Ankur Agrawal</b>, and Mei J. Chen. 2016. Designing for Movement in Public Life with Itinerant Probes. In Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS '16). ACM, New York, NY, USA, 1072-1082. DOI: https://doi.org/10.1145/2901790.2901913",
-      "abstract": "This pictorial illustrates how objects can illuminate people's experience of public space, an approach we call itinerant probes. Itinerant probes are not individualized, mediated artifacts, but instead dynamic events that en- liven people's personal and collective memories. Building on the probes literature and recent ecological perspectives, we describe three probes related to lighting that we investigated at three public sites. Our explorations with these probes highlight the intimate histories associated with public spaces.",
-      "pictures": [
-        "itinerant-probes-1.jpg",
-        "itinerant-probes-2.jpg",
-        "itinerant-probes-3.jpg",
-        "itinerant-probes-4.jpg",
-        "itinerant-probes-5.jpg",
-        "itinerant-probes-6.jpg",
-        "itinerant-probes-7.jpg",
-        "itinerant-probes-8.jpg",
-        "itinerant-probes-9.jpg"
-      ],
-      "url": "https://dl.acm.org/citation.cfm?id=2901913",
-      "publication": "Proceedings, DIS '15"
-    },
-    "position-determination-and-control-with-radio-frequency-identification-tags": {
-      "type": "patent",
-      "title": "Position determination and control with radio frequency identification tags",
-      "authors": "Glen J. Anderson, Anand S. Konanur, Kevin W. Bross, Gregory A. Peek, Rebecca A. Chierichetti, Ankur Agrawal ",
-      "abstract": "Control of an apparatus is provided according to determination of positioning of information pieces with radio frequency identification (RFID) tags. In embodiments, an apparatus may include one or more pieces, wherein each piece may be positionable in one or more piece positions of a region and may include a passive RFID tag that stores information relating to a characteristic of the piece. An arrangement of RFID antennas may be positioned proximal to the region, and a RFID reader may provide reads of the pieces near the RFID antennas. One or more processors may determine the piece positions of the one or more pieces from the reads and may provide control of the apparatus according to the one or more pieces and their piece positions.",
-      "pictures": [
-        "US9704003.1.jpg",
-        "US9704003.2.jpg",
-        "US9704003.3.jpg",
-        "US9704003.4.jpg",
-        "US9704003.5.jpg",
-        "US9704003.6.jpg",
-        "US9704003.7.jpg",
-        "US9704003.8.jpg"
-      ],
-      "url": "http://pdfpiw.uspto.gov/.piw?PageNum=0&docid=09704003",
-      "patent-number": "US 9704003 B1"
-    },
-    "transitioning-augmented-reality-objects-in-physical-and-digital-environments": {
-      "type": "patent",
-      "title": "Transitioning augmented reality objects in physical and digital environments",
-      "authors": "Glen J. Anderson, Reese Bowes, Ankur Agrawal",
-      "abstract": "Described are apparatuses, methods and storage media associated with transitioning an augmented reality object between physical and digital environments, wherein the augmented reality object is embodied in at least two information carrying objects, which information carrying objects comprise a sensor-enabled physical object and a digital object.",
-      "pictures": [
-        "US20170178406.1.jpg",
-        "US20170178406.2.jpg",
-        "US20170178406.3.jpg",
-        "US20170178406.4.jpg",
-        "US20170178406.5.jpg",
-        "US20170178406.6.jpg",
-        "US20170178406.7.jpg",
-        "US20170178406.8.jpg",
-        "US20170178406.9.jpg",
-        "US20170178406.10.jpg",
-        "US20170178406.11.jpg"
-      ],
-      "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20170178406",
-      "patent-number": "US 20170178406 A1"
-    }
-  },
-  "honors-&-awards": {
-    "cheetah-intel-labs": {
-      "title": "Cheetah",
-      "organization": "Intel Labs, Intel Corporation",
-      "description": "During first 6 months of my employment at Intel Labs I was awarded Cheetah award for my effort to design and prototype an experience and help shape future direction for my organization inside Intel Labs.",
-      "date": "August 2016"
-    },
-    "graduate-innovation": {
-      "title": "Graduate Innovation",
-      "organization": "HCDE, University of Washington, Seattle",
-      "description": "This HCDE award for Excellence in Innovation was awarded to recognizes students who have demonstrated excellence through the design and development of novel engineering and technology artifacts or practices that exemplify human-centered design principles.",
-      "date": "June 2016"
-    },
-    "best-intern-project-intel-labs": {
-      "title": "Best intern project",
-      "organization": "Intel Labs, Intel Corporation",
-      "description": "Awarded people's choice for best project demonstration during an open house project exhibition at Intel Labs, Intel Corporation, Hillsboro, Oregon.",
-      "date": "September 2015"
-    },
-    "jed-i-project-challenge": {
-      "title": "Top 2, Jed-i Project Challenge",
-      "organization": "Joy of Engineering, Design and Innovation (Jed-i), India",
-      "description": "Won Second Place in Computing Division in Jed-i Project Challenge from among 69 selected Teams out of 210 Projects. The finals of the Project Challenge was held at IISC, Bangalore, India.",
-      "date": "June 15, 2012"
-    },
-    "central-sector-scholarship": {
-      "title": "Central Sector Scholarship",
-      "organization": "Ministry of Human Resource Development (MHRD), Government of India",
-      "description": "Awarded for the meritorious performance in school's academics.",
-      "date": "June 2008- June 2012"
-    }
-  },
-  "teaching-leadership-experience": {
-    "graduate-teaching-assistant": {
-      "title": "Graduate Teaching Assistant",
-      "organization": "MHCI+d, University of Washington, Seattle",
-      "date": "March 16, 2015 - June 15, 2015"
-    },
-    "teaching-assistant": {
-      "title": "Teaching Assistant",
-      "organization": "Dept. of Computer Science & Engineering, JIIT, India",
-      "date": ""
-    },
-    "guest-lecture": {
-      "title": "Guest Lecturer",
-      "organization": "HCDE, University of Washington, Seattle",
-      "date": ""
-    },
-    "high-school-teaching": {
-      "title": "High School Teaching",
-      "organization": "Department of Education, University of Washington, Seattle",
-      "date": "October 1, 2015 - December 15, 2015"
-    },
-    "middle-school-teaching": {
-      "title": "Lead Mentor for STEM education for middle and high school students",
-      "organization": "Department of Education, University of Washington, Seattle",
-      "date": "January 2, 2016 - March 15, 2016"
-    },
-    "judge-taf-academy": {
-      "title": "Judge",
-      "organization": "Technology Access Foundation Academy (TAF)",
-      "date": ""
-    },
-    "icmi-conference-chair": {
-      "title": "Volunteer Chair",
-      "organization": "ACM International Conference on Multimodal Interaction (ICMI)",
-      "date": ""
-    },
-    "ic3-conference-organizer": {
-      "title": "Organizing Committee",
-      "organization": "IEEE International Conference on Contemporary Computing - JIIT (IC3)",
-      "date": ""
-    }
-  }
 }

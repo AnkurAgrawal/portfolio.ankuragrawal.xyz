@@ -1,6 +1,6 @@
 <div class="portfolio-page fadeIn animated">
   <ul role="region" aria-relevant="Project filtered" class="portfolio-grid">
-    <li ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived" class="project-item zoom {{project.size}}">
+    <li ng-repeat="project in projects | filter:searchText | filter:selectedSize track by $index" data-src='enter bottom and move 20px after 0.5s' style="order: {{$index}};" ng-if="!project.archived && (project.development == false || project.development == DEVELOPMENT)" class="project-item zoom {{project.size}}">
       <a ng-href="portfolio/{{project.slug}}" class="project-link animated fadeInUp">
         <div class="project" class="">
           <div class="project-thumb {{project.slug}}"></div>

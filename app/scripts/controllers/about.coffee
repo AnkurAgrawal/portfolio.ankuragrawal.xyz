@@ -16,11 +16,11 @@ ankuragrawalApp
 
     $scope.about = about
 
-    $scope.getImageUrl = (imagename, extension = 'svg', subdirectory = '') ->
-      "#{imageService.getImageAssetUrl()}about/#{subdirectory}/#{imagename}.#{extension}"
+    $scope.getImageUrl = (imagename, extension, subdirectory) ->
+      imageService.getImageAssetUrl() + 'about/' + subdirectory + '/' + imagename + '.' + extension
 
-    $scope.getProfileImageUrl = ->
-      this.getImageUrl 'ankur', 'jpg'
+    $scope.getProfileImageUrl = (name) ->
+      this.getImageUrl name, 'jpg', ''
 
     $scope.getHobbyImageUrl = (hobby) ->
       this.getImageUrl hobby, 'svg', 'hobbies'
@@ -60,9 +60,9 @@ ankuragrawalApp
 
     _addClass = ( ev, obj, state ) ->
       direction = _getDirection ev, obj
-      class_suffix = ""
+      class_suffix = ''
 
-      obj.className = ""
+      obj.className = ''
 
       switch direction
         when 0

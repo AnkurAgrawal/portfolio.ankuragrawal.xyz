@@ -1,0 +1,58 @@
+<section>
+  <div class="section-body">
+    <project-image-container alt="" src="{{getCurrentProjectImageAssetUrl('tangible-play-surface.png')}}" width="1500" height="1200"></project-image-container>
+  </div>
+</section>
+<section>
+  <p>I started this project during my internship at Intel Labs in 2015. It was an effort to create low-powered tangible programming interfaces for assisting children in learning simple logic. We were interested in exploring the method of stackable programming in which tangibles are stacked in a specific order to execute a set of commands. By changing the configuration/arrangement of the tabgibles w.r.t. each other, the system can be programmed to behave in different ways. We implemented two approaches to sensing the location of objects on a surface.</p>
+
+  <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+    <div class="cell small-12 medium-6 large-6">
+      <project-image-container src="{{getCurrentProjectImageAssetUrl('active-objects.png')}}" alt="Active objects" data-width="268" data-height="166"></project-image-container>
+    </div>
+    <div class="cell small-12 medium-6 large-6">
+      <small>In the first approach, Active Surface, Passive Objects, we created an active surface that can sense any object with an embedded passive RFID tag. A single microcontroller reads an array of RFID antennas through an analog multiplexer. Each antenna in the array corresponds to a known position on the surface, thus the placement of an RFID tag at a given position can signify an order of the tags.</small>
+    </div>
+  </div>
+
+  <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+    <div class="cell small-12 medium-6 large-6">
+      <project-image-container src="{{getCurrentProjectImageAssetUrl('RFID-grid.png')}}" alt="Active surface" data-width="268" data-height="166"></project-image-container>
+    </div>
+    <div class="cell small-12 medium-6 large-6">
+      <small>In the second approach, Passive Surface, Active Objects, we created a larger surface using a two-dimensional array of passive RFID tags. Each object to be placed on the surface has its own microcontroller, NFC reader, wireless communication, and battery, and thus each object actively scans for tags to allow the system to determine its x/y coordinates on the surface. A central compute module hosts a database of actions to trigger for a configuration of objects on the surface.</small>
+    </div>
+  </div>
+  
+  <p>In both the approaches, we used an RFID tag operating on 13.56 MHz high frequency band. This operating band is one of the most commonly used, and off-the-shelf components are readily available. Two prototypes were developed based on each these two RFID approaches as a proof of concept: Code Maker and Story Maker.</p>
+</section>
+<section>
+  <h6 class="section-heading">Code Maker</h6>
+  <div class="section-body">
+    <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+      <div class="cell small-12 medium-8 large-8">
+        <project-image-container alt="" src="{{getCurrentProjectImageAssetUrl('code-maker.png')}}" width="662" height="370"></project-image-container>
+      </div>
+      <div class="cell small-12 medium-3 large-3">
+        <project-image-container alt="" src="{{getCurrentProjectImageAssetUrl('software-interface.png')}}" width="1200" height="1920"></project-image-container>
+      </div>
+    </div>
+    <p>This prototype utilizes the “Active Surface, Passive Objects” approach to enable object sensing. We designed the system to help children learn the basic concepts of programming, for example, linear execution of commands. An antenna array is located on the side of a robotic fire truck built with LEGO. To control the actuation of the fire truck, children place a series of RFID-embedded “command tiles” on the side of the truck, then press a button to cause the truck to execute the commands on the tiles. When the button is pressed, the microcontroller reads the antenna array, detecting the command tiles present, then activates actuators on the fire truck. The actuators on the fire truck provide: go forward, stop, go in reverse, play siren, blink lights, and move the ladder up or down. The controller accesses memory where a database of commands, associated with the tiles, is stored and uses these commands to control the actuators on the model.</p>
+    <p>Code Maker includes an Android-based software user interface, built using Google Blockly, to allow children to compare tangible and software-based approaches to accomplish the same functionality in the robotic fire truck</p>
+  </div>
+</section>
+<section>
+  <h6 class="section-heading">Story Maker</h6>
+  <div class="section-body">
+    <div class="grid-x grid-margin-x grid-margin-y image-grid-container">
+      <div class="cell small-12 medium-8 large-8">
+        <project-image-container alt="" src="{{getCurrentProjectImageAssetUrl('story-maker.png')}}" width="504" height="275"></project-image-container>
+      </div>
+    </div>
+    <p>This prototype utilizes the “Passive Surface, Active Objects” approach to enable object sensing. Each toy has an RFID scanner that allows it to report its position on the surface underlain with passive RFID tags. We used “The Three Little Pigs” story as an example. This classic fable tells of three pigs who build three houses with three different materials. When the Big Bad Wolf comes to eat the pigs, he tries to blow down each house. In the prototype, the wolf and the houses have RFID readers, and depending on the wolf’s proximity to a house, the system plays a part of the story on a computer screen, including associated text to help teach reading.</p>
+    <p>In this implementation, the computer stores a database of scenes that can be triggered by object proximity. Children would not have to adhere to existing stories. They could mix and match characters and other objects to play any scene from the database.</p>
+  </div>
+</section>
+<section>
+  <project-video-container src="359895043" data-width="720" data-height="405" vimeo></project-video-container>
+</section>

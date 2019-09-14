@@ -14,9 +14,9 @@ ankuragrawalApp
     projectService.collectionName = 'projects'
 
     projectService.getProjectsList = ->
-      dbService.query "#{this.collectionName}", $firebaseArray
+      dbService.query this.collectionName, $firebaseArray
 
     projectService.getProject = (projectSlug) ->
-      dbService.query "#{this.collectionName}-details/#{projectSlug}", $firebaseObject
+      dbService.query this.collectionName + '-details/' + projectSlug, $firebaseObject
 
     projectService

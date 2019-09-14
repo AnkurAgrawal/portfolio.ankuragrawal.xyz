@@ -14,9 +14,9 @@ ankuragrawalApp
     awardService.collectionName = 'awards'
 
     awardService.getAwards = ->
-      dbService.query "#{this.collectionName}", $firebaseObject
+      dbService.query this.collectionName, $firebaseObject
 
     awardService.getAward = (awardSlug) ->
-      dbService.query "#{this.collectionName}/#{awardSlug}", $firebaseObject
+      dbService.query this.collectionName + '/' + awardSlug, $firebaseObject
 
     awardService

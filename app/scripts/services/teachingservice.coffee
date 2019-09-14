@@ -14,9 +14,9 @@ angular.module 'ankuragrawalApp'
     teachingService.collectionName = 'teachings'
 
     teachingService.getTeachings = ->
-      dbService.query "#{this.collectionName}", $firebaseObject
+      dbService.query this.collectionName, $firebaseObject
 
     teachingService.getTeaching = (teachingSlug) ->
-      dbService.query "#{this.collectionName}/#{teachingSlug}", $firebaseObject
+      dbService.query this.collectionName + '/' + teachingSlug, $firebaseObject
 
     teachingService

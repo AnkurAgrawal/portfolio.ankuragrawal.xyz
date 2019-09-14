@@ -27,13 +27,13 @@ nav.top-bar, .top-bar ul {
         &:before {
           content: '';
           display: block;
-          background: rgba(0,0,0,.22);
+          background: rgba(111,73,157,.22);
           position: absolute;
           left: 10px;
           right: 10px;
           bottom: -2px;
           border-radius: 5px;
-          border: 1px solid #555;
+          border: 1px solid #6f499d;
           z-index: 1;
         }
       }
@@ -41,6 +41,27 @@ nav.top-bar, .top-bar ul {
   }
 }
 
+@include breakpoint(small only) {
+  .top-bar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .menu {
+    display: block;
+  }
+  nav.top-bar, .top-bar ul {
+    .menu li {
+      &.active {
+        >a {
+          &:before {
+            top: 5px;
+            bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}
 .no-js {
   @include breakpoint(small only) {
     .top-bar {
@@ -133,6 +154,9 @@ hr {
 .side-footer {
   float: right;
 }
+.side-social {
+  margin-top: 20px;
+}
 
 $g2-color1: #434A54;
 $g2-color2: #656D78;
@@ -164,10 +188,11 @@ $g2-color2: #656D78;
     // display: none;
     text-align: center;
     float: none;
+    margin-bottom: -10px;
   }
   .side-social {
     text-align: center;
-    margin: 20px auto 50px auto;
+    margin: 5px auto 0 auto;
     &.long {
       margin: 10px auto 0 auto;
     }

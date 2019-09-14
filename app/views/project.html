@@ -32,20 +32,30 @@
           </aside>
         </div>
         <div class="project-details cell small-12 medium-12 large-9 small-order-2 medium-order-2 large-order-1">
+          <section class="gallery" ng-if="project['gallery-pictures']">
+            <ul id="lightSlider">
+              <li data-thumb="{{getCurrentProjectThumbnailImageAssetUrl(image)}}" ng-repeat="image in project['gallery-pictures']">
+                  <img width="100%" height="100%" ng-src="{{getCurrentProjectImageAssetUrl(image)}}" />
+              </li>
+            </ul>
+          </section>
           <section class="description" ng-if="project.description">
             <div class="section-body" bind-html-compile="project.description"></div>
+            <div class="section-body hide">
+
+            </div>
           </section>
-          <section class="project-links" ng-if="project['links']">
+          <section class="project-links" ng-if="project.links">
             <div class="section-body">
-              <a ng-if="link.type == 'external'" class='link' ng-href='{{link.file}}' title='{{link.title}}' target='_blank' aria-haspopup='true' ng-repeat="link in project['links']">
+              <a ng-if="link.type == 'external'" class='link' ng-href='{{link.file}}' title='{{link.title}}' target='_blank' aria-haspopup='true' ng-repeat="link in project.links">
                 <em class='icon icon-file'></em> <b>{{link.caption}}</b>
               </a>
-              <a ng-if="link.type == 'internal'" class='link' ng-href='{{link.file}}' title='{{link.title}}' aria-haspopup='true' ng-repeat="link in project['links']">
+              <a ng-if="link.type == 'internal'" class='link' ng-href='{{link.file}}' title='{{link.title}}' aria-haspopup='true' ng-repeat="link in project.links">
                 <em class='icon icon-file'></em> <b>{{link.caption}}</b>
               </a>
             </div>
           </section>
-          <div class="center">
+          <div class="center hide">
             <div class="voteup-anim" ng-class="{voted: isVoted}">
               <a href="" ng-click="voteUp()" class="voteup">
                 <em class="icon icon-thumbsup"></em>

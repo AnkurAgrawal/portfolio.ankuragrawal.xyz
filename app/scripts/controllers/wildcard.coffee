@@ -7,7 +7,7 @@
  # # WildcardCtrl
  # Controller of the ankuragrawalApp
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .controller 'WildcardCtrl', (wildcardDefinition) ->
     @definition = wildcardDefinition
     return

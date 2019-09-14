@@ -18,7 +18,7 @@
     'ngProgress'
     'ngTouch'
     'angulartics'
-  	'angulartics.google.analytics'
+    'angulartics.google.analytics'
     '720kb.tooltips'
     'firebase'
     'sticky'

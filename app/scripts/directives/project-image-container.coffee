@@ -14,6 +14,7 @@ ankuragrawalApp
       src: '@'
       alt: '@'
       class: '@'
+      imgClass: '@'
     templateUrl: (iElement, iAttrs) ->
       if !iAttrs.templateUrl
         iAttrs.templateUrl = "views/partials/_project_image_container.html"

@@ -11,3 +11,4 @@ ankuragrawalApp
   .controller 'PortfolioCtrl', ($scope, $rootScope, projects, constants) ->
     $rootScope.landing = false
     $scope.projects = projects
+    $scope.DEVELOPMENT = constants.DEVELOPMENT

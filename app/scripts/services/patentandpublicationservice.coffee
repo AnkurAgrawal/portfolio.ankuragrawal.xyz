@@ -14,9 +14,9 @@ ankuragrawalApp
     patentAndPublicationService.collectionName = 'patents-and-publications'
 
     patentAndPublicationService.getPatentPublication = (slug) ->
-      dbService.query "#{this.collectionName}/#{slug}", $firebaseObject
+      dbService.query this.collectionName + '/' + slug, $firebaseObject
 
     patentAndPublicationService.getPatentsPublicationsList = ->
-      dbService.query "#{this.collectionName}", $firebaseObject
+      dbService.query this.collectionName, $firebaseObject
 
     patentAndPublicationService

@@ -14,6 +14,6 @@ ankuragrawalApp
     wildcardService.collectionName = 'about/intro'
 
     wildcardService.getData = ->
-      dbService.query "#{this.collectionName}", $firebaseObject
+      dbService.query this.collectionName, $firebaseObject
 
     wildcardService

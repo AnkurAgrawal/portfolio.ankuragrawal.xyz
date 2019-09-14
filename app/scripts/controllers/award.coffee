@@ -7,7 +7,7 @@
  # # AwardCtrl
  # Controller of the ankuragrawalApp
 ###
-angular.module 'ankuragrawalApp'
+ankuragrawalApp
   .controller 'AwardCtrl', ($scope, $rootScope, $routeParams, award) ->
     $rootScope.landing = false
     if award.title?

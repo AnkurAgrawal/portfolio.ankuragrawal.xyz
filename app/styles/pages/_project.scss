@@ -14,7 +14,7 @@
   --project-color: #43434A;
 
   $project-colors: (
-    patents-and-publications: #80AB51,
+    patents-and-publications: #7C488D,
     itinerant-probes: rgba(100, 61, 187, 0.81),
     about: $primary-color,
     toothgloss: #309591,
@@ -23,17 +23,20 @@
     synku: #C45238,
     orchestable: #C84F5B,
     flame: #3F3F45,
-    hollywood-stars: #7C488D,
+    hollywood-stars: #80AB51,
     work-happy: #DA8540,
     image-processing: rgba(236, 129, 147, 0.741),
     sweet-treat: #efb45c,
     goslometer: #efb45c,
-    tangible-play-surfaces: #efb45c,
-    visual-design-and-3d-model-collection: #efb45c
+    code-maker: #f66,
+    story-maker: #0099B9,
+    tangible-play-surfaces: #456990,
+    visual-design-and-3d-model-collection: #c10f86,
+    scratch-hear-a-passive-audio-interface: #0099B9
   );
   @each $project-slug, $project-color in $project-colors {
     &.#{$project-slug} {
-      --project-color: $project-color;
+      --project-color: #{$project-color};
     }
   }
 
@@ -97,6 +100,10 @@
       margin-right: 3rem;
     }
     section {
+      .lSAction>a {
+        background-image: url(../images/controls.png);
+      }
+
       &.description .section-body a.link[target="_blank"]:after {
         @include target-blank-icon;
       }

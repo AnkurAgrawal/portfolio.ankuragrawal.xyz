@@ -20,13 +20,13 @@ ankuragrawalApp
       # $http.jsonp constants.base_api_url + 'projects'
       # .then (response) ->
       #   deferred.resolve response.data
-      $wrapper this.getDB().ref "/#{collectionName}"
+      $wrapper this.getDB().ref('/' + collectionName)
       .$loaded()
       .then (data) ->
         deferred.resolve data
       , (err) ->
         # fail safe
-        $http.get "/data/#{collectionName}.json"
+        $http.get '/data/' + collectionName + '.json'
         .success (result) ->
           deferred.resolve result
 

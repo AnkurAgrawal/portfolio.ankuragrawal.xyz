@@ -3,9 +3,6 @@
     font-family: Montserrat,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
     font-size: 0.9rem;
   }
-  [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'] {
-    height: 1.8rem;
-  }
 
   .form {
     .success {
@@ -14,6 +11,25 @@
 
     .error {
       color: #7b0000;
+    }
+
+    [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'] {
+    }
+
+    span {
+      color: #6F499D;
+    }
+
+    .button {
+      border: 1px solid #7B0000;
+      color: #7B0000;
+      font-weight: bold;
+      padding: 0.5rem 2rem;
+      margin: 1rem 0;
+      background-color: transparent;
+      &:hover {
+        background-color: #f7f7f7;
+      }
     }
   }
 }
