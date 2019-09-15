@@ -1,5 +1,6 @@
 
-# Created by https://www.gitignore.io/api/osx,angular
+# Created by https://www.gitignore.io/api/osx,angular,firebase
+# Edit at https://www.gitignore.io/?templates=osx,angular,firebase
 
 ### Angular ###
 ## Angular ##
@@ -33,6 +34,15 @@ testem.log
 #System Files
 .DS_Store
 
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
 ### OSX ###
 *.DS_Store
 .AppleDouble
@@ -60,4 +70,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/osx,angular
+# End of https://www.gitignore.io/api/osx,angular,firebase

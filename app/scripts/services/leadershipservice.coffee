@@ -11,7 +11,7 @@ angular.module 'ankuragrawalApp'
   .factory 'leadershipService', ($firebaseObject, dbService) ->
 
     leadershipService = {}
-    leadershipService.collectionName = 'leaderships'
+    leadershipService.collectionName = 'leadership'
 
     leadershipService.getLeaderships = ->
       dbService.query this.collectionName, $firebaseObject

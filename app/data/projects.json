@@ -10,6 +10,14 @@
         },
         {
             "archived": false,
+            "development": true,
+            "title": "Work at Intel",
+            "slug": "work-at-intel",
+            "short-description": "Intelligent Agent, Autonomous Driving, Drones Interfaces",
+            "size": "medium"
+        },
+        {
+            "archived": false,
             "development": false,
             "title": "Sweet Treat",
             "slug": "sweet-treat",
@@ -70,7 +78,7 @@
             "title": "Synku",
             "slug": "synku",
             "short-description": "Cross Sensory Perception, Research",
-            "size": "medium"
+            "size": "small"
         },
         {
             "archived": false,
@@ -89,7 +97,7 @@
             "size": "small"
         },
         {
-            "archived": false,
+            "archived": true,
             "development": false,
             "title": "Visual Design and 3D Model Collection",
             "slug": "visual-design-and-3d-model-collection",
@@ -139,6 +147,20 @@
     ],
     "projects-details":
     {
+        "work-at-intel":
+        {
+            "title": "Work at Intel",
+            "timeline": "05/08/2016 - Present",
+            "summary": "designing the future of interaction with technology",
+            "intro": "",
+            "description": "",
+            "tags": "Intelligent Agent, Autonomous Driving, Drones Interfaces",
+            "role": "Design Technologist",
+            "tools": "Unity, Visual Studio, Tangibles, Laser Cutting, Arduino, Adobe Creative Suite, Android Studio, Unreal",
+            "team": "Intel Labs",
+            "votes": 0,
+            "views": 0
+        },
         "sweet-treat":
         {
             "title": "Sweet Treat",
@@ -394,9 +416,9 @@
     "about":
     {
         "intro": "<p>You may have heard of computer scientist, programmer, visual designer, experience designer, interface designer and even design technologist, but what the heck is \"wildcard\"?</p><p>It's someone, <b>none of the above, or, all of the above!</b> Someone who knows his/her stuff inside out, but still keeps an open mind. Someone who has a big bag of tricks in variety of areas, but is always keen to learn. Someone who is curious and not afraid of the unexpected but embraces it and thrives on it. Someone who is fascinated by different perspectives.</p>",
-        "summary": "<p>I am exploring how sensing and sense-making technologies can augment human interaction with material space, and how physical and digital worlds interact with each other. I seek to push my research further to identify new modes of expression that allow for a deeper and richer means of communicating and interacting with physical materials.</p><p>I hold a master of science degree in Human-Centered Design & Engineering (HCDE) from University of Washington (UW), and a bachelor of technology degree in Computer Science & Engineering.</p>",
+        "summary": "<p>I currently work under User Experience Innovation (UXI) team at Intel Labs, where using my experience, spanning over diverse domains, I lead a collaboration of designers, researchers, and engineers to imagine and create innovative experiences of the future.</p> <p>I am exploring how dynamic materials, and sensing and sense-making technologies can augment human interaction with material space. I always seek to push my research further to identify new modes of interaction that allow for a deeper and richer means of communicating and interacting with physical world.</p> <p>Previously, I co-founded a web+mobile app agency (Trionix Solutions), worked as the Head of Development at a startup (InteracTiV), a Teaching Assistant at <a href=\"https://mhcid.washington.edu/\">MHCI+d</a>, a Software Engineer for <a href=\"http://mtree.co.in/\">MTree</a>, and studied <a href=\"https://www.hcde.washington.edu/ms\">master of science degree in Human-Centered Design & Engineering (HCDE)</a> at the University of Washington (UW), and <a href=\"http://www.jiit.ac.in/btech-computer-science\">bachelor of technology degree in Computer Science & Engineering</a> at Jaypee Institute of Information Technology.</p>",
         "journey": "",
-        "experiences": ["work", "teaching", "leadership", "awards"],
+        "experiences": ["work", "teaching", "leadership", "award"],
         "hobbies": ["photography", "archery", "sketching", "violin", "boxing", "cooking", "hiking", "bouldering"],
         "quotes": [
             {
@@ -446,7 +468,7 @@
             "citation": "Glen J Anderson, Selvakumar Panneer, Meng Shi, Carl S Marshall, <b>Ankur Agrawal</b>, Rebecca Chierichetti, Giuseppe Raffa, John Sherry, Daria Loi, Lenitra Megail Durham. 2018. Kid Space: Interactive Learning in a Smart Environment. In Proceedings of the Group Interaction Frontiers in Technology (GIFT'18). ACM, New York, NY, USA, Article 8, 9 pages. DOI: https://doi.org/10.1145/3279981.3279986",
             "abstract": "Kid Space is a smart space for children, enabled by an innovative, centralized projection device that senses multimodal interactivity and intelligently projects augmented reality (AR) content across surfaces. Kid Space uses a visible agent to guide learning through play. Two preliminary studies evaluated Kid Space with children 5 to 8 years old. Study 1 showed that children engaged enthusiastically with the projected character during a math exercise and during physically active games. A parent questionnaire showed that parents valued Kid Space for learning and physical activity. Study 2 found that children engaged with a projected agent at a closer distance than with a television. Parents showed a preference for a projected AR agent over an agent on a television or a standard projection. Parents also showed a preference for an agent that demonstrated awareness of children's physicality in the space.",
             "pictures": [
-                "tangible.jpg"
+                "kidspace.jpg"
             ],
             "url": "https://doi.org/10.1145/3279981.3279986",
             "publication": "Proceedings, GIFT '18"
@@ -616,14 +638,16 @@
             "url": "http://pdfaiw.uspto.gov/.aiw?PageNum=0&docid=20190043267"
         }
     },
-    "awards":
+    "award":
     {
         "no-i-in-team-may-2019":
         {
             "title": "No I In Team Award",
             "organization": "Anticipatory Computing Lab, Systems and Software Research, Intel Labs, Hillsboro, OR",
             "date": "May 2019",
-            "description": "For extra effort and hours invested to ensure the successful execution of the research studies, including creating a Unity interface and installing sensors in the space..",
+            "description": [
+                "For extra effort and hours invested to ensure the successful execution of the research studies, including creating a Unity interface and installing sensors in the space.."
+            ],
             "external-links": []
         },
         "no-i-in-team-feb-2019":
@@ -631,7 +655,9 @@
             "title": "No I In Team Award",
             "organization": "Anticipatory Computing Lab, Systems and Software Research, Intel Labs, Hillsboro, OR",
             "date": "February 2019",
-            "description": "For driving new usages, architecture, and application; and developing working prototypes.",
+            "description": [
+                "For driving new usages, architecture, and application; and developing working prototypes."
+            ],
             "external-links": []
         },
         "best-project-demonstration-september-2018":
@@ -639,7 +665,9 @@
             "title": "Best Project Demonstration",
             "organization": "Intel Labs, Hillsboro, OR",
             "date": "September 2018",
-            "description": "For innovative prototypes of ambient computing at Intel Labs’ Tech insights open house.",
+            "description": [
+                "For innovative prototypes of ambient computing at Intel Labs’ Tech insights open house."
+            ],
             "external-links": []
         },
         "division-recognition-award-march-2018":
@@ -647,7 +675,9 @@
             "title": "Division Recognition Award",
             "organization": "Systems and Software Research, Intel Labs, Hillsboro, OR",
             "date": "March 2018",
-            "description": "For implementing a complete prototype to capture, process and display immersive light fields; and guiding the development through user experience research.",
+            "description": [
+                "For implementing a complete prototype to capture, process and display immersive light fields; and guiding the development through user experience research."
+            ],
             "external-links": []
         },
         "graduate-innovation-june-2016":
@@ -655,7 +685,9 @@
             "title": "Graduate Innovation Award",
             "organization": "Dept. of HCDE, University of Washington, Seattle, WA",
             "date": "June 2016",
-            "description": "For research work and projects during master’s degree program. This HCDE \"Award of Excellence for Innovation\" honors students who have demonstrated excellence through the design and development of novel engineering and technology artifacts or practices that exemplify human-centered design principles.",
+            "description": [
+                "For research work and projects during master’s degree program. This HCDE \"Award of Excellence for Innovation\" honors students who have demonstrated excellence through the design and development of novel engineering and technology artifacts or practices that exemplify human-centered design principles."
+            ],
             "external-links": [
                 "http://www.hcde.washington.edu/awards/excellence",
                 "https://www.flickr.com/photos/125381443@N04/27543641843/in/album-72157670116573331/",
@@ -667,7 +699,9 @@
             "title": "Cheetah",
             "organization": "Intel Labs, Hillsboro, OR",
             "date": "September 2016",
-            "description": "For a prototype designed and developed in record time to define a focused vision of smart home spaces for kids.",
+            "description": [
+                "For a prototype designed and developed in record time to define a focused vision of smart home spaces for kids."
+            ],
             "external-links": []
         },
         "best-project-demonstration-intel-labs-september-2015":
@@ -675,7 +709,9 @@
             "title": "Best Project Demonstration",
             "organization": "Intel Labs, Santa Clara, CA",
             "date": "September 2015",
-            "description": "For innovative prototypes of tangible toys at Intel Labs’ open house project exhibition.",
+            "description": [
+                "For innovative prototypes of tangible toys at Intel Labs’ open house project exhibition."
+            ],
             "external-links": []
         },
         "jed-i-project-challenge-june-2012":
@@ -683,18 +719,22 @@
             "title": "Jed-i Project Challenge",
             "organization": "The Joy of Engineering, Design and Innovation (Jed-i), Bangalore, India",
             "date": "June 15, 2012",
-            "description": "Second place in Computing Division for innovation in creating a touch interface prototype as a capstone project for bachelor’s degree. The finals of the Project Challenge was held at IISC, Bangalore, India among 69 selected teams out of 210 projects.",
+            "description": [
+                "Second place in Computing Division for innovation in creating a touch interface prototype as a capstone project for bachelor’s degree. The finals of the Project Challenge was held at IISC, Bangalore, India among 69 selected teams out of 210 projects."
+            ],
             "external-links": []
         },
         "central-sector-scholarship":
         {
             "title": "Central Sector Scholarship",
             "organization": "Ministry of Human Resource Development (MHRD), Government of India",
-            "description": "Awarded for the meritorious performance in school's academics.",
+            "description": [
+                "Awarded for the meritorious performance in school's academics."
+            ],
             "date": "June 2008 - June 2012"
         }
     },
-    "teachings":
+    "teaching":
     {
         "graduate-teaching-assistant-dis-hcid":
         {
@@ -755,7 +795,7 @@
             "date": "March 2015 – June 2015"
         }
     },
-    "leaderships":
+    "leadership":
     {
         "volunteer-chair-icmi":
         {

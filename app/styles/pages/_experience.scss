@@ -1,5 +1,5 @@
 
-.works-page .work, .teachings-page .teaching, .leaderships-page .leadership, .awards-page .award {
+.experiences-page .experience, .works-page .work, .teachings-page .teaching, .leaderships-page .leadership, .awards-page .award {
   .title{
     margin-bottom: 0;
   }
@@ -11,9 +11,9 @@
   		margin-top: 0 !important;
   		margin-bottom: 0.5rem !important;
   	}
-  	li:last-child {
-  		margin-bottom: 0 !important;
-  	}
+  	// li:last-child {
+  	// 	margin-bottom: 0 !important;
+  	// }
   }
 }
 

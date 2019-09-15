@@ -27,14 +27,14 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         wildcardDefinition: (wildcardService) ->
           wildcardService.getData()
-    .when '/about/work',
-      templateUrl: 'views/works.html'
-      controller: 'WorkCtrl'
-      controllerAs: 'work'
-      title: 'work'
+    .when '/about/experience/:experienceSlug',
+      templateUrl: 'views/experiences.html'
+      controller: 'ExperiencesCtrl'
+      controllerAs: 'experience'
+      title: 'experience'
       resolve:
-        works: (workService, $route) ->
-          workService.getWorks()
+        experiences: (experienceService, $route) ->
+          experienceService.getExperiences($route.current.params.experienceSlug)
     .when '/about/work/:workSlug',
       templateUrl: 'views/work-details.html'
       controller: 'WorkDetailsCtrl'
@@ -43,14 +43,6 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         work: (workService, $route) ->
           workService.getWork($route.current.params.workSlug)
-    .when '/about/teaching',
-      templateUrl: 'views/teachings.html'
-      controller: 'TeachingsCtrl'
-      controllerAs: 'teaching'
-      title: 'teaching'
-      resolve:
-        teachings: (teachingService, $route) ->
-          teachingService.getTeachings()
     .when '/about/teaching/:teachingSlug',
       templateUrl: 'views/teaching.html'
       controller: 'TeachingCtrl'
@@ -59,14 +51,6 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         teaching: (teachingService, $route) ->
           teachingService.getTeaching($route.current.params.teachingSlug)
-    .when '/about/leadership',
-      templateUrl: 'views/leaderships.html'
-      controller: 'LeadershipsCtrl'
-      controllerAs: 'leadership'
-      title: 'leadership'
-      resolve:
-        leaderships: (leadershipService, $route) ->
-          leadershipService.getLeaderships()
     .when '/about/leadership/:leadershipSlug',
       templateUrl: 'views/leadership.html'
       controller: 'LeadershipCtrl'
@@ -75,14 +59,6 @@ ankuragrawalApp.config ($routeProvider, $locationProvider, $sceProvider, scrollM
       resolve:
         leadership: (leadershipService, $route) ->
           leadershipService.getLeadership($route.current.params.leadershipSlug)
-    .when '/about/awards',
-      templateUrl: 'views/awards.html'
-      controller: 'AwardsCtrl'
-      controllerAs: 'awards'
-      title: 'awards'
-      resolve:
-        awards: (awardService, $route) ->
-          awardService.getAwards()
     .when '/about/awards/:awardSlug',
       templateUrl: 'views/award.html'
       controller: 'AwardCtrl'
