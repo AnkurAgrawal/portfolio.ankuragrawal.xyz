@@ -58,6 +58,10 @@
       .section-body {
         color: #555;
         letter-spacing: 0.05rem;
+
+        a.link[target="_blank"]:after {
+          @include target-blank-icon;
+        }
       }
 
       .box {

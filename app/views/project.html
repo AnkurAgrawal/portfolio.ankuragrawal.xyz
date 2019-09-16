@@ -5,7 +5,7 @@
     </header>
       <div class="summary">{{project.summary}}</div>
       <div class="grid-x">
-        <div class="project-metadata cell small-12 medium-12 large-2 small-order-1 medium-order-1 large-order-2">
+        <div class="project-metadata cell small-12 medium-12 large-3 small-order-1 medium-order-1 large-order-2">
           <aside>
             <dl ng-if="project.timeline" class="metadata">
               <dt>Date</dt>
@@ -31,7 +31,7 @@
             </dl>
           </aside>
         </div>
-        <div class="project-details cell small-12 medium-12 large-9 small-order-2 medium-order-2 large-order-1">
+        <div class="project-details cell small-12 medium-12 large-8 small-order-2 medium-order-2 large-order-1">
           <section class="gallery" ng-if="project['gallery-pictures']">
             <ul id="lightSlider">
               <li data-thumb="{{getCurrentProjectThumbnailImageAssetUrl(image)}}" ng-repeat="image in project['gallery-pictures']">
@@ -41,9 +41,6 @@
           </section>
           <section class="description" ng-if="project.description">
             <div class="section-body" bind-html-compile="project.description"></div>
-            <div class="section-body hide">
-
-            </div>
           </section>
           <section class="project-links" ng-if="project.links">
             <div class="section-body">
